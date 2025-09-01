@@ -1,0 +1,72 @@
+--- START OF REPORT ---
+EDA Survey for ViMQ Dataset
+
+--- 2. Basic Data and Sentence Analysis ---
+Number of training samples: 7000
+Number of development samples: 1000
+Number of test samples: 1000
+Total number of samples: 9000
+
+--- Sentence Length Statistics ---
+        word_count   char_count
+count  9000.000000  9000.000000
+mean     11.880444    58.203667
+std       3.317770    15.108614
+min       2.000000    14.000000
+25%      10.000000    48.000000
+50%      12.000000    57.000000
+75%      14.000000    67.000000
+max      34.000000   176.000000
+
+--- 3. Intent Classification Analysis ---
+sent_label
+method_diagnosis    4425
+treatment           2528
+severity            1382
+cause                665
+Name: count, dtype: int64
+
+--- 4. Named Entity Recognition (NER) Analysis ---
+SYMPTOM_AND_DISEASE    11987
+medical_procedure       1843
+drug                     905
+dtype: int64
+
+--- Statistics for Number of Entities per Sentence ---
+count    9000.000000
+mean        1.637222
+std         0.899342
+min         0.000000
+25%         1.000000
+50%         1.000000
+75%         2.000000
+max         8.000000
+Name: num_entities, dtype: float64
+
+--- 5. Vocabulary and Word Frequency Analysis ---
+Total number of words (tokens): 106944
+Vocabulary size (unique words): 4022
+
+--- 20 Most Common Words ---
+        word  count
+0          ?   8530
+1         có   4163
+2      không   4126
+3          ,   2667
+4         gì   1898
+5        trẻ   1801
+6         bị   1745
+7         là   1666
+8       bệnh   1454
+9       phải   1449
+10       khi   1123
+11  điều_trị   1067
+12        và   1013
+13       sau   1006
+14       đau    991
+15     thuốc    854
+16       nên    849
+17  dấu_hiệu    804
+18      được    797
+19      viêm    796
+
