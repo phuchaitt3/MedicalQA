@@ -1,6 +1,6 @@
 An Exploratory Data Analysis (EDA) of the ViMQ dataset, a Vietnamese Medical Question Dataset, involves examining its structure and content to uncover patterns, and characteristics. This analysis is crucial for understanding the data's nuances before any machine learning modeling.
 
-### Understanding the ViMQ Dataset Files
+Understanding the ViMQ Dataset Files
 
 The ViMQ dataset is designed for Natural Language Processing (NLP) tasks, specifically for <span style="background:#9254de">building healthcare dialogue systems</span>. It focuses on <span style="background:#9254de">two main tasks: Named Entity Recognition (NER) and Intent Classification</span>. The files you've provided each serve a distinct purpose within this dataset:
 
@@ -10,15 +10,48 @@ The ViMQ dataset is designed for Natural Language Processing (NLP) tasks, specif
     *   `test.json`: Used to evaluate the final performance of the trained model on unseen data.
     Each of these JSON files contains a list of entries, where each entry represents a medical question and includes the sentence, its sequence labels (for NER), and its sentence-level label (for intent classification).
 
-*   **`entity_set.txt`**: This file defines the set of all possible entity labels used in the Named Entity Recognition task. For the ViMQ dataset, these entities are related to the medical domain, such as "SYMPTOM_AND_DISEASE," "medical_procedure," and "drug."
+```json
+{
+    "sentence": "Có nên dùng vitamin b12 sau khi phẫu_thuật ung_thư dạ_dày không ?",
+    "seq_label": [
+        [
+            3,
+            4,
+            "drug"
+        ],
+        [
+            7,
+            7,
+            "medical_procedure"
+        ],
+        [
+            8,
+            9,
+            "SYMPTOM_AND_DISEASE"
+        ]
+    ],
+    "sent_label": "method_diagnosis"
+}
+```
+[<1>]
 
-*   **`char2index.json`**: This file is a vocabulary mapping where each unique character in the dataset is assigned a specific integer index. This is a common preprocessing step for feeding text data into certain types of neural network models.
+*   **`entity_set.txt`**: This file defines the <span style="background:#9254de">set of all possible entity labels used in the Named Entity Recognition task</span>. For the ViMQ dataset, these entities are related to the medical domain, such as "SYMPTOM_AND_DISEASE," "medical_procedure," and "drug."
+```
+UNK
+O
+SYMPTOM_AND_DISEASE
+medical_procedure
+drug
+```
 
-### Files to Target for EDA
+*   **`char2index.json`**: This file is a vocabulary mapping where each unique character in the dataset is assigned a specific integer index. This is a <span style="background:#9254de">common preprocessing step for feeding text data into certain types of neural network models</span>.
+
+---
+**Files to Target for EDA**
 
 For an EDA survey, the primary files to target are **`train.json`**, **`dev.json`**, and **`test.json`**. These files contain the actual text data and its corresponding annotations, which are the main subjects of interest for EDA. The `entity_set.txt` and `char2index.json` files provide context about the labels and character vocabulary, which will be useful during the analysis of the core data files.
 
-### Steps for Performing EDA on the ViMQ Dataset
+Steps for Performing EDA on the ViMQ Dataset
 
 Here is a structured approach to performing an EDA on the ViMQ dataset:
 
@@ -53,3 +86,22 @@ Here is a structured approach to performing an EDA on the ViMQ dataset:
 *   **Tokenization**: Analyze how sentences are tokenized (split into words) and how this might affect NER, especially with Vietnamese-specific linguistic features.
 
 By following these steps, you will gain a comprehensive understanding of the ViMQ dataset's structure, content, and characteristics, which is essential for any subsequent data preprocessing and model-building tasks.
+
+# [1] Explanation of the entry
+*   **`"sentence"`**:
+    *   This is the medical question itself: "Có nên dùng vitamin b12 sau khi phẫu_thuật ung_thư dạ_dày không ?"
+    *   *Translation:* "Should vitamin b12 be used after stomach cancer surgery?"
+
+*   **`"seq_label"` (Sequence Labels for Named Entity Recognition - NER)**:
+    *   This is a list of annotated entities found within the sentence. Each inner list `[start_token_index, end_token_index, entity_type]` indicates:
+        *   `start_token_index`: The <span style="background:#9254de">starting index</span> of the token in the sentence.
+        *   `end_token_index`: The <span style="background:#9254de">ending index</span> of the token in the sentence.
+        *   `entity_type`: The category of the entity, as defined in `entity_set.txt`.
+    *   For this example:
+        *   `[3, 4, "drug"]`: The tokens at indices 3 and 4, "vitamin b12", are labeled as a "drug".
+        *   `[7, 7, "medical_procedure"]`: The token at index 7, "phẫu_thuật" (surgery), is labeled as a "medical_procedure".
+        *   `[8, 9, "SYMPTOM_AND_DISEASE"]`: The tokens at indices 8 and 9, "ung_thư dạ_dày" (stomach cancer), are labeled as a "SYMPTOM_AND_DISEASE".
+
+*   **`"sent_label"` (Sentence-level Label for Intent Classification)**:
+    *   This is the overall intent or category of the medical question.
+    *   In this case, <span style="background:#9254de">`"method_diagnosis"`</span> indicates that the question is related to diagnosing a method or asking for a method of diagnosis/treatment.
