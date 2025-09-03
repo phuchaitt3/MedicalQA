@@ -6,3 +6,4 @@ EDA Survey for:
 
 Libraries:
 - Before running download_dataset.py: pip install --upgrade datasets s3fs huggingface_hub pyarrow
+- Remove Vietnamese filler words from vocab counting: pip install pyvi requests
