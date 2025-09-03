@@ -1,0 +1,122 @@
+--- START OF REPORT ---
+EDA Survey for MedXpertQA Dataset
+
+--- 2. Basic Data and Sentence Analysis ---
+Number of text samples: 2450
+Number of multimodal samples: 2000
+Total number of samples: 4450
+
+--- Question Length Statistics ---
+       question_word_count  question_char_count
+count          4450.000000          4450.000000
+mean            133.759775           893.467640
+std              68.134636           436.377907
+min              17.000000           107.000000
+25%              86.000000           571.250000
+50%             133.000000           903.000000
+75%             173.000000          1165.000000
+max             728.000000          4527.000000
+
+--- START OF REPORT ---
+EDA Survey for MedXpertQA Dataset
+
+--- 2. Basic Data and Sentence Analysis ---
+Number of text samples: 2450
+Number of multimodal samples: 2000
+Total number of samples: 4450
+
+--- Question Length Statistics ---
+       question_word_count  question_char_count
+count          4450.000000          4450.000000
+mean            133.759775           893.467640
+std              68.134636           436.377907
+min              17.000000           107.000000
+25%              86.000000           571.250000
+50%             133.000000           903.000000
+75%             173.000000          1165.000000
+max             728.000000          4527.000000
+
+--- 3. Categorical Label Analysis ---
+medical_task
+Diagnosis        2249
+Treatment        1194
+Basic Science    1007
+Name: count, dtype: int64
+
+--- 3. Categorical Label Analysis ---
+medical_task
+Diagnosis        2249
+Treatment        1194
+Basic Science    1007
+Name: count, dtype: int64
+
+--- 3. Categorical Label Analysis ---
+medical_task
+Diagnosis        2249
+Treatment        1194
+Basic Science    1007
+Name: count, dtype: int64
+
+--- Distribution of Correct Answer Labels ---
+label
+A    640
+B    654
+C    622
+D    630
+E    687
+F    243
+G    263
+H    222
+I    232
+J    257
+Name: count, dtype: int64
+
+--- Statistics for Number of Options per Question ---
+count    4450.000000
+mean        7.752809
+std         2.487464
+min         5.000000
+25%         5.000000
+50%        10.000000
+75%        10.000000
+max        10.000000
+Name: num_options, dtype: float64--- Vocabulary and Word Frequency Analysis ---
+Total number of words (tokens): 897944
+Vocabulary size (unique words): 24343--- Vocabulary and Word Frequency Analysis ---
+Total number of words (tokens): 897944
+Vocabulary size (unique words): 24343
+
+--- 20 Most Common Words ---
+    word  count
+0      )  39554
+1      (  39552
+2    the  26476
+3      ,  25521
+4      .  21077
+5      a  20395
+6    and  19589
+7     of  18681
+8     is  11362
+9   with  11083
+10     |  10346
+11    to  10185
+12     :   8652
+13    in   8179
+14   for   5708
+15     b   5359
+16     c   5067
+17     d   5018
+18     e   4870
+19     ?   4520
+
+--- Statistics for Number of Images per Question (MM set) ---
+count    2000.000000
+mean        1.426000
+std         1.038298
+min         1.000000
+25%         1.000000
+50%         1.000000
+75%         1.000000
+max         6.000000
+Name: num_images, dtype: float64
+

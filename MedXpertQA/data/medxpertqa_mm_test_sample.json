@@ -1,0 +1,40 @@
+[
+    {
+        "id": "MM-0",
+        "question": "A 26-year-old man falls from a ladder, landing on his outstretched right hand. He is evaluated in the emergency department and diagnosed with a closed elbow injury without neurovascular compromise. Radiographs are obtained and shown in Figures A and B. During surgery, a sequential approach is used to address each aspect of the injury. Which surgical step is considered to contribute the most to rotatory stability?\nAnswer Choices: (A) Lateral collateral ligament complex repair or reconstruction (B) Capsular plication (C) Radial head replacement (D) Radial head ORIF (E) Medial collateral ligament complex reconstruction",
+        "options": {
+            "A": "Lateral collateral ligament complex repair or reconstruction",
+            "B": "Capsular plication",
+            "C": "Radial head replacement",
+            "D": "Radial head ORIF",
+            "E": "Medial collateral ligament complex reconstruction"
+        },
+        "label": "A",
+        "images": [
+            "MM-0-a.jpeg",
+            "MM-0-b.jpeg"
+        ],
+        "medical_task": "Treatment",
+        "body_system": "Skeletal",
+        "question_type": "Reasoning"
+    },
+    {
+        "id": "MM-1",
+        "question": "This patient presents for mammographic needle localization of a bar clip. What is the MOST optimal  approach for needle localization?\nAnswer Choices: (A) Lateral (B) Inferior (C) Medial (D) Superior (E) Oblique",
+        "options": {
+            "A": "Lateral",
+            "B": "Inferior",
+            "C": "Medial",
+            "D": "Superior",
+            "E": "Oblique"
+        },
+        "label": "D",
+        "images": [
+            "MM-1-a.png",
+            "MM-1-b.png"
+        ],
+        "medical_task": "Basic Science",
+        "body_system": "Reproductive",
+        "question_type": "Reasoning"
+    }
+]

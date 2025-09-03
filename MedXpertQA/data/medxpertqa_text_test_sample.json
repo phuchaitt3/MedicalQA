@@ -1,0 +1,42 @@
+[
+    {
+        "id": "Text-0",
+        "question": "Which patient scenario represents the most appropriate indication for eccentric anterior glenoid reaming during shoulder surgery?\nAnswer Choices: (A) 70-year-old male with glenoid retroversion of 18-degrees undergoing shoulder arthroplasty (B) 70-year-old female with humeral anteversion of 13-degrees undergoing shoulder arthroplasty (C) 63-year-old female with glenoid retroversion of 22-degrees and mild posterior wear undergoing shoulder arthroplasty (D) 65-year-old female with glenoid retroversion of 25-degrees undergoing shoulder arthroplasty (E) 65-year-old female with a glenoid retroversion of 13-degrees undergoing shoulder arthroplasty (F) 68-year-old female with glenoid retroversion of 20-degrees undergoing reverse shoulder arthroplasty (G) 72-year-old male with glenoid retroversion of 15-degrees undergoing shoulder arthroplasty (H) 65-year-old female with glenoid retroversion of 30-degrees and severe posterior wear undergoing shoulder arthroplasty (I) 58-year-old male with glenoid retroversion of 12-degrees undergoing shoulder arthroplasty (J) 55-year-old male with glenoid retroversion of 8-degrees undergoing total shoulder arthroplasty",
+        "options": {
+            "A": "70-year-old male with glenoid retroversion of 18-degrees undergoing shoulder arthroplasty",
+            "B": "70-year-old female with humeral anteversion of 13-degrees undergoing shoulder arthroplasty",
+            "C": "63-year-old female with glenoid retroversion of 22-degrees and mild posterior wear undergoing shoulder arthroplasty",
+            "D": "65-year-old female with glenoid retroversion of 25-degrees undergoing shoulder arthroplasty",
+            "E": "65-year-old female with a glenoid retroversion of 13-degrees undergoing shoulder arthroplasty",
+            "F": "68-year-old female with glenoid retroversion of 20-degrees undergoing reverse shoulder arthroplasty",
+            "G": "72-year-old male with glenoid retroversion of 15-degrees undergoing shoulder arthroplasty",
+            "H": "65-year-old female with glenoid retroversion of 30-degrees and severe posterior wear undergoing shoulder arthroplasty",
+            "I": "58-year-old male with glenoid retroversion of 12-degrees undergoing shoulder arthroplasty",
+            "J": "55-year-old male with glenoid retroversion of 8-degrees undergoing total shoulder arthroplasty"
+        },
+        "label": "E",
+        "medical_task": "Basic Science",
+        "body_system": "Skeletal",
+        "question_type": "Reasoning"
+    },
+    {
+        "id": "Text-1",
+        "question": "A 55-year-old postmenopausal woman reports experiencing sharp pain in the right groin for the past two weeks, which is alleviated by standing. Her blood pressure is 140/92 mm Hg, and her heart rate is 88 bpm. Cardiac auscultation reveals no murmurs or gallops, and abdominal, lung, and genitourinary examinations are unremarkable, with no palpable hernias. On osteopathic evaluation, there is tenderness at L4 and L5 in the right paraspinal region. The right sacral sulcus is shallow, and the right inferior lateral angle is posterior. A seated flexion test is positive on the right. Radiographic imaging of the hip and lumbar spine shows no acute or chronic abnormalities. Which of the following structures is most likely implicated in the patient’s condition?\nAnswer Choices: (A) Sacrotuberous ligament (B) Quadratus lumborum muscle (C) Piriformis muscle (D) Posterior sacroiliac ligament (E) Iliolumbar ligament (F) Anterior sacroiliac ligament (G) Psoas major muscle (H) Sacrospinous ligament (I) Gluteus medius muscle (J) Iliacus muscle",
+        "options": {
+            "A": "Sacrotuberous ligament",
+            "B": "Quadratus lumborum muscle",
+            "C": "Piriformis muscle",
+            "D": "Posterior sacroiliac ligament",
+            "E": "Iliolumbar ligament",
+            "F": "Anterior sacroiliac ligament",
+            "G": "Psoas major muscle",
+            "H": "Sacrospinous ligament",
+            "I": "Gluteus medius muscle",
+            "J": "Iliacus muscle"
+        },
+        "label": "E",
+        "medical_task": "Diagnosis",
+        "body_system": "Muscular",
+        "question_type": "Reasoning"
+    }
+]
