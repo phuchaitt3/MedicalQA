@@ -239,3 +239,22 @@ Understanding       220       47
 --- Plot: Heatmap of Type vs. System ---
 Image saved to: d:\1.git_projs\MedicalQA\MedXpertQA\eda_results\heatmap_type_vs_system.png
 
+--- START OF REPORT ---
+EDA Survey for MedXpertQA Dataset
+
+--- 2. Basic Data and Sentence Analysis ---
+Number of text samples: 2450
+Number of multimodal samples: 2000
+Total number of samples: 4450
+
+--- Question Length Statistics ---
+       question_word_count  question_char_count
+count          4450.000000          4450.000000
+mean            133.759775           893.467640
+std              68.134636           436.377907
+min              17.000000           107.000000
+25%              86.000000           571.250000
+50%             133.000000           903.000000
+75%             173.000000          1165.000000
+max             728.000000          4527.000000
+
