@@ -7,6 +7,8 @@ import nltk
 from nltk.tokenize import word_tokenize
 import numpy as np
 import os
+import requests # To download the stop words list
+from pyvi import ViTokenizer
 
 # --- Setup Output Directory ---
 script_dir = os.path.dirname(__file__)
@@ -127,18 +129,45 @@ print("Saved: entities_per_sentence.png")
 
 # --- 5. Vocabulary and Word Frequency Analysis ---
 report_title = "5. Vocabulary and Word Frequency Analysis"
+try:
+    url = "https://raw.githubusercontent.com/stopwords/vietnamese-stopwords/master/vietnamese-stopwords.txt"
+    response = requests.get(url)
+    response.raise_for_status() # Raises an exception for bad status codes
+    vietnamese_stopwords = set(response.text.splitlines())
+    
+    my_custom_filter_words = {"làm_sao", "có_thể", "thế_nào", "như_thế_nào", "liệu"}
+    # "điều_trị", "dấu_hiệu", "bệnh", "thuốc", "uống", "nguy_hiểm", "kèm", "ảnh_hưởng", "đau", "mắc", "bệnh_lý", "tuần", "xét_nghiệm","xuất_hiện"
+
+    # Add your custom words to the main set
+    vietnamese_stopwords.update(my_custom_filter_words)
+    
+    print(f"Successfully loaded {len(vietnamese_stopwords)} Vietnamese stop words.")
+except requests.exceptions.RequestException as e:
+    print(f"Error downloading stop words: {e}")
+    vietnamese_stopwords = set() # Use an empty set if download fails
+
 corpus = ' '.join(df['sentence']).lower()
-words = word_tokenize(corpus)
-word_counts = Counter(words)
+# ViTokenizer.tokenize() returns a string with words correctly segmented by underscores
+segmented_corpus = ViTokenizer.tokenize(corpus).lower()
+words = segmented_corpus.split()
+
+# We check if the word is in our stopword list or if it's just punctuation
+# We use replace('_', '') to check if the token consists only of letters
+filtered_words = [
+    word for word in words
+    if word not in vietnamese_stopwords and word.replace('_', '').isalpha() and len(word) > 1
+]
+
+word_counts = Counter(filtered_words)
 vocab_stats = (
-    f"Total number of words (tokens): {len(words)}\n"
-    f"Vocabulary size (unique words): {len(word_counts)}"
+    f"Total number of words (tokens) after filtering: {len(filtered_words)}\n"
+    f"Vocabulary size (unique words) after filtering: {len(word_counts)}"
 )
 write_to_report(vocab_stats, title=report_title)
 
 most_common_words = word_counts.most_common(20)
 mcw_df = pd.DataFrame(most_common_words, columns=['word', 'count'])
-write_to_report(mcw_df, title="20 Most Common Words")
+write_to_report(mcw_df, title="20 Most Common Words (after filtering)")
 
 # Plot and save the frequency of the most common words
 plt.figure(figsize=(12, 8))

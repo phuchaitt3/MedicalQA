@@ -44,29 +44,29 @@ max         8.000000
 Name: num_entities, dtype: float64
 
 --- 5. Vocabulary and Word Frequency Analysis ---
-Total number of words (tokens): 106944
-Vocabulary size (unique words): 4022
+Total number of words (tokens) after filtering: 51038
+Vocabulary size (unique words) after filtering: 3272
 
---- 20 Most Common Words ---
-        word  count
-0          ?   8530
-1         có   4163
-2      không   4126
-3          ,   2667
-4         gì   1898
-5        trẻ   1801
-6         bị   1745
-7         là   1666
-8       bệnh   1454
-9       phải   1449
-10       khi   1123
-11  điều_trị   1067
-12        và   1013
-13       sau   1006
-14       đau    991
-15     thuốc    854
-16       nên    849
-17  dấu_hiệu    804
-18      được    797
-19      viêm    796
+--- 20 Most Common Words (after filtering) ---
+         word  count
+0         trẻ   1796
+1        bệnh   1456
+2    điều_trị   1069
+3         đau    990
+4       thuốc    854
+5    dấu_hiệu    804
+6        viêm    796
+7        thai    743
+8        uống    593
+9   nguy_hiểm    507
+10         bé    505
+11        kèm    461
+12        máu    440
+13       tiêm    369
+14    sơ_sinh    344
+15  ảnh_hưởng    319
+16        mắc    295
+17       bụng    293
+18        đầu    292
+19        sốt    278
 
