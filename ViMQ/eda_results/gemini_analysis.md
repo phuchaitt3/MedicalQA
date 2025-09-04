@@ -33,7 +33,7 @@ The ViMQ dataset is a <span style="background:rgba(3, 135, 102, 0.2)">small-to-m
 
 4.  **Poor Performance on Minority Classes:** Due to the severe class imbalance, models will likely achieve high overall accuracy by simply performing well on the majority classes (`method_diagnosis` and `SYMPTOM_AND_DISEASE`). However, they will likely have very low precision and recall for underrepresented classes like `cause` (for intent) and `drug` (for NER).
 
-5.  **Generalization and Out-of-Vocabulary (OOV) Words:** The small, specialized vocabulary means the model may not generalize well to unseen medical terminology. A real-world application would encounter many more symptoms, diseases, and drug names not present in this 4k-word vocabulary, leading to poor performance.
+5.  **Generalization and Out-of-Vocabulary (OOV) Words:** The small, specialized vocabulary means <span style="background:rgba(3, 135, 102, 0.2)">the model may not generalize well to unseen medical terminology</span>. A real-world application would encounter many more symptoms, diseases, and drug names not present in this 4k-word vocabulary, leading to poor performance. [<3>]
 
 6.  **Correct Handling of Vietnamese Multi-Word Expressions:** The EDA shows pre-segmented tokens like `điều_trị`. If a standard tokenizer splits this into two separate tokens (`điều` and `trị`), crucial semantic meaning will be lost. This could negatively impact both intent classification and NER.
 
@@ -48,9 +48,9 @@ The ViMQ dataset is a <span style="background:rgba(3, 135, 102, 0.2)">small-to-m
 
 6.  **Leverage a Pre-trained Vietnamese Language Model:** To combat the OOV problem and improve generalization, start with a powerful pre-trained model like **PhoBERT** or **VnCoreNLP**. Fine-tuning such a model on the ViMQ dataset will allow it to learn the specific nuances of the medical domain while retaining its broad understanding of the Vietnamese language.
 
-7.  **Ensure Correct Tokenization:** Before feeding data to any model, verify that the tokenization process correctly handles the pre-combined multi-word tokens. The tokenizer used should either be configured to respect these underscore-separated tokens or be based on a model (like PhoBERT's WordPiece tokenizer) that can handle them appropriately.
+7.  **Ensure Correct Tokenization:** Before feeding data to any model, verify that the <span style="background:rgba(3, 135, 102, 0.2)">tokenization process correctly handles the pre-combined multi-word tokens</span>. The tokenizer used should either be configured to respect these underscore-separated tokens or be based on a model (like PhoBERT's WordPiece tokenizer) that can handle them appropriately.
 
-8.  **Adopt a Joint Modeling Approach (Optional but Recommended):** Since intent and entities are closely related (e.g., the presence of a `drug` entity is a strong signal for a `treatment` intent), consider building a **joint model** that predicts both intent and entities simultaneously. This multi-task learning approach often leads to better performance on both tasks, as the model can leverage shared representations.
+8.  **Adopt a Joint Modeling Approach (Optional but Recommended):** Since intent and entities are closely related (e.g., the presence of a `drug` entity is a strong signal for a `treatment` intent), <span style="background:rgba(240, 200, 0, 0.2)">consider building a **joint model** that predicts both intent and entities simultaneously. This multi-task learning approach often leads to better performance on both tasks, as the model can leverage shared representations.</span>
 
 # [1]
 Excellent question. That conclusion is a perfect example of a key insight derived from an EDA. Let's break down exactly which details from your report lead to that statement.
@@ -272,3 +272,14 @@ Summary Table: Advantages vs. Disadvantages
 | **Accuracy** | High accuracy on "in-distribution" (simple) data. | Low accuracy on "out-of-distribution" (complex) data; prone to missing crucial context. |
 
 In conclusion, while the structural simplicity of your data is a great starting point for building a baseline model for a very specific task, it also acts as a "ceiling" on that model's intelligence and usefulness in a broader, more realistic context.
+
+# [3]
+A 4,000-word vocabulary is considered extremely small for a medical dataset due to the vast and ever-expanding nature of medical terminology. This limitation significantly hinders a model's ability to generalize and accurately process real-world medical information, leading to poor performance when encountering terms not included in its limited lexicon.
+
+The field of medicine employs a highly specialized and extensive vocabulary. For instance, medical terminology is estimated to contain over 250,000 items. Comprehensive clinical terminology systems like SNOMED CT (Systematized Nomenclature of Medicine – Clinical Terms) are far more extensive. The January 2020 release of SNOMED CT's International Edition included more than 350,000 concepts. As of March 2025, it contains approximately 370,934 concepts. These systems are designed to provide a standardized way to represent clinical information in electronic health records and encompass a wide range of terms for clinical findings, symptoms, diagnoses, procedures, and medications.
+
+The significant discrepancy between a 4,000-word vocabulary and the hundreds of thousands of terms used in practice leads to a high number of out-of-vocabulary (OOV) words. OOV words are terms that a natural language processing (NLP) model has not encountered during its training phase. In the medical domain, new drug names, novel medical procedures, and specialized jargon are constantly emerging, making it difficult for a model with a small, fixed vocabulary to keep up.
+
+When a model encounters an OOV word, it can lead to errors and inaccuracies in its analysis. For example, if a model is trained to analyze clinical notes but has never seen the name of a new medication, it will be unable to process information related to that drug accurately. This can have serious implications in a real-world clinical setting.
+
+To address the challenge of OOV words in NLP, various strategies are employed, such as subword tokenization, which breaks down unknown words into smaller, meaningful units. Transformer-based models like BERT and GPT also leverage deep contextual understanding to better handle unfamiliar terms. These approaches are crucial for developing robust NLP applications in medicine that can handle the breadth and depth of its specialized language.

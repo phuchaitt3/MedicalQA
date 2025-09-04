@@ -1,32 +1,32 @@
 ## 1. Executive Summary of Dataset Characteristics
 
 - **Dataset Size & Scope**:
-  - Total samples: 4450 (Multimodal: 2000; Text-only: 2450)
-  - Questions vary widely in length—<span style="background:#9254de">mean around 134 words</span> and 893 characters, with a sizeable right-tailed distribution (max up to 728 words, 4527 chars).
+  - <span style="background:rgba(3, 135, 102, 0.2)">Total samples: 4450 (Multimodal: 2000; Text-only: 2450)</span>
+  - <span style="background:rgba(3, 135, 102, 0.2)">Questions vary widely in length—mean around 134 words and 893 characters, with a sizeable right-tailed distribution (max up to 728 words, 4527 chars).</span>
 	  - ![[question_length_distributions.png]]
-  - <span style="background:#9254de">Multimodal questions predominantly contain a single image</span> (mean ~1.43 images/question), but <span style="background:#9254de">some contain up to 6 images</span>.
+  - <span style="background:rgba(3, 135, 102, 0.2)">Multimodal questions predominantly contain a single image (mean ~1.43 images/question), but some contain up to 6 images.</span>
 
-- **Medical Task Composition**:
+- **<span style="background:rgba(3, 135, 102, 0.2)">Medical Task Composition</span>**:
   - Dominated by **Diagnosis (2249 samples, ~50.5%)**, followed by **Treatment (1194, ~26.8%)** and **Basic Science (1007, ~22.6%)**.
 
-- **Body System Focus**:
-  - <span style="background:#9254de">Most questions relate to the **Skeletal system (846 samples)**, **Cardiovascular (626)**, and **Nervous system (617)**.</span>
-  - <span style="background:#9254de">Least represented are **Lymphatic (166)** and **Other/NA (144)** categories.</span>
+<span style="background:rgba(3, 135, 102, 0.2)">Body System Focus</span>:
+Most questions relate to the Skeletal system (846 samples), Cardiovascular (626), and Nervous system (617).
+Least represented are Lymphatic (166) and Other/NA (144) categories.
 
-- **Question Types**:
-  - Vast majority are **Reasoning questions (3307, ~74%)**, with the rest being **Understanding (1143, ~26%)**.
+<span style="background:rgba(3, 135, 102, 0.2)">Question Types:</span>
+<span style="background:rgba(3, 135, 102, 0.2)">Vast majority are Reasoning questions (3307, ~74%), with the rest being Understanding (1143, ~26%).</span>
   
-- **Answer Options**:
-  - <span style="background:rgba(205, 244, 105, 0.55)">Average options per question ~7.75, with a minimum of 5 and a maximum of 10.</span>
-  - <span style="background:rgba(205, 244, 105, 0.55)">Correct and incorrect options have very similar length distributions (mean ~4.16 words)</span>.
+<span style="background:rgba(3, 135, 102, 0.2)">Answer Options</span>:
+Average options per question ~7.75, with a minimum of 5 and a maximum of 10.
+Correct and incorrect options have very similar length distributions (mean ~4.16 words).
 
-- **Images & Image Types**:
-  - Images predominantly JPEG format (2683), some PNG (161), few JPG (8).
-  - Image counts vary by task and system, with <span style="background:rgba(205, 244, 105, 0.55)">**Skeletal** and **Cardiovascular** systems having the highest coverage.</span>
+<span style="background:rgba(3, 135, 102, 0.2)">Images & Image Types:</span>
+<span style="background:rgba(3, 135, 102, 0.2)">Images predominantly JPEG format (2683), some PNG (161), few JPG (8).</span>
+<span style="background:rgba(3, 135, 102, 0.2)">Image counts vary by task and system, with Skeletal and Cardiovascular systems having the highest coverage.</span>
 
-- **Vocabulary**:
-  - Large vocabulary (24,343 unique words) condensed with filtering to ~17,116 filtering out rare/noise.
-  - <span style="background:#9254de">Top words include clinically relevant terms: *blood, pain, pressure, normal, therapy, temperature*.</span>
+<span style="background:rgba(3, 135, 102, 0.2)">Vocabulary:</span>
+<span style="background:rgba(3, 135, 102, 0.2)">Large vocabulary (24,343 unique words) condensed with filtering to ~17,116 filtering out rare/noise.</span>
+<span style="background:rgba(3, 135, 102, 0.2)">Top words include clinically relevant terms: blood, pain, pressure, normal, therapy, temperature.</span>
 
 ---
 
@@ -35,22 +35,22 @@
 ### Categorical Analyses
 
 - **Class Imbalances**:
-  - <span style="background:rgba(5, 117, 197, 0.2)">Medical Tasks are uneven, skewed toward Diagnosis.</span>
-  - Question Type imbalance biases reasoning tasks over understanding questions.
-  - <span style="background:rgba(5, 117, 197, 0.2)">Skeletal, Cardiovascular, and Nervous systems dominate; others have much fewer examples.</span>
+  - <span style="background:rgba(3, 135, 102, 0.2)">Medical Tasks are uneven, skewed toward Diagnosis.</span>
+  - <span style="background:rgba(3, 135, 102, 0.2)">Question Type imbalance biases reasoning tasks over understanding questions.</span>
+  - <span style="background:rgba(3, 135, 102, 0.2)">Skeletal, Cardiovascular, and Nervous systems dominate; others have much fewer examples.</span>
 
 - **Answer Option Labels**:
   - <span style="background:rgba(240, 200, 0, 0.2)">Distribution across answer labels (A to J) is roughly uniform, with minor variation. Label E appears slightly more frequent (687), but not dramatically so.</span>
 
 - **Images per Task and System**:
   - Diagnosis tasks have more multimodal questions with multiple images compared to Basic Science and Treatment.
-  - <span style="background:#9254de">Skeletal system questions often contain multiple images</span> supporting the diagnosis or treatment context.
+  - <span style="background:rgba(3, 135, 102, 0.2)">Skeletal system questions often contain multiple images supporting the diagnosis or treatment context.</span>
 
 ### Numerical Analyses
 
 - **Question Length**:
   - Large variation with a heavy long-tail suggests <span style="background:#9254de">a mix of short and very detailed questions.</span>
-  - <span style="background:#9254de">The median length (133 words) aligns with typical educational medical exam questions.</span>
+  - <span style="background:rgba(3, 135, 102, 0.2)"><span style="background:rgba(3, 135, 102, 0.2)">The median length (133 words) aligns with typical educational medical exam qu</span>estions.</span>
 ![[question_length_distributions.png]]
 
 - **Answer Option Length**:
@@ -81,9 +81,8 @@
 
 ### Question Type vs. Medical Task
 
-- Reasoning questions dominate Diagnosis and Treatment tasks; makes sense as <span style="background:rgba(5, 117, 197, 0.2)">clinical decision-making emphasizes reasoning</span>.
-
-- Understanding questions are more common in Basic Science, reflecting testing of foundational knowledge.
+<span style="background:rgba(3, 135, 102, 0.2)">Reasoning questions dominate Diagnosis and Treatment tasks; makes sense as clinical decision-making emphasizes reasoning.</span>
+<span style="background:rgba(3, 135, 102, 0.2)">Understanding questions are more common in Basic Science, reflecting testing of foundational knowledge.</span>
 
 ### Question Type vs. Body System
 
@@ -95,7 +94,7 @@
 
 - <span style="background:#9254de">Higher numbers of images associated with **Diagnosis** and **Skeletal system** are clinically meaningful, as these often require radiographs or scans.</span>
 
-- <span style="background:#9254de">The relatively low multimodal presence in Basic Science aligns with more text-based conceptual knowledge.</span>
+- <span style="background:rgba(3, 135, 102, 0.2)">The relatively low multimodal presence in Basic Science aligns with more text-based conceptual knowledge.</span>
 
 - The distributions and correlations represent expected medical educational patterns and clinical practice emphasis, validating dataset composition.
 
@@ -107,16 +106,16 @@
   - Heavy skew toward Diagnosis tasks and Reasoning questions may bias models, necessitating sampling/weighting strategies.
 
 - **Question Length Variability**:
-  - <span style="background:rgba(240, 200, 0, 0.2)">Extreme length outliers (up to 728 words) may cause model training inefficiencies or require truncation strategies.</span>
+  - <span style="background:rgba(240, 200, 0, 0.2)"><span style="background:rgba(3, 135, 102, 0.2)">Extreme length outliers (up to 728 words) may cause model training inefficiencies or require truncation strategies.</span></span>
 
 - **Image Modality Imbalance**:
-  - <span style="background:rgba(240, 200, 0, 0.2)">Overwhelming majority JPEG format images may limit diversity; very few PNG/JPG images.</span>
+  - <span style="background:rgba(3, 135, 102, 0.2)">Overwhelming majority JPEG format images may limit diversity; very few PNG/JPG images.</span>
 
 - **Body System Underrepresentation**:
-  - <span style="background:rgba(5, 117, 197, 0.2)">Some important body systems (e.g., Lymphatic, Endocrine) underrepresented; may affect generalizability across all medical domains.</span>
+  - <span style="background:rgba(3, 135, 102, 0.2)">Some important body systems (e.g., Lymphatic, Endocrine) underrepresented; may affect generalizability across all medical domains.</span>
 
 - **Multimodal Coverage**:
-  - Around 45% of dataset is text-only; multimodal models may struggle with less available visual data.
+  - <span style="background:rgba(163, 67, 31, 0.2)">Around 45% of dataset is text-only; multimodal models may struggle with less available visual data.</span>
 
 - **Answer Options Variability**:
   - Variable number of options (5 to 10) may require dynamic handling in modeling pipelines.
