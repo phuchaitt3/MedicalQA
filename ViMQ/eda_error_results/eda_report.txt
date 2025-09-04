@@ -1,0 +1,50 @@
+--- START OF REPORT ---
+EDA Survey for ViMQ Dataset
+
+--- 2a. Data Quality and Anomaly Detection ---
+
+
+--- Missing Value Analysis ---
+Missing values check:
+sentence      0
+sent_label    0
+seq_label     0
+dtype: int64
+
+Percentage of missing values:
+sentence      0.0
+sent_label    0.0
+seq_label     0.0
+dtype: float64
+
+--- Duplicate Sentence Analysis ---
+Number of duplicate sentences found: 1
+
+--- Examples of Duplicate Sentences ---
+                                               sentence sent_label
+6999  Viêm tuyến_tiền_liệt do nhiễm_khuẩn nên điều_t...  treatment
+7100  Viêm tuyến_tiền_liệt do nhiễm_khuẩn nên điều_t...  treatment
+
+--- Statistical Outlier Identification (IQR Method) ---
+Identified 143 outliers in 'word_count' using the IQR method.
+  - Lower bound (Q1 - 1.5*IQR): 4.00
+  - Upper bound (Q3 + 1.5*IQR): 20.00
+  - Example outlier sentences (first 3):
+    - Length: 22, Sentence: 'Trẻ đã hạ sốt sau khi uống thuốc nhưng đi phân ngoài có nước có nên đưa bé đi khám không ?...'
+    - Length: 23, Sentence: 'Vết_thương do mèo cắn bị chảy_máu , sưng tấy và mưng mủ đã khỏi nhưng một thời_gian lại tái_phát là ...'
+    - Length: 21, Sentence: 'Sau điều_trị rối_loạn chuyển_hoá canxi và trào ngược dạ_dày thực_quản vẫn mệt_mỏi , bủn_rủn , tức ng...'
+Identified 167 outliers in 'char_count' using the IQR method.
+  - Lower bound (Q1 - 1.5*IQR): 19.50
+  - Upper bound (Q3 + 1.5*IQR): 95.50
+  - Example outlier sentences (first 3):
+    - Length: 97, Sentence: 'Triệu_chứng đau thượng_vị kèm theo xuất_hiện đường_dây bên hông là dấu_hiệu nhiễm ký_sinh_trùng ?...'
+    - Length: 115, Sentence: 'Vết_thương do mèo cắn bị chảy_máu , sưng tấy và mưng mủ đã khỏi nhưng một thời_gian lại tái_phát là ...'
+    - Length: 98, Sentence: 'Cách đây 2 năm , bố tôi được chẩn_đoán bị phình động_mạch não nhưng bác_sỹ tư_vấn không điều_trị ....'
+
+--- NER Label Integrity Check ---
+Total unique entity labels found in data: 3
+Total unique entity labels in official set: 5
+
+Undefined labels (in data but not in official set): None
+Unused official labels (in official set but not in data): {'UNK', 'O'}
+

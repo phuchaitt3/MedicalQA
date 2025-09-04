@@ -1,77 +1,59 @@
---- Distribution of Correct Answer Labels ---
-label
-A    640
-B    654
-C    622
-D    630
-E    687
-F    243
-G    263
-H    222
-I    232
-J    257
-Name: count, dtype: int64
+--- START OF REPORT ---
+EDA Survey for MedXpertQA Dataset
 
---- Statistics for Number of Options per Question ---
-count    4450.000000
-mean        7.752809
-std         2.487464
-min         5.000000
-25%         5.000000
-50%        10.000000
-75%        10.000000
-max        10.000000
-Name: num_options, dtype: float64
+--- 2. Basic Data and Sentence Analysis ---
+Number of text samples: 2450
+Number of multimodal samples: 2000
+Total number of samples: 4450
 
---- Distribution of Correct Answer Labels ---
-label
-A    640
-B    654
-C    622
-D    630
-E    687
-F    243
-G    263
-H    222
-I    232
-J    257
-Name: count, dtype: int64
+--- Question Length Statistics ---
+       question_word_count  question_char_count
+count          4450.000000          4450.000000
+mean            133.759775           893.467640
+std              68.134636           436.377907
+min              17.000000           107.000000
+25%              86.000000           571.250000
+50%             133.000000           903.000000
+75%             173.000000          1165.000000
+max             728.000000          4527.000000
 
---- Statistics for Number of Options per Question ---
-count    4450.000000
-mean        7.752809
-std         2.487464
-min         5.000000
-25%         5.000000
-50%        10.000000
-75%        10.000000
-max        10.000000
-Name: num_options, dtype: float64
+--- Plot: Question Length Distributions ---
+Image saved to: d:\1.git_projs\MedicalQA\MedXpertQA\eda_results\question_length_distributions.png
 
---- Distribution of Correct Answer Labels ---
-label
-A    640
-B    654
-C    622
-D    630
-E    687
-F    243
-G    263
-H    222
-I    232
-J    257
-Name: count, dtype: int64
+--- Data Table: Medical Task Distribution ---
+medical_task
+Diagnosis        2249
+Treatment        1194
+Basic Science    1007
 
---- Statistics for Number of Options per Question ---
-count    4450.000000
-mean        7.752809
-std         2.487464
-min         5.000000
-25%         5.000000
-50%        10.000000
-75%        10.000000
-max        10.000000
-Name: num_options, dtype: float64
+--- Data Table: Body System Distribution ---
+body_system
+Skeletal          846
+Cardiovascular    626
+Nervous           617
+Digestive         442
+Respiratory       385
+Reproductive      299
+Integumentary     273
+Endocrine         250
+Muscular          223
+Urinary           179
+Lymphatic         166
+Other / NA        144
+
+--- Data Table: Question Type Distribution ---
+question_type
+Reasoning        3307
+Understanding    1143
+
+--- Plot: Medical Task Distribution ---
+Image saved to: d:\1.git_projs\MedicalQA\MedXpertQA\eda_results\medical_task_distribution.png
+
+--- Plot: Body System Distribution ---
+Image saved to: d:\1.git_projs\MedicalQA\MedXpertQA\eda_results\body_system_distribution.png
+
+--- Plot: Question Type Distribution ---
+Image saved to: d:\1.git_projs\MedicalQA\MedXpertQA\eda_results\question_type_distribution.png
 
 --- Distribution of Correct Answer Labels ---
 label
@@ -98,132 +80,19 @@ min         5.000000
 max        10.000000
 Name: num_options, dtype: float64
 
---- Distribution of Correct Answer Labels ---
-label
-A    640
-B    654
-C    622
-D    630
-E    687
-F    243
-G    263
-H    222
-I    232
-J    257
-Name: count, dtype: int64
+--- Plot: Option Length Comparison ---
+Image saved to: d:\1.git_projs\MedicalQA\MedXpertQA\eda_results\option_length_boxplot.png
 
---- Statistics for Number of Options per Question ---
-count    4450.000000
-mean        7.752809
-std         2.487464
-min         5.000000
-25%         5.000000
-50%        10.000000
-75%        10.000000
-max        10.000000
-Name: num_options, dtype: float64
-
---- Vocabulary and Word Frequency Analysis ---
-Total number of words (tokens): 897944
-Vocabulary size (unique words): 24343
-
---- Vocabulary and Word Frequency Analysis (Filtered) ---
-Total number of words (tokens) after filtering: 410353
-Vocabulary size (unique words) after filtering: 17118
-
---- 20 Most Common Words (Filtered) ---
-           word  count
-0         blood   2910
-1         right   2720
-2          left   2460
-3          pain   2201
-4      pressure   2020
-5        normal   1849
-6       medical   1703
-7       therapy   1656
-8   temperature   1437
-9          male   1337
-10  appropriate   1266
-11        vital   1251
-12    emergency   1159
-13        pulse   1118
-14    treatment   1107
-15      disease   1105
-16    increased   1100
-17        serum   1093
-18         test   1086
-19        chest   1064
-
---- Plot: Top 20 Most Common Words ---
-Image saved to: d:\1.git_projs\MedicalQA\MedXpertQA\eda_results\top_20_words.png
-
---- Vocabulary and Word Frequency Analysis ---
-Total number of words (tokens): 897944
-Vocabulary size (unique words): 24343
-
---- Vocabulary and Word Frequency Analysis (Filtered) ---
-Total number of words (tokens) after filtering: 409087
-Vocabulary size (unique words) after filtering: 17117
-
---- 20 Most Common Words (Filtered) ---
-           word  count
-0         blood   2910
-1         right   2720
-2          left   2460
-3          pain   2201
-4      pressure   2020
-5        normal   1849
-6       medical   1703
-7       therapy   1656
-8   temperature   1437
-9          male   1337
-10        vital   1251
-11    emergency   1159
-12        pulse   1118
-13    treatment   1107
-14      disease   1105
-15    increased   1100
-16        serum   1093
-17         test   1086
-18        chest   1064
-19   department    973
-
---- Plot: Top 20 Most Common Words ---
-Image saved to: d:\1.git_projs\MedicalQA\MedXpertQA\eda_results\top_20_words.png
-
---- Vocabulary and Word Frequency Analysis ---
-Total number of words (tokens): 897944
-Vocabulary size (unique words): 24343
-
---- Vocabulary and Word Frequency Analysis (Filtered) ---
-Total number of words (tokens) after filtering: 408114
-Vocabulary size (unique words) after filtering: 17116
-
---- 20 Most Common Words (Filtered) ---
-           word  count
-0         blood   2910
-1         right   2720
-2          left   2460
-3          pain   2201
-4      pressure   2020
-5        normal   1849
-6       medical   1703
-7       therapy   1656
-8   temperature   1437
-9          male   1337
-10        vital   1251
-11    emergency   1159
-12        pulse   1118
-13    treatment   1107
-14      disease   1105
-15    increased   1100
-16        serum   1093
-17         test   1086
-18        chest   1064
-19     findings    967
-
---- Plot: Top 20 Most Common Words ---
-Image saved to: d:\1.git_projs\MedicalQA\MedXpertQA\eda_results\top_20_words.png
+--- Analysis of Correct vs. Incorrect Option Lengths ---
+       correct_option_len  avg_incorrect_option_len
+count         4450.000000               4450.000000
+mean             4.164270                  4.169032
+std              4.091363                  3.462229
+min              1.000000                  1.000000
+25%              2.000000                  2.000000
+50%              3.000000                  3.000000
+75%              5.000000                  5.222222
+max             49.000000                 47.777778
 
 --- Vocabulary and Word Frequency Analysis ---
 Total number of words (tokens): 897944
@@ -258,4 +127,115 @@ Vocabulary size (unique words) after filtering: 17115
 
 --- Plot: Top 20 Most Common Words ---
 Image saved to: d:\1.git_projs\MedicalQA\MedXpertQA\eda_results\top_20_words.png
+
+--- Statistics for Number of Images per Question (MM set) ---
+count    2000.000000
+mean        1.426000
+std         1.038298
+min         1.000000
+25%         1.000000
+50%         1.000000
+75%         1.000000
+max         6.000000
+Name: num_images, dtype: float64
+
+--- Data Table: Number of Images per Question ---
+num_images
+1    1581
+2     236
+5      78
+3      59
+6      24
+4      22
+
+--- Plot: Number of Images per Question ---
+Image saved to: d:\1.git_projs\MedicalQA\MedXpertQA\eda_results\mm_image_count_distribution.png
+
+--- Data Table: Image Counts per Medical Task ---
+num_images       1    2   3   4   5   6
+medical_task                           
+Basic Science  285   35   8   1  17   7
+Diagnosis      975  127  27  11  47  12
+Treatment      321   74  24  10  14   5
+
+--- Plot: Image Counts per Medical Task ---
+Image saved to: d:\1.git_projs\MedicalQA\MedXpertQA\eda_results\image_count_vs_task.png
+
+--- Data Table: Image Counts per Body System ---
+num_images        1    2   3   4   5   6
+body_system                             
+Cardiovascular  276   27   4   3   7   3
+Digestive       149   12   3   0   3   1
+Endocrine        64    5   2   1   1   1
+Integumentary   214    7   1   0   3   0
+Lymphatic        75    4   0   1   1   0
+Muscular         31    7   3   1   2   2
+Nervous         198   21   5   1   6   0
+Other / NA       17    1   0   0   0   0
+Reproductive     81   13   2   1   1   0
+Respiratory     161   22   4   2   2   1
+Skeletal        271  108  34  12  50  16
+Urinary          44    9   1   0   2   0
+
+--- Plot: Image Counts per Body System ---
+Image saved to: d:\1.git_projs\MedicalQA\MedXpertQA\eda_results\image_count_vs_system.png
+
+--- Image File Type Distribution ---
+jpeg    2683
+png      161
+JPG        8
+Name: count, dtype: int64
+
+--- Plot: Image File Type Distribution ---
+Image saved to: d:\1.git_projs\MedicalQA\MedXpertQA\eda_results\image_extension_distribution.png
+
+--- Combined Analysis: Medical Task vs. Body System ---
+body_system    Cardiovascular  Digestive  Endocrine  Integumentary  Lymphatic  \
+medical_task                                                                    
+Basic Science             123         74         57             26         46   
+Diagnosis                 329        261        144            191         83   
+Treatment                 174        107         49             56         37   
+
+body_system    Muscular  Nervous  Other / NA  Reproductive  Respiratory  \
+medical_task                                                              
+Basic Science        60      161          79            37           76   
+Diagnosis            86      323          27           155          207   
+Treatment            77      133          38           107          102   
+
+body_system    Skeletal  Urinary  
+medical_task                      
+Basic Science       238       30  
+Diagnosis           336      107  
+Treatment           272       42  
+
+--- Plot: Heatmap of Task vs. System ---
+Image saved to: d:\1.git_projs\MedicalQA\MedXpertQA\eda_results\heatmap_task_vs_system.png
+
+--- Combined Analysis: Question Type vs. Medical Task ---
+medical_task   Basic Science  Diagnosis  Treatment
+question_type                                     
+Reasoning                527       1732       1048
+Understanding            480        517        146
+
+--- Plot: Heatmap of Type vs. Task ---
+Image saved to: d:\1.git_projs\MedicalQA\MedXpertQA\eda_results\heatmap_type_vs_task.png
+
+--- Combined Analysis: Question Type vs. Body System ---
+body_system    Cardiovascular  Digestive  Endocrine  Integumentary  Lymphatic  \
+question_type                                                                   
+Reasoning                 540        333        202            104         95   
+Understanding              86        109         48            169         71   
+
+body_system    Muscular  Nervous  Other / NA  Reproductive  Respiratory  \
+question_type                                                             
+Reasoning           170      465          85           226          329   
+Understanding        53      152          59            73           56   
+
+body_system    Skeletal  Urinary  
+question_type                     
+Reasoning           626      132  
+Understanding       220       47  
+
+--- Plot: Heatmap of Type vs. System ---
+Image saved to: d:\1.git_projs\MedicalQA\MedXpertQA\eda_results\heatmap_type_vs_system.png
 

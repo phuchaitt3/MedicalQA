@@ -5,5 +5,5 @@ EDA Survey for:
 4. https://github.com/tadeephuy/ViMQ/blob/main/data/test.json
 
 Libraries:
-- Before running download_dataset.py: pip install --upgrade datasets s3fs huggingface_hub pyarrow
 - Remove Vietnamese filler words from vocab counting: pip install pyvi requests
+- Before running download_dataset.py: pip install --upgrade datasets s3fs huggingface_hub pyarrow
