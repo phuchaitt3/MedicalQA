@@ -7,3 +7,5 @@ EDA Survey for:
 Libraries:
 - Remove Vietnamese filler words from vocab counting: pip install pyvi requests
 - Before running download_dataset.py: pip install --upgrade datasets s3fs huggingface_hub pyarrow
+
+Main analysis results in /eda_results for ViMQ and MedXpertQA datasets.
