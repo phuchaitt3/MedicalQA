@@ -1,0 +1,7 @@
+pandas
+datasets
+openai
+ragas
+langchain-openai
+python-dotenv
+pydantic
