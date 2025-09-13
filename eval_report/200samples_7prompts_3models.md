@@ -36,3 +36,6 @@
 |   9 | alpha-ai/LLAMA3-3B-Medical-COT | Current_Best_VI |       0.8124 |              307.17 |
 |   0 | arcee-ai/Arcee-VyLinh          | Extract_VI      |       0.8551 |              754.84 |
 |   2 | vilm/vietcuna-3b-v2            | Extract_VI      |         0.83 |              556.98 |
+
+# By prompt strategies
+![[prompt_strategy_performance.png]]
