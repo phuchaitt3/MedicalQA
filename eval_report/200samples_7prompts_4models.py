@@ -10,10 +10,17 @@ import numpy as np
 # Set these to True to run a specific feature, or False to skip it.
 # This is useful for rerunning the script to add new features without
 # regenerating existing results.
-GENERATE_MARKDOWN_REPORT = True
-GENERATE_BAR_CHART = False
-GENERATE_SCATTER_PLOT = False
-GENERATE_PROMPT_ANALYSIS_GRAPH = True
+RUN_ALL = True  # If True, overrides all other toggles to True
+if RUN_ALL:
+    GENERATE_MARKDOWN_REPORT = True
+    GENERATE_BAR_CHART = True
+    GENERATE_SCATTER_PLOT = True
+    GENERATE_PROMPT_ANALYSIS_GRAPH = True
+else:
+    GENERATE_MARKDOWN_REPORT = True
+    GENERATE_BAR_CHART = False
+    GENERATE_SCATTER_PLOT = False
+    GENERATE_PROMPT_ANALYSIS_GRAPH = True
 
 # --- DATA SETUP ---
 # Create the DataFrame from the provided data
@@ -49,6 +56,24 @@ data = {
         264.47, 674.26, 633.57, 756.64, 4570.40, 1580.11
     ]
 }
+
+new_data_rows = [
+    {'Model & Prompt Strategy': 'sail/Sailor-4B-Chat (Chain_of_Thought_VI)', 'ROUGE-L': 0.1858, 'BLEU': 0.0618, 'METEOR': 0.3941, 'BERTScore-F1': 0.6781, 'Generation Time (s)': 4986.24},
+    {'Model & Prompt Strategy': 'sail/Sailor-4B-Chat (Direct_VI)', 'ROUGE-L': 0.2014, 'BLEU': 0.0697, 'METEOR': 0.4242, 'BERTScore-F1': 0.6627, 'Generation Time (s)': 4993.69},
+    {'Model & Prompt Strategy': 'sail/Sailor-4B-Chat (Current_Best_VI)', 'ROUGE-L': 0.2100, 'BLEU': 0.0730, 'METEOR': 0.4281, 'BERTScore-F1': 0.6611, 'Generation Time (s)': 5003.86},
+    {'Model & Prompt Strategy': 'sail/Sailor-4B-Chat (Expert_Persona_VI)', 'ROUGE-L': 0.1991, 'BLEU': 0.0664, 'METEOR': 0.4192, 'BERTScore-F1': 0.6611, 'Generation Time (s)': 4982.71},
+    {'Model & Prompt Strategy': 'sail/Sailor-4B-Chat (RolePlay_VI)', 'ROUGE-L': 0.2022, 'BLEU': 0.0686, 'METEOR': 0.4210, 'BERTScore-F1': 0.6593, 'Generation Time (s)': 4979.34},
+    {'Model & Prompt Strategy': 'sail/Sailor-4B-Chat (Extract_VI)', 'ROUGE-L': 0.2125, 'BLEU': 0.0760, 'METEOR': 0.4425, 'BERTScore-F1': 0.6555, 'Generation Time (s)': 4977.39},
+    {'Model & Prompt Strategy': 'sail/Sailor-4B-Chat (Few_Shot_VI_ViMedAQA)', 'ROUGE-L': 0.2086, 'BLEU': 0.0715, 'METEOR': 0.4124, 'BERTScore-F1': 0.6457, 'Generation Time (s)': 5227.87}
+]
+
+for row in new_data_rows:
+    data['Model & Prompt Strategy'].append(row['Model & Prompt Strategy'])
+    data['ROUGE-L'].append(row['ROUGE-L'])
+    data['BLEU'].append(row['BLEU'])
+    data['METEOR'].append(row['METEOR'])
+    data['BERTScore-F1'].append(row['BERTScore-F1'])
+    data['Generation Time (s)'].append(row['Generation Time (s)'])
 df = pd.DataFrame(data)
 
 # Extract Model and Prompt Strategy into separate columns
@@ -56,7 +81,8 @@ df[['Model', 'Prompt Strategy']] = df['Model & Prompt Strategy'].str.extract(r'(
 model_order = [
     'vilm/vietcuna-3b-v2',
     'arcee-ai/Arcee-VyLinh',
-    'alpha-ai/LLAMA3-3B-Medical-COT'
+    'alpha-ai/LLAMA3-3B-Medical-COT',
+    'sail/Sailor-4B-Chat'
 ]
 df['Model'] = pd.Categorical(df['Model'], categories=model_order, ordered=True)
 
