@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import os
 import sys
+from sklearn.linear_model import LinearRegression
+import numpy as np
 
 # Create the DataFrame from the provided data
 data = {
@@ -41,6 +43,16 @@ df = pd.DataFrame(data)
 
 # Extract Model and Prompt Strategy into separate columns
 df[['Model', 'Prompt Strategy']] = df['Model & Prompt Strategy'].str.extract(r'([^\(]+)\s\((.*)\)')
+model_order = [
+    'vilm/vietcuna-3b-v2',
+    'arcee-ai/Arcee-VyLinh',
+    'alpha-ai/LLAMA3-3B-Medical-COT'
+]
+df['Model'] = pd.Categorical(df['Model'], categories=model_order, ordered=True)
+
+# --- Sắp xếp DataFrame để nhóm theo Model ---
+# Sắp xếp theo Model, sau đó theo BERTScore-F1 giảm dần để dễ đọc hơn
+df = df.sort_values(by=['Model', 'BERTScore-F1'], ascending=[True, False]).reset_index(drop=True)
 
 # --- Create a new directory for results ---
 script_path = os.path.abspath(sys.argv[0])
@@ -51,78 +63,124 @@ os.makedirs(results_dir, exist_ok=True)
 print(f"Results will be saved in: {results_dir}")
 
 # --- Save Summary Tables to a Markdown file within the new directory ---
-report_filename = os.path.join(results_dir, 'performance_report.md') # Changed extension to .md
-with open(report_filename, 'w') as f:
-    f.write("# Language Model Performance Report\n\n")
+report_filename = os.path.join(results_dir, 'performance_report.md')
+with open(report_filename, 'w', encoding='utf-8') as f: # Thêm encoding='utf-8' để hỗ trợ tiếng Việt
+    f.write("# Báo cáo hiệu suất các mô hình ngôn ngữ\n\n")
 
-    # Average performance by model
-    avg_performance_by_model = df.groupby('Model').mean(numeric_only=True)
-    f.write("## Average Performance by Model\n\n")
-    f.write(avg_performance_by_model.to_markdown()) # <--- Changed to .to_markdown()
-    f.write("\n\n") # Add extra newlines for proper Markdown spacing
-
-    # Best performing prompt strategy for each model based on BERTScore-F1
-    best_prompt_by_model = df.loc[df.groupby('Model')['BERTScore-F1'].idxmax()]
-    f.write("## Best Performing Prompt Strategy by Model (based on BERTScore-F1)\n\n")
-    f.write(best_prompt_by_model[['Model', 'Prompt Strategy', 'BERTScore-F1', 'Generation Time (s)']].to_markdown()) # <--- Changed to .to_markdown()
-    f.write("\n\n") # Add extra newlines for proper Markdown spacing
-
-    f.write("## Linear Regression Analysis (BERTScore-F1 vs. Generation Time)\n\n")
+    # --- THÊM PHẦN TÓM TẮT MỚI ---
+    f.write("## Tóm tắt hiệu suất theo từng LLM\n\n")
+    # Lặp qua từng model để tìm prompt tốt nhất và tệ nhất
+    # Dùng df['Model'].unique() đã được sắp xếp để đảm bảo thứ tự
     for model_name in df['Model'].unique():
         model_df = df[df['Model'] == model_name]
-        # Skip models with fewer than 2 data points for regression, as it would be ill-defined.
-        if len(model_df) < 2:
-            f.write(f"\n### Model: {model_name.strip()}\n")
-            f.write(f"  *Not enough data points ({len(model_df)}) for meaningful linear regression.*\n")
-            continue
+        best_prompt_row = model_df.loc[model_df['BERTScore-F1'].idxmax()]
+        worst_prompt_row = model_df.loc[model_df['BERTScore-F1'].idxmin()]
 
-        X = model_df[['Generation Time (s)']]
-        y = model_df['BERTScore-F1']
+        f.write(f"### {model_name.strip()}\n\n")
+        f.write(f"*   **Prompt hiệu quả nhất:** `{best_prompt_row['Prompt Strategy']}` với BERTScore-F1 là **{best_prompt_row['BERTScore-F1']:.4f}**.\n")
+        f.write(f"*   **Prompt kém hiệu quả nhất:** `{worst_prompt_row['Prompt Strategy']}` với BERTScore-F1 là **{worst_prompt_row['BERTScore-F1']:.4f}**.\n\n")
 
-        from sklearn.linear_model import LinearRegression # Moved import here to keep main imports clean
-        reg = LinearRegression().fit(X, y)
-        r_squared = reg.score(X, y)
-        coef = reg.coef_[0]
-        intercept = reg.intercept_
+    # Average performance by model
+    avg_performance_by_model = df.groupby('Model', observed=False).mean(numeric_only=True)
+    f.write("## Hiệu suất trung bình theo Model\n\n")
+    f.write(avg_performance_by_model.to_markdown())
+    f.write("\n\n")
 
-        f.write(f"\n### Model: {model_name.strip()}\n")
-        f.write(f"```\n") # Markdown code block for better readability of results
-        f.write(f"R-squared: {r_squared:.4f}\n")
-        f.write(f"Coefficient (slope): {coef:.8f}\n")
-        f.write(f"Intercept: {intercept:.4f}\n")
-        f.write(f"Interpretation: For every 1-second increase in generation time, the BERTScore-F1 is predicted to decrease by {abs(coef):.8f}.\n")
-        f.write(f"```\n") # End of code block
-    f.write("\n") # Ensure a newline at the end
+    # Best performing prompt strategy for each model based on BERTScore-F1
+    best_prompt_by_model = df.loc[df.groupby('Model', observed=False)['BERTScore-F1'].idxmax()]
+    f.write("## Prompt hiệu quả nhất theo từng Model (dựa trên BERTScore-F1)\n\n")
+    f.write(best_prompt_by_model[['Model', 'Prompt Strategy', 'BERTScore-F1', 'Generation Time (s)']].to_markdown())
+    f.write("\n\n")
 
     # Add links to the saved graphs
-    f.write("## Visualizations\n\n")
-    f.write(f"### BERTScore-F1 Scores by Model and Prompt Strategy\n")
-    f.write(f"![BERTScore-F1 Scores Bar Plot]({os.path.basename(os.path.join(results_dir, 'bertscore_f1_scores_barplot.png'))})\n\n")
-    f.write(f"### Generation Time vs. BERTScore-F1 with Linear Regression\n")
-    f.write(f"![Generation Time vs. BERTScore-F1 Scatter Plot]({os.path.basename(os.path.join(results_dir, 'generation_time_vs_bertscore_regression.png'))})\n\n")
+    f.write("## Biểu đồ trực quan\n\n")
+    f.write(f"### Điểm BERTScore-F1 theo Model và Prompt\n")
+    # Sử dụng os.path.basename để lấy tên file cho đường dẫn tương đối trong Markdown
+    graph1_basename = os.path.basename(os.path.join(results_dir, 'bertscore_f1_scores_barplot.png'))
+    f.write(f"![Biểu đồ cột điểm BERTScore-F1]({graph1_basename})\n\n")
+
+    f.write(f"### Thời gian tạo và điểm BERTScore-F1 (có đường hồi quy)\n")
+    graph2_basename = os.path.basename(os.path.join(results_dir, 'generation_time_vs_bertscore_regression.png'))
+    f.write(f"![Biểu đồ phân tán thời gian và điểm BERTScore-F1]({graph2_basename})\n\n")
 
 
-print(f"Textual report saved to {report_filename}")
+print(f"Báo cáo Markdown đã được lưu tại: {report_filename}")
+
+# --- Add small gaps between the bars of each model ---
+# Create a list to hold all the DataFrame pieces
+dfs_to_concat = []
+for i, model_name in enumerate(model_order):
+    # Add the model's DataFrame to the list
+    model_df = df[df['Model'] == model_name].copy()
+    dfs_to_concat.append(model_df)
+
+    # Add a separator after each model except the last one
+    if i < len(model_order) - 1:
+        # Create the separator row as a dictionary
+        separator_row_data = {col: np.nan for col in df.columns}
+        separator_row_data['Model & Prompt Strategy'] = ' ' * (i + 1)
+        separator_row_data['Prompt Strategy'] = 'SEPARATOR'
+        
+        # Convert the dictionary to a single-row DataFrame
+        separator_df = pd.DataFrame([separator_row_data])
+        
+        # KEY CHANGE: Force the separator DataFrame to have the same dtypes as the original.
+        # This is the definitive fix for the FutureWarning.
+        separator_df = separator_df.astype(df.dtypes)
+        
+        # Add the correctly-typed separator DataFrame to the list
+        dfs_to_concat.append(separator_df)
+
+# Perform a single, efficient concatenation of all pieces. The warning will now be gone.
+df_with_gaps = pd.concat(dfs_to_concat, ignore_index=True)
+
+# Re-apply categorical type just to be safe, although it should be preserved
+df_with_gaps['Model'] = pd.Categorical(df_with_gaps['Model'], categories=model_order, ordered=True)
 
 # --- Generate and Save Graphs within the new directory ---
 # Bar chart of BERTScore-F1 scores by Model and Prompt Strategy
-plt.figure(figsize=(12, 8))
-sns.barplot(
-    data=df,
+plt.figure(figsize=(12, 10)) # Tăng chiều cao để vừa với các nhãn
+ax = sns.barplot(
+    data=df_with_gaps, # df đã được sắp xếp
     x='BERTScore-F1',
     y='Model & Prompt Strategy',
-    hue='Model & Prompt Strategy',
-    palette='viridis',
-    legend=False
+    hue='Model', # Tô màu theo Model để dễ phân biệt
+    dodge=False, # Tắt dodge để các thanh thẳng hàng
+    palette='viridis'
 )
-plt.title('BERTScore-F1 Scores by Model and Prompt Strategy')
-plt.xlabel('BERTScore-F1 Score')
+plt.title('Điểm BERTScore-F1 theo Model và Prompt')
+plt.xlabel('Điểm BERTScore-F1')
 plt.ylabel('Model & Prompt Strategy')
+plt.legend(title='Model', bbox_to_anchor=(1, -0.05), loc='upper right') # Đã thay đổi
 plt.tight_layout()
+
+# Identify the lowest performing prompt for each model
+lowest_prompts_per_model_full_string = df.loc[df.groupby('Model', observed=False)['BERTScore-F1'].idxmin()]['Model & Prompt Strategy'].tolist()
+
+# Iterate through the y-axis tick labels and color them
+for label_text in ax.get_yticklabels():
+    full_label_text = label_text.get_text()
+
+    # Extract Prompt Strategy from the full label text
+    start_index = full_label_text.find('(')
+    end_index = full_label_text.find(')')
+    
+    if start_index != -1 and end_index != -1:
+        prompt_strategy = full_label_text[start_index + 1 : end_index]
+        
+        # Apply coloring based on specific prompt strategies
+        if prompt_strategy == 'Extract_VI':
+            label_text.set_color('darkgreen')
+        elif prompt_strategy == 'Current_Best_VI':
+            label_text.set_color('blue')
+        # Apply coloring for the lowest prompt for each model
+        elif full_label_text in lowest_prompts_per_model_full_string:
+            label_text.set_color('red')
+
 graph1_filename = os.path.join(results_dir, 'bertscore_f1_scores_barplot.png')
 plt.savefig(graph1_filename)
 plt.close()
-print(f"Graph '{graph1_filename}' saved.")
+print(f"Biểu đồ '{graph1_filename}' đã được lưu.")
 
 
 # Scatter plot of Generation Time vs. BERTScore-F1 with Regression Lines
@@ -131,8 +189,7 @@ ax = sns.scatterplot(data=df, x='Generation Time (s)', y='BERTScore-F1', hue='Mo
 
 for model_name in df['Model'].unique():
     model_df = df[df['Model'] == model_name]
-    # Ensure there's enough data for regression line calculation
-    if len(model_df) > 1: # Regression needs at least 2 points
+    if len(model_df) > 1:
         sns.regplot(
             data=model_df,
             x='Generation Time (s)',
@@ -143,12 +200,12 @@ for model_name in df['Model'].unique():
             line_kws={'alpha': 0.2}
         )
 
-plt.title('Generation Time vs. BERTScore-F1 with Linear Regression')
-plt.xlabel('Generation Time (s)')
-plt.ylabel('BERTScore-F1')
+plt.title('Thời gian tạo và điểm BERTScore-F1 (có đường hồi quy)')
+plt.xlabel('Thời gian tạo (s)')
+plt.ylabel('Điểm BERTScore-F1')
 plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
 plt.tight_layout()
 graph2_filename = os.path.join(results_dir, 'generation_time_vs_bertscore_regression.png')
 plt.savefig(graph2_filename)
 plt.close()
-print(f"Graph '{graph2_filename}' saved.")
+print(f"Biểu đồ '{graph2_filename}' đã được lưu.")
