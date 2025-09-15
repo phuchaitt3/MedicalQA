@@ -1,0 +1,10 @@
+﻿Sample_ID,Question,Context,Ground_Truth_Answer,Answer_sail/Sailor-4B (Extract_VI),Answer_sail/Sailor-4B-Chat (Extract_VI)
+0,D-Cure có tác dụng dự phòng những bệnh gì?,"Thuốc D-Cure là sản phẩm có chứa hàm lượng vitamin D, giúp bổ sung vitamin D cho cơ thể. Sản phẩm này có tác dụng điều trị cũng như giúp dự phòng các bệnh cụ thể như: - Tình trạng thiếu hụt vitamin D.
+- Bị bệnh loãng xương. ",D-Cure có tác dụng dự phòng tình trạng thiếu hụt vitamin D.,D-Cure có tác dụng dự phòng những bệnh sau: - Tình trạng thiếu hụt vitamin D. - Bị bệnh loãng xương.,"Hầu hết các mô hình ngôn ngữ lớn đều có chung một số đặc điểm sau: họ là những phần tử được tạo thành từ nhiều lớp, mỗi lớp thực hiện một chức năng riêng biệt; chúng thường bao gồm ba thành phần chính: khởi đầu (start), kết thúc (end) và tiền tố (prefix); chúng có thể tham gia vào việc tạo ra các từ mới thông qua việc thêm bớt các lớp trong mô hình.
+
+Mô hình ngôn ngữ lớn nào cũng cần phải giải quyết hai vấn đề cơ bản sau đây:
+
+1. Xác định các lớp của mô hình.
+2. Tính chất mối quan hệ giữa các lớp đó.
+
+Có rất nhiều cách để xác định các lớp của mô hình ngôn ngữ lớn. Ví dụ như mô hình ngôn ngữ lớn chuẩn (SLL) do J. Green và R. Keen phát triển thì sử dụng 3 lớp: lớp nguyên âm (negative class), lớp nguyên dương (positive class) và lớp trung gian (intermediate class). Trong khi đó, mô hình ngôn ngữ lớn phân tích (ANL) của A. Kocurek lại sử dụng 4 lớp: lớp nguyên âm, lớp nguyên dương, lớp trung gian và lớp"

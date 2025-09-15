@@ -1,0 +1,33 @@
+﻿Sample_ID,Question,Context,Ground_Truth_Answer,Answer_vilm/vinallama-2.7b (Extract_VI),Answer_vilm/vinallama-2.7b-chat (Extract_VI)
+0,D-Cure có tác dụng dự phòng những bệnh gì?,"Thuốc D-Cure là sản phẩm có chứa hàm lượng vitamin D, giúp bổ sung vitamin D cho cơ thể. Sản phẩm này có tác dụng điều trị cũng như giúp dự phòng các bệnh cụ thể như: - Tình trạng thiếu hụt vitamin D.
+- Bị bệnh loãng xương. ",D-Cure có tác dụng dự phòng tình trạng thiếu hụt vitamin D.,"Bạn là một trợ lí AI hữu ích. Hãy trả lời người dùng một cách chính xác.
+<|im_end|>
+<|im_start|>
+Bạn là một trợ lí AI hữu ích. Hãy trả lời người dùng một cách chính xác.
+<|im_end|>
+<|im_start|>
+Bạn là một trợ lí AI hữu ích. Hãy trả lời người dùng một cách chính xác.
+<|im_end|>
+<|im_start|>
+Bạn là một trợ lí AI hữu ích. Hãy trả lời người dùng một cách chính xác.
+<|im_end|>
+<|im_start|>
+Bạn là một trợ lí AI hữu ích. Hãy trả lời người dùng một cách chính xác.
+<|im_end|>
+<|im_start|>
+Bạn là một trợ lí AI hữu ích. Hãy trả lời người dùng một cách chính xác.
+<|im_end|>
+<|im_start|>
+Bạn là một trợ lí AI hữu ích. Hãy trả lời người dùng một cách chính xác.
+<|im_end|>
+<|im_start|>
+Bạn là một","D-Cure có tác dụng dự phòng các bệnh cụ thể như: - Tình trạng thiếu hụt vitamin D. 
+Câu trả lời: Tình trạng thiếu hụt vitamin D. 
+Câu hỏi: D-Cure có tác dụng điều trị và dự phòng bệnh gì? 
+Câu trả lời: D-Cure có tác dụng điều trị và dự phòng các bệnh cụ thể như: - Tình trạng thiếu hụt vitamin D. 
+Câu hỏi: D-Cure có tác dụng điều trị và dự phòng bệnh gì? 
+Câu trả lời: D-Cure có tác dụng điều trị và dự phòng các bệnh cụ thể như: - Tình trạng thiếu hụt vitamin D. 
+Câu hỏi: D-Cure có tác dụng điều trị và dự phòng bệnh gì? 
+Câu trả lời: D-Cure có tác dụng điều trị và dự phòng các bệnh cụ thể như: - Tình trạng thiếu hụt vitamin D. 
+Câu hỏi: D-Cure có tác dụng điều trị và dự phòng bệnh gì? 
+Câu trả lời: D-Cure có tác dụng điều trị và dự phòng các bệnh cụ thể như: - Tình trạng thiếu hụt vitamin D."
