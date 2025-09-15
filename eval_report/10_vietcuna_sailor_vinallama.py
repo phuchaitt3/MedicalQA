@@ -24,65 +24,113 @@ else:
 
 # --- DATA SETUP ---
 # Create the DataFrame from the provided data
+# data = {
+#     'Model & Prompt Strategy': [
+#         'arcee-ai/Arcee-VyLinh (Extract_VI)', 'arcee-ai/Arcee-VyLinh (Current_Best_VI)', 'vilm/vietcuna-3b-v2 (Extract_VI)',
+#         'vilm/vietcuna-3b-v2 (Current_Best_VI)', 'vilm/vietcuna-3b-v2 (Expert_Persona_VI)', 'vilm/vietcuna-3b-v2 (RolePlay_VI)',
+#         'vilm/vietcuna-3b-v2 (Direct_VI)', 'arcee-ai/Arcee-VyLinh (Few_Shot_VI_ViMedAQA)', 'vilm/vietcuna-3b-v2 (Chain_of_Thought_VI)',
+#         'alpha-ai/LLAMA3-3B-Medical-COT (Current_Best_VI)', 'arcee-ai/Arcee-VyLinh (RolePlay_VI)', 'arcee-ai/Arcee-VyLinh (Direct_VI)',
+#         'arcee-ai/Arcee-VyLinh (Expert_Persona_VI)', 'vilm/vietcuna-3b-v2 (Few_Shot_VI_ViMedAQA)', 'alpha-ai/LLAMA3-3B-Medical-COT (Direct_VI)',
+#         'alpha-ai/LLAMA3-3B-Medical-COT (Extract_VI)', 'alpha-ai/LLAMA3-3B-Medical-COT (Few_Shot_VI_Vi...)',
+#         'alpha-ai/LLAMA3-3B-Medical-COT (RolePlay_VI)', 'alpha-ai/LLAMA3-3B-Medical-COT (Expert_Persona...)',
+#         'arcee-ai/Arcee-VyLinh (Chain_of_Thought_VI)', 'alpha-ai/LLAMA3-3B-Medical-COT (Chain_of_Thoug...)'
+#     ],
+#     'ROUGE-L': [
+#         0.6214, 0.5832, 0.5403, 0.5333, 0.5284, 0.5195, 0.5167, 0.5262, 0.5061, 0.4925, 0.4841, 0.4692, 0.4263, 0.4399, 0.4300,
+#         0.4204, 0.4290, 0.4047, 0.3658, 0.2031, 0.1882
+#     ],
+#     'BLEU': [
+#         0.4536, 0.3539, 0.2652, 0.2617, 0.2444, 0.2326, 0.2464, 0.2083, 0.2063, 0.2736, 0.1612, 0.1543, 0.1270, 0.1191, 0.1325,
+#         0.2236, 0.1427, 0.1078, 0.0932, 0.0683, 0.0578
+#     ],
+#     'METEOR': [
+#         0.5896, 0.5556, 0.5315, 0.5413, 0.5415, 0.5312, 0.5123, 0.6351, 0.5275, 0.4527, 0.6061, 0.6006, 0.5813, 0.4922, 0.4688,
+#         0.3429, 0.4800, 0.4357, 0.4206, 0.4278, 0.3517
+#     ],
+#     'BERTScore-F1': [
+#         0.8551, 0.8365, 0.8300, 0.8299, 0.8274, 0.8247, 0.8229, 0.8207, 0.8175, 0.8124, 0.8099, 0.8051, 0.7935, 0.7781, 0.7766,
+#         0.7696, 0.7696, 0.7651, 0.7534, 0.6903, 0.6698
+#     ],
+#     'Generation Time (s)': [
+#         754.84, 897.20, 556.98, 595.47, 578.64, 595.33, 557.12, 1777.16, 674.53, 307.17, 1895.57, 2014.53, 2283.51, 1270.46, 592.89,
+#         264.47, 674.26, 633.57, 756.64, 4570.40, 1580.11
+#     ]
+# }
+
+# new_data_rows = [
+#     {'Model & Prompt Strategy': 'sail/Sailor-4B-Chat (Chain_of_Thought_VI)', 'ROUGE-L': 0.1858, 'BLEU': 0.0618, 'METEOR': 0.3941, 'BERTScore-F1': 0.6781, 'Generation Time (s)': 4986.24},
+#     {'Model & Prompt Strategy': 'sail/Sailor-4B-Chat (Direct_VI)', 'ROUGE-L': 0.2014, 'BLEU': 0.0697, 'METEOR': 0.4242, 'BERTScore-F1': 0.6627, 'Generation Time (s)': 4993.69},
+#     {'Model & Prompt Strategy': 'sail/Sailor-4B-Chat (Current_Best_VI)', 'ROUGE-L': 0.2100, 'BLEU': 0.0730, 'METEOR': 0.4281, 'BERTScore-F1': 0.6611, 'Generation Time (s)': 5003.86},
+#     {'Model & Prompt Strategy': 'sail/Sailor-4B-Chat (Expert_Persona_VI)', 'ROUGE-L': 0.1991, 'BLEU': 0.0664, 'METEOR': 0.4192, 'BERTScore-F1': 0.6611, 'Generation Time (s)': 4982.71},
+#     {'Model & Prompt Strategy': 'sail/Sailor-4B-Chat (RolePlay_VI)', 'ROUGE-L': 0.2022, 'BLEU': 0.0686, 'METEOR': 0.4210, 'BERTScore-F1': 0.6593, 'Generation Time (s)': 4979.34},
+#     {'Model & Prompt Strategy': 'sail/Sailor-4B-Chat (Extract_VI)', 'ROUGE-L': 0.2125, 'BLEU': 0.0760, 'METEOR': 0.4425, 'BERTScore-F1': 0.6555, 'Generation Time (s)': 4977.39},
+#     {'Model & Prompt Strategy': 'sail/Sailor-4B-Chat (Few_Shot_VI_ViMedAQA)', 'ROUGE-L': 0.2086, 'BLEU': 0.0715, 'METEOR': 0.4124, 'BERTScore-F1': 0.6457, 'Generation Time (s)': 5227.87}
+# ]
+
+# for row in new_data_rows:
+#     data['Model & Prompt Strategy'].append(row['Model & Prompt Strategy'])
+#     data['ROUGE-L'].append(row['ROUGE-L'])
+#     data['BLEU'].append(row['BLEU'])
+#     data['METEOR'].append(row['METEOR'])
+#     data['BERTScore-F1'].append(row['BERTScore-F1'])
+#     data['Generation Time (s)'].append(row['Generation Time (s)'])
+
 data = {
     'Model & Prompt Strategy': [
-        'arcee-ai/Arcee-VyLinh (Extract_VI)', 'arcee-ai/Arcee-VyLinh (Current_Best_VI)', 'vilm/vietcuna-3b-v2 (Extract_VI)',
-        'vilm/vietcuna-3b-v2 (Current_Best_VI)', 'vilm/vietcuna-3b-v2 (Expert_Persona_VI)', 'vilm/vietcuna-3b-v2 (RolePlay_VI)',
-        'vilm/vietcuna-3b-v2 (Direct_VI)', 'arcee-ai/Arcee-VyLinh (Few_Shot_VI_ViMedAQA)', 'vilm/vietcuna-3b-v2 (Chain_of_Thought_VI)',
-        'alpha-ai/LLAMA3-3B-Medical-COT (Current_Best_VI)', 'arcee-ai/Arcee-VyLinh (RolePlay_VI)', 'arcee-ai/Arcee-VyLinh (Direct_VI)',
-        'arcee-ai/Arcee-VyLinh (Expert_Persona_VI)', 'vilm/vietcuna-3b-v2 (Few_Shot_VI_ViMedAQA)', 'alpha-ai/LLAMA3-3B-Medical-COT (Direct_VI)',
-        'alpha-ai/LLAMA3-3B-Medical-COT (Extract_VI)', 'alpha-ai/LLAMA3-3B-Medical-COT (Few_Shot_VI_Vi...)',
-        'alpha-ai/LLAMA3-3B-Medical-COT (RolePlay_VI)', 'alpha-ai/LLAMA3-3B-Medical-COT (Expert_Persona...)',
-        'arcee-ai/Arcee-VyLinh (Chain_of_Thought_VI)', 'alpha-ai/LLAMA3-3B-Medical-COT (Chain_of_Thoug...)'
+        'vilm/vinallama-2.7b-chat (Extract_VI)',
+        'vilm/vinallama-2.7b-chat (Current_Best_VI)',
+        'vilm/vinallama-2.7b-chat (Direct_VI)',
+        'vilm/vinallama-2.7b-chat (Few_Shot_VI_ViMedAQA)',
+        'vilm/vietcuna-3b-v2 (Extract_VI)',
+        'vilm/vietcuna-3b-v2 (Current_Best_VI)',
+        'vilm/vietcuna-3b-v2 (Direct_VI)',
+        'vilm/vietcuna-3b-v2 (Chain_of_Thought_VI)',
+        'vilm/vinallama-2.7b-chat (RolePlay_VI)',
+        'vilm/vietcuna-3b-v2 (Expert_Persona_VI)',
+        'vilm/vinallama-2.7b-chat (Expert_Persona_VI)',
+        'vilm/vietcuna-3b-v2 (RolePlay_VI)',
+        'vilm/vietcuna-3b-v2 (Few_Shot_VI_ViMedAQA)',
+        'sail/Sailor-4B (Current_Best_VI)',
+        'sail/Sailor-4B (Direct_VI)',
+        'sail/Sailor-4B (Chain_of_Thought_VI)',
+        'sail/Sailor-4B (RolePlay_VI)',
+        'vilm/vinallama-2.7b-chat (Chain_of_Thought_VI)',
+        'sail/Sailor-4B (Few_Shot_VI_ViMedAQA)',
+        'sail/Sailor-4B (Expert_Persona_VI)',
+        'sail/Sailor-4B (Extract_VI)'
     ],
     'ROUGE-L': [
-        0.6214, 0.5832, 0.5403, 0.5333, 0.5284, 0.5195, 0.5167, 0.5262, 0.5061, 0.4925, 0.4841, 0.4692, 0.4263, 0.4399, 0.4300,
-        0.4204, 0.4290, 0.4047, 0.3658, 0.2031, 0.1882
+        0.6013, 0.5659, 0.5139, 0.5131, 0.4933, 0.4564, 0.4623, 0.4535, 0.4415, 0.4395, 0.4240, 0.4407, 0.4465, 0.3422,
+        0.3118, 0.3203, 0.3106, 0.2299, 0.2345, 0.2861, 0.2510
     ],
     'BLEU': [
-        0.4536, 0.3539, 0.2652, 0.2617, 0.2444, 0.2326, 0.2464, 0.2083, 0.2063, 0.2736, 0.1612, 0.1543, 0.1270, 0.1191, 0.1325,
-        0.2236, 0.1427, 0.1078, 0.0932, 0.0683, 0.0578
+        0.3641, 0.2459, 0.2523, 0.2686, 0.1700, 0.1643, 0.1388, 0.1489, 0.1570, 0.1377, 0.1822, 0.1091, 0.1204, 0.1010,
+        0.0896, 0.0961, 0.0880, 0.0805, 0.0760, 0.0893, 0.0725
     ],
     'METEOR': [
-        0.5896, 0.5556, 0.5315, 0.5413, 0.5415, 0.5312, 0.5123, 0.6351, 0.5275, 0.4527, 0.6061, 0.6006, 0.5813, 0.4922, 0.4688,
-        0.3429, 0.4800, 0.4357, 0.4206, 0.4278, 0.3517
+        0.6483, 0.5926, 0.6524, 0.7057, 0.5234, 0.4927, 0.4899, 0.5033, 0.5867, 0.5008, 0.5720, 0.4840, 0.5402, 0.5399,
+        0.5030, 0.5242, 0.4915, 0.4719, 0.4278, 0.4863, 0.4257
     ],
     'BERTScore-F1': [
-        0.8551, 0.8365, 0.8300, 0.8299, 0.8274, 0.8247, 0.8229, 0.8207, 0.8175, 0.8124, 0.8099, 0.8051, 0.7935, 0.7781, 0.7766,
-        0.7696, 0.7696, 0.7651, 0.7534, 0.6903, 0.6698
+        0.8570, 0.8346, 0.8320, 0.8259, 0.8138, 0.8117, 0.8094, 0.8045, 0.7966, 0.7963, 0.7952, 0.7881, 0.7798, 0.7042,
+        0.6971, 0.6952, 0.6905, 0.6884, 0.6789, 0.6704, 0.6646
     ],
     'Generation Time (s)': [
-        754.84, 897.20, 556.98, 595.47, 578.64, 595.33, 557.12, 1777.16, 674.53, 307.17, 1895.57, 2014.53, 2283.51, 1270.46, 592.89,
-        264.47, 674.26, 633.57, 756.64, 4570.40, 1580.11
+        163.50, 164.05, 163.19, 171.41, 34.33, 37.26, 36.71, 38.42, 163.06, 41.62, 162.91, 48.00, 61.83, 169.63,
+        182.62, 182.32, 184.13, 163.29, 211.54, 190.41, 200.11
     ]
 }
-
-new_data_rows = [
-    {'Model & Prompt Strategy': 'sail/Sailor-4B-Chat (Chain_of_Thought_VI)', 'ROUGE-L': 0.1858, 'BLEU': 0.0618, 'METEOR': 0.3941, 'BERTScore-F1': 0.6781, 'Generation Time (s)': 4986.24},
-    {'Model & Prompt Strategy': 'sail/Sailor-4B-Chat (Direct_VI)', 'ROUGE-L': 0.2014, 'BLEU': 0.0697, 'METEOR': 0.4242, 'BERTScore-F1': 0.6627, 'Generation Time (s)': 4993.69},
-    {'Model & Prompt Strategy': 'sail/Sailor-4B-Chat (Current_Best_VI)', 'ROUGE-L': 0.2100, 'BLEU': 0.0730, 'METEOR': 0.4281, 'BERTScore-F1': 0.6611, 'Generation Time (s)': 5003.86},
-    {'Model & Prompt Strategy': 'sail/Sailor-4B-Chat (Expert_Persona_VI)', 'ROUGE-L': 0.1991, 'BLEU': 0.0664, 'METEOR': 0.4192, 'BERTScore-F1': 0.6611, 'Generation Time (s)': 4982.71},
-    {'Model & Prompt Strategy': 'sail/Sailor-4B-Chat (RolePlay_VI)', 'ROUGE-L': 0.2022, 'BLEU': 0.0686, 'METEOR': 0.4210, 'BERTScore-F1': 0.6593, 'Generation Time (s)': 4979.34},
-    {'Model & Prompt Strategy': 'sail/Sailor-4B-Chat (Extract_VI)', 'ROUGE-L': 0.2125, 'BLEU': 0.0760, 'METEOR': 0.4425, 'BERTScore-F1': 0.6555, 'Generation Time (s)': 4977.39},
-    {'Model & Prompt Strategy': 'sail/Sailor-4B-Chat (Few_Shot_VI_ViMedAQA)', 'ROUGE-L': 0.2086, 'BLEU': 0.0715, 'METEOR': 0.4124, 'BERTScore-F1': 0.6457, 'Generation Time (s)': 5227.87}
-]
-
-for row in new_data_rows:
-    data['Model & Prompt Strategy'].append(row['Model & Prompt Strategy'])
-    data['ROUGE-L'].append(row['ROUGE-L'])
-    data['BLEU'].append(row['BLEU'])
-    data['METEOR'].append(row['METEOR'])
-    data['BERTScore-F1'].append(row['BERTScore-F1'])
-    data['Generation Time (s)'].append(row['Generation Time (s)'])
+    
 df = pd.DataFrame(data)
 
 # Extract Model and Prompt Strategy into separate columns
 df[['Model', 'Prompt Strategy']] = df['Model & Prompt Strategy'].str.extract(r'([^\(]+)\s\((.*)\)')
 model_order = [
+    'vilm/vinallama-2.7b-chat',
     'vilm/vietcuna-3b-v2',
-    'arcee-ai/Arcee-VyLinh',
-    'alpha-ai/LLAMA3-3B-Medical-COT',
-    'sail/Sailor-4B-Chat'
+    # 'arcee-ai/Arcee-VyLinh',
+    # 'alpha-ai/LLAMA3-3B-Medical-COT',
+    'sail/Sailor-4B',
 ]
 df['Model'] = pd.Categorical(df['Model'], categories=model_order, ordered=True)
 
