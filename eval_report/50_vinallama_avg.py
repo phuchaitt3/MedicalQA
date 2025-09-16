@@ -11,7 +11,7 @@ import textwrap
 # Set these to True to run a specific feature, or False to skip it.
 # This is useful for rerunning the script to add new features without
 # regenerating existing results.
-RUN_ALL = False  # If True, overrides all other toggles to True
+RUN_ALL = True  # If True, overrides all other toggles to True
 if RUN_ALL:
     GENERATE_MARKDOWN_REPORT = True
     GENERATE_BAR_CHART = True
@@ -97,6 +97,11 @@ data = {
 # You can now create the final DataFrame from this single, complete dictionary
 df = pd.DataFrame(data)
 
+# Define the metrics to be averaged
+score_columns = ['ROUGE-L', 'BLEU', 'METEOR', 'BERTScore-F1']
+# Calculate the mean across these columns and create the 'Avg_Score' column
+df['Avg_Score'] = df[score_columns].mean(axis=1)
+
 # Extract Model and Prompt Strategy into separate columns
 df[['Model', 'Prompt Strategy']] = df['Model & Prompt Strategy'].str.extract(r'([^\(]+)\s\((.*)\)')
 model_order = [
@@ -116,8 +121,8 @@ df = df[df['Model'].isin(model_order)].copy()
 # This correctly orders the remaining models for plotting and grouping.
 df['Model'] = pd.Categorical(df['Model'], categories=model_order, ordered=True)
 
-# Sort DataFrame to group by Model, then by BERTScore-F1 descending
-df = df.sort_values(by=['Model', 'BERTScore-F1'], ascending=[True, False]).reset_index(drop=True)
+# Sort DataFrame to group by Model, then by Avg_Score descending
+df = df.sort_values(by=['Model', 'Avg_Score'], ascending=[True, False]).reset_index(drop=True)
 
 # --- DIRECTORY SETUP ---
 # Create a new directory for results
@@ -133,9 +138,11 @@ if GENERATE_MARKDOWN_REPORT:
     with open(report_filename, 'w', encoding='utf-8') as f:
         f.write("# Báo cáo hiệu suất các mô hình ngôn ngữ\n\n")
 
-        best_prompt_by_model = df.loc[df.groupby('Model', observed=False)['BERTScore-F1'].idxmax()]
-        f.write("## Prompt hiệu quả nhất theo từng Model (dựa trên BERTScore-F1)\n\n")
-        f.write(best_prompt_by_model[['Model', 'Prompt Strategy', 'BERTScore-F1', 'Generation Time (s)']].to_markdown())
+        # MODIFIED: Use 'Avg_Score' to find the best prompt
+        best_prompt_by_model = df.loc[df.groupby('Model', observed=False)['Avg_Score'].idxmax()]
+        f.write("## Prompt hiệu quả nhất theo từng Model (dựa trên Avg_Score)\n\n")
+        # MODIFIED: Display 'Avg_Score' in the table
+        f.write(best_prompt_by_model[['Model', 'Prompt Strategy', 'Avg_Score', 'Generation Time (s)']].to_markdown())
         f.write("\n\n")
 
         # --- MODIFIED SECTION ---
@@ -143,7 +150,8 @@ if GENERATE_MARKDOWN_REPORT:
         avg_by_prompt = df.groupby('Prompt Strategy').mean(numeric_only=True)
         prompt_counts = df.groupby('Prompt Strategy').size().rename('Usage Count')
         prompt_analysis = pd.concat([avg_by_prompt, prompt_counts], axis=1)
-        prompt_analysis = prompt_analysis.sort_values(by='BERTScore-F1', ascending=False)
+        # MODIFIED: Sort by 'Avg_Score'
+        prompt_analysis = prompt_analysis.sort_values(by='Avg_Score', ascending=False)
         f.write("## Hiệu suất trung bình theo Prompt Strategy (Bảng)\n\n")
         f.write(prompt_analysis.to_markdown())
         f.write("\n\n")
@@ -153,14 +161,16 @@ if GENERATE_MARKDOWN_REPORT:
 
         # Conditionally add links to graphs
         if GENERATE_BAR_CHART:
-            f.write(f"### Điểm BERTScore-F1 theo Model và Prompt\n")
-            graph1_basename = os.path.basename('bertscore_f1_scores_barplot.png')
-            f.write(f"![Biểu đồ cột điểm BERTScore-F1]({graph1_basename})\n\n")
+            # MODIFIED: Update title and filename
+            f.write(f"### Điểm Average Score theo Model và Prompt\n")
+            graph1_basename = os.path.basename('avg_score_barplot.png')
+            f.write(f"![Biểu đồ cột điểm Average Score]({graph1_basename})\n\n")
 
         if GENERATE_SCATTER_PLOT:
-            f.write(f"### Generation time và điểm BERTScore-F1 (có đường hồi quy)\n")
-            graph2_basename = os.path.basename('generation_time_vs_bertscore_regression.png')
-            f.write(f"![Biểu đồ phân tán thời gian và điểm BERTScore-F1]({graph2_basename})\n\n")
+            # MODIFIED: Update title and filename
+            f.write(f"### Generation time và điểm Average Score (có đường hồi quy)\n")
+            graph2_basename = os.path.basename('generation_time_vs_avg_score_regression.png')
+            f.write(f"![Biểu đồ phân tán thời gian và điểm Average Score]({graph2_basename})\n\n")
         
         # --- ADDED SECTION ---
         if GENERATE_PROMPT_ANALYSIS_GRAPH:
@@ -190,24 +200,24 @@ if GENERATE_BAR_CHART:
     df_with_gaps = pd.concat(dfs_to_concat, ignore_index=True)
     df_with_gaps['Model'] = pd.Categorical(df_with_gaps['Model'], categories=model_order, ordered=True)
 
-    # Bar chart of BERTScore-F1 scores
+    # Bar chart of avg_score by Model & Prompt Strategy
     plt.figure(figsize=(12, 10))
     ax = sns.barplot(
         data=df_with_gaps,
-        x='BERTScore-F1',
+        x='Avg_Score',
         y='Model & Prompt Strategy',
         hue='Model',
         dodge=False,
         palette='viridis'
     )
-    plt.title('Điểm BERTScore-F1 theo Model và Prompt')
-    plt.xlabel('Điểm BERTScore-F1')
+    plt.title('Điểm Average Score theo Model và Prompt')
+    plt.xlabel('Điểm Average Score')
     plt.ylabel('Model & Prompt Strategy')
     # plt.legend(title='Model', bbox_to_anchor=(0, 0), loc='upper left')
     ax.get_legend().remove()
     plt.tight_layout()
 
-    lowest_prompts_per_model_full_string = df.loc[df.groupby('Model', observed=False)['BERTScore-F1'].idxmin()]['Model & Prompt Strategy'].tolist()
+    lowest_prompts_per_model_full_string = df.loc[df.groupby('Model', observed=False)['Avg_Score'].idxmin()]['Model & Prompt Strategy'].tolist()
 
     for label_text in ax.get_yticklabels():
         full_label_text = label_text.get_text()
@@ -222,12 +232,11 @@ if GENERATE_BAR_CHART:
             elif full_label_text in lowest_prompts_per_model_full_string:
                 label_text.set_color('red')
 
-    graph1_filename = os.path.join(results_dir, 'bertscore_f1_scores_barplot.png')
+    graph1_filename = os.path.join(results_dir, 'average_score_barplot.png')
     plt.savefig(graph1_filename)
     plt.close()
     print(f"Biểu đồ '{graph1_filename}' đã được lưu.")
 
-# --- FEATURE 3: GENERATE SCATTER PLOT ---
 # --- FEATURE 3: GENERATE SCATTER PLOT ---
 if GENERATE_SCATTER_PLOT:
     # --- Step 1: Add logic to identify outlier indices first ---
@@ -240,28 +249,28 @@ if GENERATE_SCATTER_PLOT:
         if len(model_df) < 5:
             continue
             
-        # Calculate IQR (Interquartile Range) for BERTScore-F1
-        Q1 = model_df['BERTScore-F1'].quantile(0.25)
-        Q3 = model_df['BERTScore-F1'].quantile(0.75)
+        # Calculate IQR (Interquartile Range) for Avg_Score
+        Q1 = model_df['Avg_Score'].quantile(0.25)
+        Q3 = model_df['Avg_Score'].quantile(0.75)
         IQR = Q3 - Q1
         
         # Define the outlier boundaries
         lower_bound = Q1 - 1.5 * IQR
         upper_bound = Q3 + 1.5 * IQR
-        
-        # Find the indices of the outliers for this model
-        outlier_mask = (model_df['BERTScore-F1'] < lower_bound) | (model_df['BERTScore-F1'] > upper_bound)
+
+        # Find outlier indices based on Avg_Score
+        outlier_mask = (model_df['Avg_Score'] < lower_bound) | (model_df['Avg_Score'] > upper_bound)
         outlier_indices_for_model = model_df[outlier_mask].index
         all_outlier_indices.extend(outlier_indices_for_model)
 
     # --- Graph 1: Your original plot, now with outlier highlighting activated ---
-    # Scatter plot of Generation Time vs. BERTScore-F1 with Regression Lines
+    # Scatter plot of Generation Time vs. Avg_Score with Regression Lines
     plt.figure(figsize=(10, 6))
     
     ax = sns.scatterplot(
         data=df, 
         x='Generation Time (s)', 
-        y='BERTScore-F1', 
+        y='Avg_Score', 
         hue='Model', 
         style='Prompt Strategy', 
         s=100,
@@ -288,7 +297,7 @@ if GENERATE_SCATTER_PLOT:
             sns.regplot(
                 data=model_df,
                 x='Generation Time (s)',
-                y='BERTScore-F1',
+                y='Avg_Score',
                 scatter=False,
                 ci=None,
                 ax=ax,
@@ -301,7 +310,7 @@ if GENERATE_SCATTER_PLOT:
     #     outliers_df = df.loc[all_outlier_indices]
     #     ax.scatter(
     #         outliers_df['Generation Time (s)'],
-    #         outliers_df['BERTScore-F1'],
+    #         outliers_df['Avg_Score'],
     #         s=200,
     #         facecolors='none',
     #         edgecolors='red', # Changed to red for better visibility
@@ -314,15 +323,15 @@ if GENERATE_SCATTER_PLOT:
         model_df = df[df['Model'] == model_name].copy()
         if len(model_df) <= 1:
             continue
-        best_prompt_row = model_df.loc[model_df['BERTScore-F1'].idxmax()]
-        worst_prompt_row = model_df.loc[model_df['BERTScore-F1'].idxmin()]
+        best_prompt_row = model_df.loc[model_df['Avg_Score'].idxmax()]
+        worst_prompt_row = model_df.loc[model_df['Avg_Score'].idxmin()]
         best_label = best_prompt_row['Prompt Strategy']
         worst_label = worst_prompt_row['Prompt Strategy']
         model_color = model_colors.get(model_name)
         font_size = 9
         ax.text(
             x=best_prompt_row['Generation Time (s)'],
-            y=best_prompt_row['BERTScore-F1'],
+            y=best_prompt_row['Avg_Score'],
             s='    {}'.format(best_label),
             fontdict={'size': font_size, 'color': model_color, 'weight': 'bold'},
             ha='left',
@@ -330,16 +339,16 @@ if GENERATE_SCATTER_PLOT:
         )
         ax.text(
             x=worst_prompt_row['Generation Time (s)'],
-            y=worst_prompt_row['BERTScore-F1'],
+            y=worst_prompt_row['Avg_Score'],
             s='    {}'.format(worst_label),
             fontdict={'size': font_size, 'color': model_color},
             ha='left',
             va='center'
         )
 
-    plt.title('Generation time & BERTScore-F1')
+    plt.title('Generation time & Avg_Score')
     plt.xlabel('Generation time (s)')
-    plt.ylabel('BERTScore-F1')
+    plt.ylabel('Avg_Score')
     legend = ax.legend(title='Model', bbox_to_anchor=(1.05, 1), loc='upper left')
     plt.tight_layout(rect=[0, 0, 1.005, 0.975])
     
@@ -356,7 +365,7 @@ if GENERATE_SCATTER_PLOT:
     
     plt.tight_layout()
     # Use a new filename for the first graph
-    graph2_filename = os.path.join(results_dir, 'generation_time_vs_bertscore_with_outliers.png')
+    graph2_filename = os.path.join(results_dir, 'generation_time_vs_avg_score_with_outliers.png')
     plt.savefig(graph2_filename)
     plt.close()
     print(f"Biểu đồ '{graph2_filename}' đã được lưu.")
@@ -371,7 +380,7 @@ if GENERATE_SCATTER_PLOT:
     ax = sns.scatterplot(
         data=df_no_outliers, 
         x='Generation Time (s)', 
-        y='BERTScore-F1', 
+        y='Avg_Score', 
         hue='Model', 
         style='Prompt Strategy', 
         s=100,
@@ -388,7 +397,7 @@ if GENERATE_SCATTER_PLOT:
     #         sns.regplot(
     #             data=model_df,
     #             x='Generation Time (s)',
-    #             y='BERTScore-F1',
+    #             y='Avg_Score',
     #             scatter=False,
     #             ci=None,
     #             ax=ax,
@@ -401,15 +410,15 @@ if GENERATE_SCATTER_PLOT:
         model_df = df_no_outliers[df_no_outliers['Model'] == model_name].copy()
         if len(model_df) <= 1:
             continue
-        best_prompt_row = model_df.loc[model_df['BERTScore-F1'].idxmax()]
-        worst_prompt_row = model_df.loc[model_df['BERTScore-F1'].idxmin()]
+        best_prompt_row = model_df.loc[model_df['Avg_Score'].idxmax()]
+        worst_prompt_row = model_df.loc[model_df['Avg_Score'].idxmin()]
         best_label = best_prompt_row['Prompt Strategy']
         worst_label = worst_prompt_row['Prompt Strategy']
         model_color = model_colors.get(model_name)
         font_size = 9
         ax.text(
             x=best_prompt_row['Generation Time (s)'],
-            y=best_prompt_row['BERTScore-F1'],
+            y=best_prompt_row['Avg_Score'],
             s='    {}'.format(best_label),
             fontdict={'size': font_size, 'color': model_color, 'weight': 'bold'},
             ha='left',
@@ -417,16 +426,16 @@ if GENERATE_SCATTER_PLOT:
         )
         ax.text(
             x=worst_prompt_row['Generation Time (s)'],
-            y=worst_prompt_row['BERTScore-F1'],
+            y=worst_prompt_row['Avg_Score'],
             s='    {}'.format(worst_label),
             fontdict={'size': font_size, 'color': model_color},
             ha='left',
             va='center'
         )
-    
-    plt.title('Generation time & BERTScore-F1 (Outliers Removed)') # New title
+
+    plt.title('Generation time & Avg_Score (Outliers Removed)') # New title
     plt.xlabel('Generation time (s)')
-    plt.ylabel('BERTScore-F1')
+    plt.ylabel('Avg_Score')
     legend = ax.legend(title='Model', bbox_to_anchor=(1.05, 1), loc='upper left')
     plt.tight_layout(rect=[0, 0, 1.005, 0.975])
     
@@ -443,7 +452,7 @@ if GENERATE_SCATTER_PLOT:
     
     plt.tight_layout()
     # Use a new filename for the second graph
-    graph3_filename = os.path.join(results_dir, 'generation_time_vs_bertscore_no_outliers.png')
+    graph3_filename = os.path.join(results_dir, 'generation_time_vs_avg_score_no_outliers.png')
     plt.savefig(graph3_filename)
     plt.close()
     print(f"Biểu đồ '{graph3_filename}' đã được lưu.")
@@ -452,21 +461,21 @@ if GENERATE_SCATTER_PLOT:
 if GENERATE_PROMPT_ANALYSIS_GRAPH:
     # Calculate average performance metrics for each prompt strategy
     avg_by_prompt = df.groupby('Prompt Strategy').mean(numeric_only=True)
-    # Sort by BERTScore-F1 to have the best-performing prompts at the top
-    prompt_analysis_sorted = avg_by_prompt.sort_values(by='BERTScore-F1', ascending=False)
+    # Sort by Avg_Score to have the best-performing prompts at the top
+    prompt_analysis_sorted = avg_by_prompt.sort_values(by='Avg_Score', ascending=False)
 
     # Create the bar chart
     plt.figure(figsize=(10, 8))
     ax = sns.barplot(
         data=prompt_analysis_sorted,
-        x='BERTScore-F1',
+        x='Avg_Score',
         y=prompt_analysis_sorted.index, # Use the index (Prompt Strategy names) for the y-axis
-        hue='BERTScore-F1',
+        hue='Avg_Score',
         dodge=False,
         palette='plasma'
     )
     plt.title('Hiệu suất trung bình theo Prompt Strategy')
-    plt.xlabel('Điểm BERTScore-F1 trung bình')
+    plt.xlabel('Điểm Avg_Score trung bình')
     plt.ylabel('Prompt Strategy')
     ax.get_legend().remove()
     plt.tight_layout()
