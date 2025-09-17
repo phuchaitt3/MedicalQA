@@ -1,0 +1,35 @@
+﻿Sample_ID,Model,System_Prompt,Question,Context,Ground_Truth_Answer,Concise_VI,Direct_VI,Extract_VI,Few_Shot_VI,Full_VI,List_VI,Strict_Rules_VI,ViMedAQA_VI,Self-Contained
+0,alpha-ai/LLAMA3-3B-Medical-COT,Default_SP,D-Cure có tác dụng dự phòng những bệnh gì?,"Thuốc D-Cure là sản phẩm có chứa hàm lượng vitamin D, giúp bổ sung vitamin D cho cơ thể. Sản phẩm này có tác dụng điều trị cũng như giúp dự phòng các bệnh cụ thể như: - Tình trạng thiếu hụt vitamin D.
+- Bị bệnh loãng xương. ",D-Cure có tác dụng dự phòng tình trạng thiếu hụt vitamin D.,Bị bệnh loãng xương.,"D-Cure là một sản phẩm có chứa vitamin D, giúp bổ sung vitamin D cho cơ thể. Theo thông tin trên, D-Cure có tác dụng điều trị và giúp dự phòng các bệnh cụ thể như:
+
+- Tình trạng thiếu hụt vitamin D
+- Bị bệnh loãng xương",#NAME?,"Dựa vào Ngữ cảnh được cung cấp, câu trả lời cho câu hỏi cuối cùng là:
+
+D-Cure có tác dụng dự phòng bệnh loãng xương.","Dựa vào Ngữ cảnh, câu trả lời đầy đủ và toàn diện nhất có thể là:
+
+D-Cure có tác dụng dự phòng các bệnh loãng xương và tình trạng thiếu hụt vitamin D.",D-Cure có tác dụng điều trị tình trạng thiếu hụt vitamin D và giúp dự phòng bệnh loãng xương.,D-Cure có tác dụng dự phòng tình trạng thiếu hụt vitamin D.,"D-Cure là một sản phẩm bổ sung vitamin D, giúp bổ sung vitamin D cho cơ thể. Theo thông tin trên, D-Cure có tác dụng điều trị và dự phòng các bệnh cụ thể như:
+
+- Tình trạng thiếu hụt vitamin D
+- Bị bệnh loãng xương
+
+Tuy nhiên, không phải là thuốc điều trị bệnh loãng xương.",
+0,alpha-ai/LLAMA3-3B-Medical-COT,Expert_SP,D-Cure có tác dụng dự phòng những bệnh gì?,"Thuốc D-Cure là sản phẩm có chứa hàm lượng vitamin D, giúp bổ sung vitamin D cho cơ thể. Sản phẩm này có tác dụng điều trị cũng như giúp dự phòng các bệnh cụ thể như: - Tình trạng thiếu hụt vitamin D.
+- Bị bệnh loãng xương. ",D-Cure có tác dụng dự phòng tình trạng thiếu hụt vitamin D.,D-Cure có tác dụng dự phòng tình trạng thiếu hụt vitamin D.,"D-Cure là sản phẩm có chứa hàm lượng vitamin D, giúp bổ sung vitamin D cho cơ thể. Sản phẩm này có tác dụng điều trị và giúp dự phòng các bệnh cụ thể như:
+
+- Tình trạng thiếu hụt vitamin D.
+- Bị bệnh loãng xương.",#NAME?,"Dựa vào Ngữ cảnh, câu trả lời cho câu hỏi cuối cùng là: D-Cure có tác dụng dự phòng bệnh loãng xương.","Dựa vào Ngữ cảnh, câu trả lời đầy đủ và toàn diện nhất có thể là:
+
+D-Cure là sản phẩm có chứa hàm lượng vitamin D, giúp bổ sung vitamin D cho cơ thể. Sản phẩm này có tác dụng điều trị và giúp dự phòng các bệnh cụ thể như:
+
+- Tình trạng thiếu hụt vitamin D: D-Cure giúp bổ sung vitamin D, điều trị tình trạng thiếu hụt vitamin D, giúp cơ thể có đủ vitamin D để duy trì sức khỏe.
+- Bị bệnh loãng xương: D-Cure có tác dụng hỗ trợ điều trị và dự phòng bệnh loãng xương, giúp duy trì sức khỏe và ngăn ngừa các vấn đề về xương.
+
+Tóm lại, D-Cure là một sản phẩm y tế có tác dụng điều trị và dự phòng các bệnh liên quan đến thiếu hụt vitamin D và loãng xương.","Dưới đây là các thông tin dùng để trả lời câu hỏi:
+
+- Tình trạng thiếu hụt vitamin D.
+- Bị bệnh loãng xương.",D-Cure có tác dụng dự phòng tình trạng thiếu hụt vitamin D.,"D-Cure là sản phẩm chứa vitamin D, giúp bổ sung vitamin D cho cơ thể. Theo thông tin trên, D-Cure có tác dụng điều trị và dự phòng các bệnh cụ thể như:
+
+- Tình trạng thiếu hụt vitamin D
+- Bị bệnh loãng xương",
+0,alpha-ai/LLAMA3-3B-Medical-COT,ViMedAQA_SP,D-Cure có tác dụng dự phòng những bệnh gì?,"Thuốc D-Cure là sản phẩm có chứa hàm lượng vitamin D, giúp bổ sung vitamin D cho cơ thể. Sản phẩm này có tác dụng điều trị cũng như giúp dự phòng các bệnh cụ thể như: - Tình trạng thiếu hụt vitamin D.
+- Bị bệnh loãng xương. ",D-Cure có tác dụng dự phòng tình trạng thiếu hụt vitamin D.,,,,,,,,,"D-Cure có tác dụng dự phòng tình trạng thiếu hụt vitamin D, cũng như giúp điều trị bệnh loãng xương."

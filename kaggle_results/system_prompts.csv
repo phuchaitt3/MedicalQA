@@ -1,0 +1,363 @@
+﻿Sample_ID,Model,System_Prompt_Variation,Question,Context,Ground_Truth_Answer,Answer_Current_Best_VI,Answer_Direct_VI,Answer_Expert_Persona_VI,Answer_Extract_VI,Answer_Few_Shot_VI,Answer_Full_VI,Answer_List_VI,Answer_No_Verbose_VI,Answer_RolePlay_VI,Answer_ViMedAQA_VI
+0,arcee-ai/Arcee-VyLinh,Default,D-Cure có tác dụng dự phòng những bệnh gì?,"Thuốc D-Cure là sản phẩm có chứa hàm lượng vitamin D, giúp bổ sung vitamin D cho cơ thể. Sản phẩm này có tác dụng điều trị cũng như giúp dự phòng các bệnh cụ thể như: - Tình trạng thiếu hụt vitamin D.
+- Bị bệnh loãng xương. ",D-Cure có tác dụng dự phòng tình trạng thiếu hụt vitamin D.,D-Cure có tác dụng dự phòng bệnh loãng xương.,D-Cure có tác dụng dự phòng bệnh loãng xương.,"D-Cure có tác dụng dự phòng bệnh loãng xương. Sản phẩm này được thiết kế để bổ sung vitamin D cho cơ thể, giúp phòng ngừa tình trạng thiếu hụt vitamin D và giảm nguy cơ mắc bệnh loãng xương.",D-Cure có tác dụng dự phòng bệnh loãng xương.,"D-Cure có tác dụng dự phòng những bệnh như:
+
+- Bị bệnh loãng xương.","D-Cure có tác dụng dự phòng những bệnh sau:
+
+- Tình trạng thiếu hụt vitamin D.
+- Bệnh loãng xương.",#NAME?,D-Cure có tác dụng dự phòng những bệnh như: - Tình trạng thiếu hụt vitamin D. - Bị bệnh loãng xương.,D-Cure có tác dụng dự phòng bệnh loãng xương.,D-Cure có tác dụng dự phòng bệnh loãng xương.
+0,arcee-ai/Arcee-VyLinh,ViMedAQA,D-Cure có tác dụng dự phòng những bệnh gì?,"Thuốc D-Cure là sản phẩm có chứa hàm lượng vitamin D, giúp bổ sung vitamin D cho cơ thể. Sản phẩm này có tác dụng điều trị cũng như giúp dự phòng các bệnh cụ thể như: - Tình trạng thiếu hụt vitamin D.
+- Bị bệnh loãng xương. ",D-Cure có tác dụng dự phòng tình trạng thiếu hụt vitamin D.,"Theo ngữ cảnh được cung cấp, thuốc D-Cure có tác dụng dự phòng những bệnh sau:
+
+1. Tình trạng thiếu hụt vitamin D
+2. Bệnh loãng xương
+
+Thuốc D-Cure được thiết kế để bổ sung vitamin D cho cơ thể, đồng thời giúp phòng ngừa các bệnh liên quan đến thiếu hụt vitamin D và bệnh loãng xương.","Theo ngữ cảnh được cung cấp, thuốc D-Cure có tác dụng dự phòng những bệnh sau:
+
+1. Tình trạng thiếu hụt vitamin D
+2. Bệnh loãng xương
+
+Thuốc D-Cure được thiết kế để bổ sung vitamin D cho cơ thể, đồng thời giúp phòng ngừa các bệnh liên quan đến thiếu hụt vitamin D và bệnh loãng xương.","Theo ngữ cảnh được cung cấp, thuốc D-Cure có tác dụng dự phòng những bệnh sau:
+
+1. Tình trạng thiếu hụt vitamin D
+2. Bệnh loãng xương
+
+Thuốc D-Cure được thiết kế để bổ sung vitamin D cho cơ thể, đồng thời giúp phòng ngừa các bệnh liên quan đến thiếu hụt vitamin D và bệnh loãng xương.","Theo ngữ cảnh được cung cấp, thuốc D-Cure có tác dụng dự phòng những bệnh sau:
+
+1. Tình trạng thiếu hụt vitamin D
+2. Bệnh loãng xương
+
+Thuốc D-Cure được thiết kế để bổ sung vitamin D cho cơ thể, đồng thời giúp phòng ngừa các bệnh liên quan đến thiếu hụt vitamin D và bệnh loãng xương.","Theo ngữ cảnh được cung cấp, thuốc D-Cure có tác dụng dự phòng những bệnh sau:
+
+1. Tình trạng thiếu hụt vitamin D
+2. Bệnh loãng xương
+
+Thuốc D-Cure được thiết kế để bổ sung vitamin D cho cơ thể, đồng thời giúp phòng ngừa các bệnh liên quan đến thiếu hụt vitamin D và bệnh loãng xương.","Theo ngữ cảnh được cung cấp, thuốc D-Cure có tác dụng dự phòng những bệnh sau:
+
+1. Tình trạng thiếu hụt vitamin D
+2. Bệnh loãng xương
+
+Thuốc D-Cure được thiết kế để bổ sung vitamin D cho cơ thể, đồng thời giúp phòng ngừa các bệnh liên quan đến thiếu hụt vitamin D và bệnh loãng xương.","Theo ngữ cảnh được cung cấp, thuốc D-Cure có tác dụng dự phòng những bệnh sau:
+
+1. Tình trạng thiếu hụt vitamin D
+2. Bệnh loãng xương
+
+Thuốc D-Cure được thiết kế để bổ sung vitamin D cho cơ thể, đồng thời giúp phòng ngừa các bệnh liên quan đến thiếu hụt vitamin D và bệnh loãng xương.","Theo ngữ cảnh được cung cấp, thuốc D-Cure có tác dụng dự phòng những bệnh sau:
+
+1. Tình trạng thiếu hụt vitamin D
+2. Bệnh loãng xương
+
+Thuốc D-Cure được thiết kế để bổ sung vitamin D cho cơ thể, đồng thời giúp phòng ngừa các bệnh liên quan đến thiếu hụt vitamin D và bệnh loãng xương.","Theo ngữ cảnh được cung cấp, thuốc D-Cure có tác dụng dự phòng những bệnh sau:
+
+1. Tình trạng thiếu hụt vitamin D
+2. Bệnh loãng xương
+
+Thuốc D-Cure được thiết kế để bổ sung vitamin D cho cơ thể, đồng thời giúp phòng ngừa các bệnh liên quan đến thiếu hụt vitamin D và bệnh loãng xương.","Theo ngữ cảnh được cung cấp, thuốc D-Cure có tác dụng dự phòng những bệnh sau:
+
+1. Tình trạng thiếu hụt vitamin D
+2. Bệnh loãng xương
+
+Thuốc D-Cure được thiết kế để bổ sung vitamin D cho cơ thể, đồng thời giúp phòng ngừa các bệnh liên quan đến thiếu hụt vitamin D và bệnh loãng xương."
+0,vilm/vietcuna-3b-v2,Default,D-Cure có tác dụng dự phòng những bệnh gì?,"Thuốc D-Cure là sản phẩm có chứa hàm lượng vitamin D, giúp bổ sung vitamin D cho cơ thể. Sản phẩm này có tác dụng điều trị cũng như giúp dự phòng các bệnh cụ thể như: - Tình trạng thiếu hụt vitamin D.
+- Bị bệnh loãng xương. ",D-Cure có tác dụng dự phòng tình trạng thiếu hụt vitamin D.,D-Cure có tác dụng dự phòng các bệnh như bệnh loãng xương.,"D-Cure có tác dụng dự phòng các bệnh như tình trạng thiếu hụt vitamin D, bệnh loãng xương và các bệnh liên quan đến xương khớp khác.","D-Cure có tác dụng dự phòng các bệnh như tình trạng thiếu hụt vitamin D, bệnh loãng xương và các bệnh về xương khớp khác.","D-Cure có tác dụng dự phòng các bệnh như tình trạng thiếu hụt vitamin D, bệnh loãng xương và các bệnh liên quan đến xương khớp.","D-Cure có tác dụng dự phòng các bệnh như bệnh loãng xương, thiếu hụt vitamin D và bệnh loét dạ dày – ruột.","D-Cure có tác dụng dự phòng các bệnh như tình trạng thiếu hụt vitamin D, bệnh loãng xương và bệnh tim mạch.","D-Cure có tác dụng dự phòng các bệnh như tình trạng thiếu hụt vitamin D, bệnh loãng xương và các bệnh liên quan đến xương khớp khác.","D-Cure có tác dụng dự phòng các bệnh như tình trạng thiếu hụt vitamin D, bệnh loãng xương và các bệnh liên quan đến xương khớp khác.","D-Cure có tác dụng dự phòng các bệnh như tình trạng thiếu hụt vitamin D, bệnh loãng xương và bệnh tim mạch.","D-Cure có tác dụng dự phòng các bệnh như tình trạng thiếu hụt vitamin D, bệnh loãng xương và các bệnh về xương khớp khác."
+0,vilm/vietcuna-3b-v2,ViMedAQA,D-Cure có tác dụng dự phòng những bệnh gì?,"Thuốc D-Cure là sản phẩm có chứa hàm lượng vitamin D, giúp bổ sung vitamin D cho cơ thể. Sản phẩm này có tác dụng điều trị cũng như giúp dự phòng các bệnh cụ thể như: - Tình trạng thiếu hụt vitamin D.
+- Bị bệnh loãng xương. ",D-Cure có tác dụng dự phòng tình trạng thiếu hụt vitamin D.,"D-Cure có tác dụng dự phòng các bệnh như bệnh loãng xương, bệnh tim mạch và bệnh tiểu đường.","D-Cure có tác dụng dự phòng các bệnh như bệnh loãng xương, bệnh tim mạch và bệnh tiểu đường.","D-Cure có tác dụng dự phòng các bệnh như bệnh loãng xương, bệnh tim mạch và bệnh tiểu đường.","D-Cure có tác dụng dự phòng các bệnh như bệnh loãng xương, bệnh tim mạch và bệnh tiểu đường.","D-Cure có tác dụng dự phòng các bệnh như bệnh loãng xương, bệnh tim mạch và bệnh tiểu đường.","D-Cure có tác dụng dự phòng các bệnh như bệnh loãng xương, bệnh tim mạch và bệnh tiểu đường.","D-Cure có tác dụng dự phòng các bệnh như bệnh loãng xương, bệnh tim mạch và bệnh tiểu đường.","D-Cure có tác dụng dự phòng các bệnh như bệnh loãng xương, bệnh tim mạch và bệnh tiểu đường.","D-Cure có tác dụng dự phòng các bệnh như bệnh loãng xương, bệnh tim mạch và bệnh tiểu đường.","D-Cure có tác dụng dự phòng các bệnh như bệnh loãng xương, bệnh tim mạch và bệnh tiểu đường."
+1,arcee-ai/Arcee-VyLinh,Default,Điều quan trọng cần làm khi dùng quá liều Atidogrel là gì?,"Trong các trường hợp có dấu hiệu bất thường do dùng quá liều hay khẩn cấp, bạn phải đến càng sớm càng tốt cơ sở y tế gần nhất. Hoặc bạn có thể liên hệ Trung tâm cấp cứu 115 để được xử trí ngay lập tức. Người thân cần khai báo cho bác sĩ tất cả các thuốc kê toa và không kê toa đang dùng.",Đi đến cơ sở y tế gần nhất hoặc liên hệ Trung tâm cấp cứu 115 càng sớm càng tốt.,Điều quan trọng cần làm khi dùng quá liều Atidogrel là đến cơ sở y tế gần nhất hoặc liên hệ Trung tâm cấp cứu 115 để được xử trí ngay lập tức.,"Khi dùng quá liều Atorvastatin (Atidogrel), điều quan trọng cần làm là:
+
+1. Đến ngay cơ sở y tế gần nhất hoặc liên hệ Trung tâm cấp cứu 115 để được xử trí ngay lập tức.
+2. Người thân cần khai báo cho bác sĩ tất cả các thuốc kê toa và không kê toa đang dùng.
+3. Không tự ý ngừng hoặc thay đổi liều lượng thuốc mà không có sự hướng dẫn của bác sĩ.
+
+Điều này giúp bác sĩ có thể đánh giá tình trạng của bạn và cung cấp phương pháp điều trị phù hợp.","Khi dùng quá liều Atorvastatin (Atidogrel), điều quan trọng cần làm là:
+
+1. Đến ngay cơ sở y tế gần nhất hoặc liên hệ Trung tâm cấp cứu 115 để được xử trí ngay lập tức.
+2. Người thân cần khai báo cho bác sĩ tất cả các thuốc kê toa và không kê toa đang dùng.
+3. Không tự ý ngừng hoặc thay đổi liều lượng thuốc mà không có sự hướng dẫn của bác sĩ.
+4. Tránh tự ý dùng thuốc khác để điều trị, vì có thể gây ra phản ứng phụ hoặc tương tác thuốc.
+5. Nếu có dấu hiệu bất thường như đau đầu, chóng mặt, khó thở, hãy gọi ngay cho Trung tâm cấp cứu 115.",Điều quan trọng cần làm khi dùng quá liều Atidogrel là đến cơ sở y tế gần nhất hoặc liên hệ Trung tâm cấp cứu 115.,Điều quan trọng cần làm khi dùng quá liều Atidogrel là đến càng sớm càng tốt cơ sở y tế gần nhất hoặc liên hệ Trung tâm cấp cứu 115 để được xử trí ngay lập tức. Người thân cần khai báo cho bác sĩ tất cả các thuốc kê toa và không kê toa đang dùng.,"Điều quan trọng cần làm khi dùng quá liều Atidogrel bao gồm:
+
+1. Đến cơ sở y tế gần nhất hoặc liên hệ Trung tâm cấp cứu 115 ngay lập tức.
+2. Người thân cần khai báo cho bác sĩ tất cả các thuốc kê toa và không kê toa đang dùng.
+3. Không tự ý ngừng hoặc điều chỉnh liều lượng thuốc mà không có sự hướng dẫn của bác sĩ.
+
+Những điều này giúp bác sĩ có thể đánh giá tình trạng của bạn một cách chính xác và cung cấp phương pháp điều trị phù hợp.","- Đến cơ sở y tế gần nhất hoặc liên hệ Trung tâm cấp cứu 115
+- Người thân cần khai báo tất cả thuốc kê toa và không kê toa đang dùng",Điều quan trọng cần làm khi dùng quá liều Atidogrel là đến càng sớm càng tốt cơ sở y tế gần nhất hoặc liên hệ Trung tâm cấp cứu 115 để được xử trí ngay lập tức.,"Trong trường hợp dùng quá liều Atorvastatin (Atidogrel), điều quan trọng cần làm là:
+
+1. Đến ngay cơ sở y tế gần nhất hoặc liên hệ Trung tâm cấp cứu 115.
+2. Người thân cần khai báo cho bác sĩ tất cả các thuốc kê toa và không kê toa đang dùng.
+3. Không tự ý ngừng hoặc thay đổi liều lượng thuốc mà không có sự hướng dẫn của bác sĩ.
+
+Điều này giúp bác sĩ có thể cung cấp hỗ trợ y tế phù hợp và kịp thời cho trường hợp khẩn cấp này.","Khi dùng quá liều Atorvastatin (Atidogrel), điều quan trọng cần làm là:
+
+1. Đến ngay cơ sở y tế gần nhất hoặc liên hệ Trung tâm cấp cứu 115 để được xử trí ngay lập tức.
+2. Người thân cần khai báo cho bác sĩ tất cả các thuốc kê toa và không kê toa đang dùng.
+3. Không tự ý ngừng hoặc thay đổi liều lượng thuốc mà không có sự hướng dẫn của bác sĩ.
+
+Điều này giúp bác sĩ có thể đánh giá tình trạng của bạn và cung cấp phương pháp điều trị phù hợp."
+1,arcee-ai/Arcee-VyLinh,ViMedAQA,Điều quan trọng cần làm khi dùng quá liều Atidogrel là gì?,"Trong các trường hợp có dấu hiệu bất thường do dùng quá liều hay khẩn cấp, bạn phải đến càng sớm càng tốt cơ sở y tế gần nhất. Hoặc bạn có thể liên hệ Trung tâm cấp cứu 115 để được xử trí ngay lập tức. Người thân cần khai báo cho bác sĩ tất cả các thuốc kê toa và không kê toa đang dùng.",Đi đến cơ sở y tế gần nhất hoặc liên hệ Trung tâm cấp cứu 115 càng sớm càng tốt.,"Khi dùng quá liều Atorvastatin (Atidogrel), điều quan trọng cần làm là:
+
+1. Đến ngay cơ sở y tế gần nhất hoặc liên hệ Trung tâm cấp cứu 115 ngay lập tức.
+2. Người thân cần khai báo cho bác sĩ tất cả các thuốc kê toa và không kê toa đang dùng.
+3. Không tự ý ngừng hoặc thay đổi liều lượng thuốc mà không có sự hướng dẫn của bác sĩ.
+
+Điều này giúp bác sĩ có thể cung cấp hỗ trợ y tế phù hợp và kịp thời cho trường hợp khẩn cấp.","Khi dùng quá liều Atorvastatin (Atidogrel), điều quan trọng cần làm là:
+
+1. Đến ngay cơ sở y tế gần nhất hoặc liên hệ Trung tâm cấp cứu 115 ngay lập tức.
+2. Người thân cần khai báo cho bác sĩ tất cả các thuốc kê toa và không kê toa đang dùng.
+3. Không tự ý ngừng hoặc thay đổi liều lượng thuốc mà không có sự hướng dẫn của bác sĩ.
+
+Điều này giúp bác sĩ có thể cung cấp hỗ trợ y tế phù hợp và kịp thời cho trường hợp khẩn cấp.","Khi dùng quá liều Atorvastatin (Atidogrel), điều quan trọng cần làm là:
+
+1. Đến ngay cơ sở y tế gần nhất hoặc liên hệ Trung tâm cấp cứu 115 ngay lập tức.
+2. Người thân cần khai báo cho bác sĩ tất cả các thuốc kê toa và không kê toa đang dùng.
+3. Không tự ý ngừng hoặc thay đổi liều lượng thuốc mà không có sự hướng dẫn của bác sĩ.
+
+Điều này giúp bác sĩ có thể cung cấp hỗ trợ y tế phù hợp và kịp thời cho trường hợp khẩn cấp.","Khi dùng quá liều Atorvastatin (Atidogrel), điều quan trọng cần làm là:
+
+1. Đến ngay cơ sở y tế gần nhất hoặc liên hệ Trung tâm cấp cứu 115 ngay lập tức.
+2. Người thân cần khai báo cho bác sĩ tất cả các thuốc kê toa và không kê toa đang dùng.
+3. Không tự ý ngừng hoặc thay đổi liều lượng thuốc mà không có sự hướng dẫn của bác sĩ.
+
+Điều này giúp bác sĩ có thể cung cấp hỗ trợ y tế phù hợp và kịp thời cho trường hợp khẩn cấp.","Khi dùng quá liều Atorvastatin (Atidogrel), điều quan trọng cần làm là:
+
+1. Đến ngay cơ sở y tế gần nhất hoặc liên hệ Trung tâm cấp cứu 115 ngay lập tức.
+2. Người thân cần khai báo cho bác sĩ tất cả các thuốc kê toa và không kê toa đang dùng.
+3. Không tự ý ngừng hoặc thay đổi liều lượng thuốc mà không có sự hướng dẫn của bác sĩ.
+
+Điều này giúp bác sĩ có thể cung cấp hỗ trợ y tế phù hợp và kịp thời cho trường hợp khẩn cấp.","Khi dùng quá liều Atorvastatin (Atidogrel), điều quan trọng cần làm là:
+
+1. Đến ngay cơ sở y tế gần nhất hoặc liên hệ Trung tâm cấp cứu 115 ngay lập tức.
+2. Người thân cần khai báo cho bác sĩ tất cả các thuốc kê toa và không kê toa đang dùng.
+3. Không tự ý ngừng hoặc thay đổi liều lượng thuốc mà không có sự hướng dẫn của bác sĩ.
+
+Điều này giúp bác sĩ có thể cung cấp hỗ trợ y tế phù hợp và kịp thời cho trường hợp khẩn cấp.","Khi dùng quá liều Atorvastatin (Atidogrel), điều quan trọng cần làm là:
+
+1. Đến ngay cơ sở y tế gần nhất hoặc liên hệ Trung tâm cấp cứu 115 ngay lập tức.
+2. Người thân cần khai báo cho bác sĩ tất cả các thuốc kê toa và không kê toa đang dùng.
+3. Không tự ý ngừng hoặc thay đổi liều lượng thuốc mà không có sự hướng dẫn của bác sĩ.
+
+Điều này giúp bác sĩ có thể cung cấp hỗ trợ y tế phù hợp và kịp thời cho trường hợp khẩn cấp.","Khi dùng quá liều Atorvastatin (Atidogrel), điều quan trọng cần làm là:
+
+1. Đến ngay cơ sở y tế gần nhất hoặc liên hệ Trung tâm cấp cứu 115 ngay lập tức.
+2. Người thân cần khai báo cho bác sĩ tất cả các thuốc kê toa và không kê toa đang dùng.
+3. Không tự ý ngừng hoặc thay đổi liều lượng thuốc mà không có sự hướng dẫn của bác sĩ.
+
+Điều này giúp bác sĩ có thể cung cấp hỗ trợ y tế phù hợp và kịp thời cho trường hợp khẩn cấp.","Khi dùng quá liều Atorvastatin (Atidogrel), điều quan trọng cần làm là:
+
+1. Đến ngay cơ sở y tế gần nhất hoặc liên hệ Trung tâm cấp cứu 115 ngay lập tức.
+2. Người thân cần khai báo cho bác sĩ tất cả các thuốc kê toa và không kê toa đang dùng.
+3. Không tự ý ngừng hoặc thay đổi liều lượng thuốc mà không có sự hướng dẫn của bác sĩ.
+
+Điều này giúp bác sĩ có thể cung cấp hỗ trợ y tế phù hợp và kịp thời cho trường hợp khẩn cấp.","Khi dùng quá liều Atorvastatin (Atidogrel), điều quan trọng cần làm là:
+
+1. Đến ngay cơ sở y tế gần nhất hoặc liên hệ Trung tâm cấp cứu 115 ngay lập tức.
+2. Người thân cần khai báo cho bác sĩ tất cả các thuốc kê toa và không kê toa đang dùng.
+3. Không tự ý ngừng hoặc thay đổi liều lượng thuốc mà không có sự hướng dẫn của bác sĩ.
+
+Điều này giúp bác sĩ có thể cung cấp hỗ trợ y tế phù hợp và kịp thời cho trường hợp khẩn cấp."
+1,vilm/vietcuna-3b-v2,Default,Điều quan trọng cần làm khi dùng quá liều Atidogrel là gì?,"Trong các trường hợp có dấu hiệu bất thường do dùng quá liều hay khẩn cấp, bạn phải đến càng sớm càng tốt cơ sở y tế gần nhất. Hoặc bạn có thể liên hệ Trung tâm cấp cứu 115 để được xử trí ngay lập tức. Người thân cần khai báo cho bác sĩ tất cả các thuốc kê toa và không kê toa đang dùng.",Đi đến cơ sở y tế gần nhất hoặc liên hệ Trung tâm cấp cứu 115 càng sớm càng tốt.,"Khi dùng quá liều Atidogrel, điều quan trọng là phải đến càng sớm càng tốt cơ sở y tế gần nhất.","Khi dùng quá liều Atidogrel, điều quan trọng là phải đến ngay cơ sở y tế gần nhất để được xử lý.",Điều quan trọng cần làm khi dùng quá liều Atidogrel là gọi ngay cho bác sĩ hoặc trung tâm cấp cứu 115.,"Khi dùng quá liều Atidogrel, bạn cần đến ngay cơ sở y tế gần nhất.",Điều quan trọng cần làm khi dùng quá liều Atidogrel là gọi ngay cho bác sĩ hoặc trung tâm cấp cứu 115 để được xử trí ngay lập tức.,"Khi dùng quá liều Atidogrel, điều quan trọng là phải báo ngay cho bác sĩ hoặc trung tâm cấp cứu 115.","Khi dùng quá liều Atidogrel, điều quan trọng là phải đến ngay cơ sở y tế gần nhất để được xử lý.","Khi dùng quá liều Atidogrel, bạn cần đến ngay cơ sở y tế gần nhất hoặc Trung tâm cấp cứu 115 để được xử lý ngay lập tức. Người thân cần khai báo cho bác sĩ tất cả các thuốc kê toa và không kê toa đang dùng.",Điều quan trọng cần làm khi dùng quá liều Atidogrel là gọi ngay cho bác sĩ hoặc trung tâm cấp cứu 115.,"Khi dùng quá liều Atidogrel, bạn cần đến ngay cơ sở y tế gần nhất để được xử lý."
+1,vilm/vietcuna-3b-v2,ViMedAQA,Điều quan trọng cần làm khi dùng quá liều Atidogrel là gì?,"Trong các trường hợp có dấu hiệu bất thường do dùng quá liều hay khẩn cấp, bạn phải đến càng sớm càng tốt cơ sở y tế gần nhất. Hoặc bạn có thể liên hệ Trung tâm cấp cứu 115 để được xử trí ngay lập tức. Người thân cần khai báo cho bác sĩ tất cả các thuốc kê toa và không kê toa đang dùng.",Đi đến cơ sở y tế gần nhất hoặc liên hệ Trung tâm cấp cứu 115 càng sớm càng tốt.,"Atidogrel là một loại thuốc kê toa được sử dụng để điều trị huyết áp cao. Khi dùng quá liều, điều quan trọng là phải đến ngay cơ sở y tế gần nhất để được xử lý.","Atidogrel là một loại thuốc kê toa được sử dụng để điều trị huyết áp cao. Khi dùng quá liều, điều quan trọng là phải đến ngay cơ sở y tế gần nhất để được xử lý.","Atidogrel là một loại thuốc kê toa được sử dụng để điều trị huyết áp cao. Khi dùng quá liều, điều quan trọng là phải đến ngay cơ sở y tế gần nhất để được xử lý.","Atidogrel là một loại thuốc kê toa được sử dụng để điều trị huyết áp cao. Khi dùng quá liều, điều quan trọng là phải đến ngay cơ sở y tế gần nhất để được xử lý.","Atidogrel là một loại thuốc kê toa được sử dụng để điều trị huyết áp cao. Khi dùng quá liều, điều quan trọng là phải đến ngay cơ sở y tế gần nhất để được xử lý.","Atidogrel là một loại thuốc kê toa được sử dụng để điều trị huyết áp cao. Khi dùng quá liều, điều quan trọng là phải đến ngay cơ sở y tế gần nhất để được xử lý.","Atidogrel là một loại thuốc kê toa được sử dụng để điều trị huyết áp cao. Khi dùng quá liều, điều quan trọng là phải đến ngay cơ sở y tế gần nhất để được xử lý.","Atidogrel là một loại thuốc kê toa được sử dụng để điều trị huyết áp cao. Khi dùng quá liều, điều quan trọng là phải đến ngay cơ sở y tế gần nhất để được xử lý.","Atidogrel là một loại thuốc kê toa được sử dụng để điều trị huyết áp cao. Khi dùng quá liều, điều quan trọng là phải đến ngay cơ sở y tế gần nhất để được xử lý.","Atidogrel là một loại thuốc kê toa được sử dụng để điều trị huyết áp cao. Khi dùng quá liều, điều quan trọng là phải đến ngay cơ sở y tế gần nhất để được xử lý."
+2,arcee-ai/Arcee-VyLinh,Default,Nước Hương nhu được sử dụng như thế nào?,"Tác dụng dược lý chống lại Streptococcus mutans, “con sâu răng huyền thoại”, cho thấy Hương nhu có thể được sử dụng như một loại nước súc miệng. Loại nước “thần dược” này dùng điều trị hôi miệng, nha chu và loét miệng. Hiệu quả tương đương 0,2% Clorhexidine và Listerine, ưu việt hơn vì có mùi dễ chịu. Sự kết hợp độc đáo giữa các hoạt động chống oxy hóa, chống viêm và giảm đau cũng giúp ích cho việc chữa lành vết thương. Có thể chữa lành vết loét do rượu, meloxicam và loét do căng thẳng gây ra. Bằng cách giảm bài tiết axit pepsin và peroxid, tăng cường yếu tố bảo vệ dạ dày như tiết chất nhầy và tăng tuổi thọ tế bào niêm mạc.","Nước Hương nhu có thể được sử dụng như một loại nước súc miệng để hỗ trợ điều trị các vấn đề như hôi miệng, nha chu và loét miệng.","Nước Hương nhu được sử dụng như nước súc miệng để điều trị hôi miệng, nha chu và loét miệng.","Nước Hương nhu được sử dụng như một loại nước súc miệng để điều trị hôi miệng, nha chu và loét miệng. Nó cũng có thể được sử dụng để chữa lành vết loét do rượu, loét do meloxicam và do căng thẳng gây ra.","Nước Hương nhu được sử dụng như một loại nước súc miệng để điều trị các vấn đề như hôi miệng, nha chu và loét miệng. Nó có thể được sử dụng để chữa lành vết loét do rượu, loét do meloxicam và do căng thẳng gây ra. Ngoài ra, nước Hương nhu còn có thể giúp giảm bài tiết axit pepsin và peroxid, tăng cường yếu tố bảo vệ dạ dày như tiết chất nhầy và tăng tuổi thọ tế bào niêm mạc.","Nước Hương nhu được sử dụng như một loại nước súc miệng để điều trị hôi miệng, nha chu và loét miệng.","Nước Hương nhu được sử dụng như một loại nước súc miệng để điều trị hôi miệng, nha chu và loét miệng. Nó có thể chữa lành vết loét do rượu, loét do meloxicam và do căng thẳng gây ra. Nước này giúp giảm bài tiết axit pepsin và peroxid, tăng cường yếu tố bảo vệ dạ dày như tiết chất nhầy và tăng tuổi thọ tế bào niêm mạc.","Nước Hương nhu được sử dụng như một loại nước súc miệng để điều trị các vấn đề như hôi miệng, nha chu và loét miệng. Nó có thể được sử dụng để chữa lành vết loét do rượu, loét do meloxicam và do căng thẳng gây ra. Nước Hương nhu có thể giúp chữa lành vết thương nhờ khả năng giảm bài tiết axit pepsin và peroxid, đồng thời tăng cường yếu tố bảo vệ dạ dày như tiết chất nhầy và tăng tuổi thọ tế bào niêm mạc.",#NAME?,"Nước Hương nhu được sử dụng như một loại nước súc miệng để điều trị hôi miệng, nha chu và loét miệng.","Nước Hương nhu được sử dụng như một loại nước súc miệng để điều trị hôi miệng, nha chu và loét miệng. Nó cũng có thể được sử dụng để chữa lành vết loét do rượu, loét do meloxicam và do căng thẳng gây ra.","Nước Hương nhu được sử dụng như một loại nước súc miệng để điều trị các vấn đề như hôi miệng, nha chu và loét miệng. Nó cũng có thể được sử dụng để chữa lành vết loét do rượu, loét do meloxicam và do căng thẳng gây ra."
+2,arcee-ai/Arcee-VyLinh,ViMedAQA,Nước Hương nhu được sử dụng như thế nào?,"Tác dụng dược lý chống lại Streptococcus mutans, “con sâu răng huyền thoại”, cho thấy Hương nhu có thể được sử dụng như một loại nước súc miệng. Loại nước “thần dược” này dùng điều trị hôi miệng, nha chu và loét miệng. Hiệu quả tương đương 0,2% Clorhexidine và Listerine, ưu việt hơn vì có mùi dễ chịu. Sự kết hợp độc đáo giữa các hoạt động chống oxy hóa, chống viêm và giảm đau cũng giúp ích cho việc chữa lành vết thương. Có thể chữa lành vết loét do rượu, meloxicam và loét do căng thẳng gây ra. Bằng cách giảm bài tiết axit pepsin và peroxid, tăng cường yếu tố bảo vệ dạ dày như tiết chất nhầy và tăng tuổi thọ tế bào niêm mạc.","Nước Hương nhu có thể được sử dụng như một loại nước súc miệng để hỗ trợ điều trị các vấn đề như hôi miệng, nha chu và loét miệng.","Nước Hương nhu được sử dụng như một loại nước súc miệng. Nó có thể được sử dụng để điều trị các vấn đề như hôi miệng, nha chu và loét miệng. Đặc biệt, nước này có thể giúp chữa lành vết loét do rượu, loét do meloxicam và do căng thẳng gây ra.","Nước Hương nhu được sử dụng như một loại nước súc miệng. Nó có thể được sử dụng để điều trị các vấn đề như hôi miệng, nha chu và loét miệng. Đặc biệt, nước này có thể giúp chữa lành vết loét do rượu, loét do meloxicam và do căng thẳng gây ra.","Nước Hương nhu được sử dụng như một loại nước súc miệng. Nó có thể được sử dụng để điều trị các vấn đề như hôi miệng, nha chu và loét miệng. Đặc biệt, nước này có thể giúp chữa lành vết loét do rượu, loét do meloxicam và do căng thẳng gây ra.","Nước Hương nhu được sử dụng như một loại nước súc miệng. Nó có thể được sử dụng để điều trị các vấn đề như hôi miệng, nha chu và loét miệng. Đặc biệt, nước này có thể giúp chữa lành vết loét do rượu, loét do meloxicam và do căng thẳng gây ra.","Nước Hương nhu được sử dụng như một loại nước súc miệng. Nó có thể được sử dụng để điều trị các vấn đề như hôi miệng, nha chu và loét miệng. Đặc biệt, nước này có thể giúp chữa lành vết loét do rượu, loét do meloxicam và do căng thẳng gây ra.","Nước Hương nhu được sử dụng như một loại nước súc miệng. Nó có thể được sử dụng để điều trị các vấn đề như hôi miệng, nha chu và loét miệng. Đặc biệt, nước này có thể giúp chữa lành vết loét do rượu, loét do meloxicam và do căng thẳng gây ra.","Nước Hương nhu được sử dụng như một loại nước súc miệng. Nó có thể được sử dụng để điều trị các vấn đề như hôi miệng, nha chu và loét miệng. Đặc biệt, nước này có thể giúp chữa lành vết loét do rượu, loét do meloxicam và do căng thẳng gây ra.","Nước Hương nhu được sử dụng như một loại nước súc miệng. Nó có thể được sử dụng để điều trị các vấn đề như hôi miệng, nha chu và loét miệng. Đặc biệt, nước này có thể giúp chữa lành vết loét do rượu, loét do meloxicam và do căng thẳng gây ra.","Nước Hương nhu được sử dụng như một loại nước súc miệng. Nó có thể được sử dụng để điều trị các vấn đề như hôi miệng, nha chu và loét miệng. Đặc biệt, nước này có thể giúp chữa lành vết loét do rượu, loét do meloxicam và do căng thẳng gây ra.","Nước Hương nhu được sử dụng như một loại nước súc miệng. Nó có thể được sử dụng để điều trị các vấn đề như hôi miệng, nha chu và loét miệng. Đặc biệt, nước này có thể giúp chữa lành vết loét do rượu, loét do meloxicam và do căng thẳng gây ra."
+2,vilm/vietcuna-3b-v2,Default,Nước Hương nhu được sử dụng như thế nào?,"Tác dụng dược lý chống lại Streptococcus mutans, “con sâu răng huyền thoại”, cho thấy Hương nhu có thể được sử dụng như một loại nước súc miệng. Loại nước “thần dược” này dùng điều trị hôi miệng, nha chu và loét miệng. Hiệu quả tương đương 0,2% Clorhexidine và Listerine, ưu việt hơn vì có mùi dễ chịu. Sự kết hợp độc đáo giữa các hoạt động chống oxy hóa, chống viêm và giảm đau cũng giúp ích cho việc chữa lành vết thương. Có thể chữa lành vết loét do rượu, meloxicam và loét do căng thẳng gây ra. Bằng cách giảm bài tiết axit pepsin và peroxid, tăng cường yếu tố bảo vệ dạ dày như tiết chất nhầy và tăng tuổi thọ tế bào niêm mạc.","Nước Hương nhu có thể được sử dụng như một loại nước súc miệng để hỗ trợ điều trị các vấn đề như hôi miệng, nha chu và loét miệng.",Nước Hương nhu được sử dụng như một loại nước súc miệng.,Nước hương nhu được sử dụng như một loại nước súc miệng.,Nước Hương nhu được sử dụng như một loại nước súc miệng.,Nước Hương nhu được sử dụng như một loại nước súc miệng.,"Nước Hương nhu được sử dụng như một loại nước súc miệng. Nó có thể được sử dụng để điều trị hôi miệng, nha chu và loét miệng. Hiệu quả tương đương 0,2% Clorhexidine và Listerine, ưu việt hơn vì có mùi dễ chịu. Sự kết hợp độc đáo giữa các hoạt động chống oxy hóa, chống viêm và giảm đau cũng giúp ích cho việc chữa lành vết thương. Bằng cách giảm bài tiết axit pepsin và peroxid, tăng cường yếu tố bảo vệ dạ dày như tiết chất nhầy và tăng tuổi thọ tế bào niêm mạc.",Nước Hương nhu được sử dụng như một loại nước súc miệng.,Nước Hương nhu được sử dụng như một loại nước súc miệng.,"Nước Hương nhu được sử dụng như một loại nước súc miệng. Nó có thể được sử dụng để điều trị các bệnh về răng miệng như hôi miệng, nha chu và loét miệng. Hiệu quả tương đương 0,2% Clorhexidine và Listerine, và nó có mùi thơm dễ chịu. Sự kết hợp độc đáo giữa các hoạt động chống oxy hóa, chống viêm và giảm đau cũng giúp ích cho việc chữa lành vết thương. Bằng cách giảm bài tiết axit pepsin và peroxid, tăng cường yếu tố bảo vệ dạ dày như tiết chất nhầy và tăng tuổi thọ tế bào niêm mạc.",Nước Hương nhu được sử dụng như một loại nước súc miệng.,"Nước hương nhu được sử dụng như một loại nước súc miệng. Nó có tác dụng dược lý chống lại Streptococcus mutans, một loại vi khuẩn gây sâu răng, và có thể chữa lành vết loét do rượu, meloxicam và loét do căng thẳng gây ra."
+2,vilm/vietcuna-3b-v2,ViMedAQA,Nước Hương nhu được sử dụng như thế nào?,"Tác dụng dược lý chống lại Streptococcus mutans, “con sâu răng huyền thoại”, cho thấy Hương nhu có thể được sử dụng như một loại nước súc miệng. Loại nước “thần dược” này dùng điều trị hôi miệng, nha chu và loét miệng. Hiệu quả tương đương 0,2% Clorhexidine và Listerine, ưu việt hơn vì có mùi dễ chịu. Sự kết hợp độc đáo giữa các hoạt động chống oxy hóa, chống viêm và giảm đau cũng giúp ích cho việc chữa lành vết thương. Có thể chữa lành vết loét do rượu, meloxicam và loét do căng thẳng gây ra. Bằng cách giảm bài tiết axit pepsin và peroxid, tăng cường yếu tố bảo vệ dạ dày như tiết chất nhầy và tăng tuổi thọ tế bào niêm mạc.","Nước Hương nhu có thể được sử dụng như một loại nước súc miệng để hỗ trợ điều trị các vấn đề như hôi miệng, nha chu và loét miệng.",Nước hương nhu được sử dụng như một loại nước súc miệng.,Nước hương nhu được sử dụng như một loại nước súc miệng.,Nước hương nhu được sử dụng như một loại nước súc miệng.,Nước hương nhu được sử dụng như một loại nước súc miệng.,Nước hương nhu được sử dụng như một loại nước súc miệng.,Nước hương nhu được sử dụng như một loại nước súc miệng.,Nước hương nhu được sử dụng như một loại nước súc miệng.,Nước hương nhu được sử dụng như một loại nước súc miệng.,Nước hương nhu được sử dụng như một loại nước súc miệng.,Nước hương nhu được sử dụng như một loại nước súc miệng.
+3,arcee-ai/Arcee-VyLinh,Default,Dầu mù u có thể gây ra tác dụng phụ gì?,"Dầu mù u được xem là an toàn khi sử dụng tại chỗ, nhưng có thể gây dị ứng ở một số người. Khi có các triệu chứng ngứa, đỏ, kích ứng hoặc gặp các tác dụng phụ khác khi bôi loại dầu này lên da thì hãy ngừng sử dụng ngay lập tức.",Dầu mù u có thể gây dị ứng ở một số người.,"Dầu mù u có thể gây ra tác dụng phụ như ngứa, đỏ, kích ứng.","Dầu mù u có thể gây ra các tác dụng phụ như ngứa, đỏ và kích ứng khi sử dụng tại chỗ. Nếu gặp các triệu chứng này, bạn nên ngừng sử dụng và liên hệ với chuyên gia y tế.","Dầu mù u có thể gây ra các tác dụng phụ như ngứa, đỏ và kích ứng khi sử dụng tại chỗ. Nếu gặp các triệu chứng này, bạn nên ngừng sử dụng và liên hệ với chuyên gia y tế.","Dầu mù u có thể gây ra tác dụng phụ: ngứa, đỏ, kích ứng.","Dầu mù u có thể gây ra các tác dụng phụ sau khi sử dụng tại chỗ:
+
+- Ngứa
+- Đỏ
+- Kích ứng
+- Các tác dụng phụ khác","Dầu mù u có thể gây ra các tác dụng phụ sau khi sử dụng tại chỗ:
+
+1. Dị ứng
+2. Ngứa
+3. Đỏ
+4. Kích ứng
+
+Nếu gặp các triệu chứng trên, người dùng nên ngừng sử dụng ngay và liên hệ với chuyên gia y tế nếu cần.",#NAME?,"Dầu mù u có thể gây ra tác dụng phụ như ngứa, đỏ và kích ứng khi sử dụng.","Dầu mù u có thể gây ra các tác dụng phụ như ngứa, đỏ và kích ứng khi sử dụng tại chỗ. Nếu gặp các triệu chứng này, bạn nên ngừng sử dụng và liên hệ với chuyên gia y tế.","Dầu mù u có thể gây ra các tác dụng phụ như ngứa, đỏ và kích ứng khi sử dụng tại chỗ. Nếu gặp các triệu chứng này, bạn nên ngừng sử dụng và liên hệ với chuyên gia y tế."
+3,arcee-ai/Arcee-VyLinh,ViMedAQA,Dầu mù u có thể gây ra tác dụng phụ gì?,"Dầu mù u được xem là an toàn khi sử dụng tại chỗ, nhưng có thể gây dị ứng ở một số người. Khi có các triệu chứng ngứa, đỏ, kích ứng hoặc gặp các tác dụng phụ khác khi bôi loại dầu này lên da thì hãy ngừng sử dụng ngay lập tức.",Dầu mù u có thể gây dị ứng ở một số người.,"Dầu mù u có thể gây ra các tác dụng phụ sau khi sử dụng:
+
+1. Ngứa
+2. Đỏ da
+3. Kích ứng
+4. Các triệu chứng dị ứng khác
+
+Nếu bạn gặp bất kỳ dấu hiệu nào của tác dụng phụ trên, bạn nên ngừng sử dụng ngay và liên hệ với bác sĩ nếu cần.","Dầu mù u có thể gây ra các tác dụng phụ sau khi sử dụng:
+
+1. Ngứa
+2. Đỏ da
+3. Kích ứng
+4. Các triệu chứng dị ứng khác
+
+Nếu bạn gặp bất kỳ dấu hiệu nào của tác dụng phụ trên, bạn nên ngừng sử dụng ngay và liên hệ với bác sĩ nếu cần.","Dầu mù u có thể gây ra các tác dụng phụ sau khi sử dụng:
+
+1. Ngứa
+2. Đỏ da
+3. Kích ứng
+4. Các triệu chứng dị ứng khác
+
+Nếu bạn gặp bất kỳ dấu hiệu nào của tác dụng phụ trên, bạn nên ngừng sử dụng ngay và liên hệ với bác sĩ nếu cần.","Dầu mù u có thể gây ra các tác dụng phụ sau khi sử dụng:
+
+1. Ngứa
+2. Đỏ da
+3. Kích ứng
+4. Các triệu chứng dị ứng khác
+
+Nếu bạn gặp bất kỳ dấu hiệu nào của tác dụng phụ trên, bạn nên ngừng sử dụng ngay và liên hệ với bác sĩ nếu cần.","Dầu mù u có thể gây ra các tác dụng phụ sau khi sử dụng:
+
+1. Ngứa
+2. Đỏ da
+3. Kích ứng
+4. Các triệu chứng dị ứng khác
+
+Nếu bạn gặp bất kỳ dấu hiệu nào của tác dụng phụ trên, bạn nên ngừng sử dụng ngay và liên hệ với bác sĩ nếu cần.","Dầu mù u có thể gây ra các tác dụng phụ sau khi sử dụng:
+
+1. Ngứa
+2. Đỏ da
+3. Kích ứng
+4. Các triệu chứng dị ứng khác
+
+Nếu bạn gặp bất kỳ dấu hiệu nào của tác dụng phụ trên, bạn nên ngừng sử dụng ngay và liên hệ với bác sĩ nếu cần.","Dầu mù u có thể gây ra các tác dụng phụ sau khi sử dụng:
+
+1. Ngứa
+2. Đỏ da
+3. Kích ứng
+4. Các triệu chứng dị ứng khác
+
+Nếu bạn gặp bất kỳ dấu hiệu nào của tác dụng phụ trên, bạn nên ngừng sử dụng ngay và liên hệ với bác sĩ nếu cần.","Dầu mù u có thể gây ra các tác dụng phụ sau khi sử dụng:
+
+1. Ngứa
+2. Đỏ da
+3. Kích ứng
+4. Các triệu chứng dị ứng khác
+
+Nếu bạn gặp bất kỳ dấu hiệu nào của tác dụng phụ trên, bạn nên ngừng sử dụng ngay và liên hệ với bác sĩ nếu cần.","Dầu mù u có thể gây ra các tác dụng phụ sau khi sử dụng:
+
+1. Ngứa
+2. Đỏ da
+3. Kích ứng
+4. Các triệu chứng dị ứng khác
+
+Nếu bạn gặp bất kỳ dấu hiệu nào của tác dụng phụ trên, bạn nên ngừng sử dụng ngay và liên hệ với bác sĩ nếu cần.","Dầu mù u có thể gây ra các tác dụng phụ sau khi sử dụng:
+
+1. Ngứa
+2. Đỏ da
+3. Kích ứng
+4. Các triệu chứng dị ứng khác
+
+Nếu bạn gặp bất kỳ dấu hiệu nào của tác dụng phụ trên, bạn nên ngừng sử dụng ngay và liên hệ với bác sĩ nếu cần."
+3,vilm/vietcuna-3b-v2,Default,Dầu mù u có thể gây ra tác dụng phụ gì?,"Dầu mù u được xem là an toàn khi sử dụng tại chỗ, nhưng có thể gây dị ứng ở một số người. Khi có các triệu chứng ngứa, đỏ, kích ứng hoặc gặp các tác dụng phụ khác khi bôi loại dầu này lên da thì hãy ngừng sử dụng ngay lập tức.",Dầu mù u có thể gây dị ứng ở một số người.,"Dầu mù u có thể gây dị ứng, ngứa, đỏ, kích ứng hoặc các tác dụng phụ khác khi bôi lên da.","Dầu mù u có thể gây ra các tác dụng phụ như ngứa, đỏ, kích ứng hoặc gặp các tác dụng phụ khác khi bôi lên da.","Dầu mù u có thể gây ra các tác dụng phụ như ngứa, đỏ, kích ứng hoặc gặp các tác dụng phụ khác khi bôi nó lên da.","Dầu mù u có thể gây dị ứng, ngứa, đỏ, kích ứng hoặc các tác dụng phụ khác khi bôi lên da.","Dầu mù u có thể gây ra các tác dụng phụ như ngứa, đỏ, kích ứng hoặc gặp các tác dụng phụ khác khi bôi lên da.","Dầu mù u có thể gây dị ứng, ngứa, đỏ, kích ứng hoặc các tác dụng phụ khác khi bôi lên da.","Dầu mù u có thể gây dị ứng, ngứa, đỏ, kích ứng hoặc các tác dụng phụ khác khi bôi lên da.","Dầu mù u có thể gây ra các tác dụng phụ như ngứa, đỏ, kích ứng hoặc gặp các tác dụng phụ khác khi bôi nó lên da.","Dầu mù u có thể gây dị ứng, kích ứng hoặc ngứa.","Dầu mù u có thể gây kích ứng, đỏ và ngứa."
+3,vilm/vietcuna-3b-v2,ViMedAQA,Dầu mù u có thể gây ra tác dụng phụ gì?,"Dầu mù u được xem là an toàn khi sử dụng tại chỗ, nhưng có thể gây dị ứng ở một số người. Khi có các triệu chứng ngứa, đỏ, kích ứng hoặc gặp các tác dụng phụ khác khi bôi loại dầu này lên da thì hãy ngừng sử dụng ngay lập tức.",Dầu mù u có thể gây dị ứng ở một số người.,"Dầu mù u có thể gây ra một số tác dụng phụ, bao gồm ngứa, đỏ, kích ứng và cảm giác khó chịu.","Dầu mù u có thể gây ra một số tác dụng phụ, bao gồm ngứa, đỏ, kích ứng và cảm giác khó chịu.","Dầu mù u có thể gây ra một số tác dụng phụ, bao gồm ngứa, đỏ, kích ứng và cảm giác khó chịu.","Dầu mù u có thể gây ra một số tác dụng phụ, bao gồm ngứa, đỏ, kích ứng và cảm giác khó chịu.","Dầu mù u có thể gây ra một số tác dụng phụ, bao gồm ngứa, đỏ, kích ứng và cảm giác khó chịu.","Dầu mù u có thể gây ra một số tác dụng phụ, bao gồm ngứa, đỏ, kích ứng và cảm giác khó chịu.","Dầu mù u có thể gây ra một số tác dụng phụ, bao gồm ngứa, đỏ, kích ứng và cảm giác khó chịu.","Dầu mù u có thể gây ra một số tác dụng phụ, bao gồm ngứa, đỏ, kích ứng và cảm giác khó chịu.","Dầu mù u có thể gây ra một số tác dụng phụ, bao gồm ngứa, đỏ, kích ứng và cảm giác khó chịu.","Dầu mù u có thể gây ra một số tác dụng phụ, bao gồm ngứa, đỏ, kích ứng và cảm giác khó chịu."
+4,arcee-ai/Arcee-VyLinh,Default,"Rễ, cành và thân Bướm bạc được dùng để trị loại bệnh nào?","Hoa Bướm bạc được dùng làm thuốc lợi tiểu, chữa ho hen, sốt cách nhật. Dùng ngoài giã nát đắp lên những nơi sưng tấy, gãy xương. Rễ, cành và thân Bướm bạc dùng làm thuốc giảm đau, chữa tê thấp, khí hư bạch đới (mệt mỏi, chán ăn, dịch âm đạo màu trắng xuất hiện bất thường…). Viện Y học Cổ truyền đã xây dựng một phác đồ điều trị ho, viêm họng đỏ hoặc viêm amidan cấp với lá và thân Bướm bạc 150g/ngày, sắc uống trong 3 ngày.","Rễ, cành và thân Bướm bạc được dùng để trị bệnh đau nhức, tê thấp, khí hư bạch đới.","Rễ, cành và thân Bướm bạc được dùng để trị bệnh giảm đau, tê thấp, khí hư bạch đới.","Rễ, cành và thân Bướm bạc được sử dụng để trị các bệnh như:
+
+1. Giảm đau
+2. Chữa tê thấp
+3. Chữa khí hư bạch đới (mệt mỏi, chán ăn, dịch âm đạo màu trắng xuất hiện bất thường)","Rễ, cành và thân Bướm bạc được dùng để trị các bệnh như:
+
+1. Chữa tê thấp
+2. Giảm khí hư bạch đới (mệt mỏi, chán ăn, dịch âm đạo màu trắng xuất hiện bất thường)
+3. Chữa đau giảm đau
+4. Điều trị viêm họng đỏ hoặc viêm amidan cấp với lá và thân Bướm bạc 150g/ngày, sắc uống trong 3 ngày
+
+Tuy nhiên, cần lưu ý rằng thông tin này dựa trên kiến thức y học cổ truyền và có thể không phù hợp với các phương pháp điều trị y học hiện đại.","Rễ, cành và thân Bướm bạc được dùng để trị loại bệnh: khí hư bạch đới.","Rễ, cành và thân Bướm bạc được dùng để trị các loại bệnh sau:
+
+- Giảm đau
+- Chữa tê thấp
+- Chữa khí hư bạch đới (mệt mỏi, chán ăn, dịch âm đạo màu trắng xuất hiện bất thường...)","Theo ngữ cảnh được cung cấp, rễ, cành và thân Bướm bạc được sử dụng để điều trị nhiều loại bệnh sau:
+
+1. Giảm đau
+2. Chữa tê thấp
+3. Chữa khí hư bạch đới (mệt mỏi, chán ăn, dịch âm đạo màu trắng xuất hiện bất thường)
+
+Đây là những bài thuốc được sử dụng ngoài da, trong đó rễ, cành và thân Bướm bạc được sử dụng để điều trị các bệnh về đau nhức, tê thấp và các vấn đề liên quan đến sức khỏe sinh lý.","- Rễ: 
+  - Giảm đau
+  - Chữa tê thấp
+  - Khí hư bạch đới
+
+- Cành và thân: 
+  - Giảm đau
+  - Chữa tê thấp
+  - Khí hư bạch đới
+  - Mệt mỏi
+  - Chán ăn","Rễ, cành và thân Bướm bạc được dùng để trị loại bệnh tê thấp, khí hư bạch đới.","Rễ, cành và thân Bướm bạc được dùng để trị các bệnh như:
+
+1. Chữa tê thấp
+2. Giảm khí hư bạch đới (mệt mỏi, chán ăn, dịch âm đạo màu trắng xuất hiện bất thường)
+3. Chữa đau giảm đau
+4. Điều trị ho, viêm họng đỏ hoặc viêm amidan cấp (theo phác đồ điều trị của Viện Y học Cổ truyền)","Rễ, cành và thân Bướm bạc được dùng để trị các bệnh như:
+
+1. Giảm đau
+2. Chữa tê thấp
+3. Chữa khí hư bạch đới (mệt mỏi, chán ăn, dịch âm đạo màu trắng xuất hiện bất thường)"
+4,arcee-ai/Arcee-VyLinh,ViMedAQA,"Rễ, cành và thân Bướm bạc được dùng để trị loại bệnh nào?","Hoa Bướm bạc được dùng làm thuốc lợi tiểu, chữa ho hen, sốt cách nhật. Dùng ngoài giã nát đắp lên những nơi sưng tấy, gãy xương. Rễ, cành và thân Bướm bạc dùng làm thuốc giảm đau, chữa tê thấp, khí hư bạch đới (mệt mỏi, chán ăn, dịch âm đạo màu trắng xuất hiện bất thường…). Viện Y học Cổ truyền đã xây dựng một phác đồ điều trị ho, viêm họng đỏ hoặc viêm amidan cấp với lá và thân Bướm bạc 150g/ngày, sắc uống trong 3 ngày.","Rễ, cành và thân Bướm bạc được dùng để trị bệnh đau nhức, tê thấp, khí hư bạch đới.","Theo ngữ cảnh được cung cấp, rễ, cành và thân của Hoa Bướm bạc được sử dụng để điều trị nhiều loại bệnh sau:
+
+1. Bệnh giảm đau
+2. Bệnh khí hư bất thường (mệt mỏi, chán ăn, dịch âm đạo màu trắng xuất hiện bất thường)
+3. Bệnh tê thấp
+4. Bệnh viêm họng đỏ hoặc viêm amidan cấp
+
+Phác đồ điều trị được đề xuất sử dụng lá và thân Bướm bạc mỗi ngày 150g, sắc uống trong 3 ngày để điều trị bệnh viêm họng đỏ hoặc viêm amidan cấp.","Theo ngữ cảnh được cung cấp, rễ, cành và thân của Hoa Bướm bạc được sử dụng để điều trị nhiều loại bệnh sau:
+
+1. Bệnh giảm đau
+2. Bệnh khí hư bất thường (mệt mỏi, chán ăn, dịch âm đạo màu trắng xuất hiện bất thường)
+3. Bệnh tê thấp
+4. Bệnh viêm họng đỏ hoặc viêm amidan cấp
+
+Phác đồ điều trị được đề xuất sử dụng lá và thân Bướm bạc mỗi ngày 150g, sắc uống trong 3 ngày để điều trị bệnh viêm họng đỏ hoặc viêm amidan cấp.","Theo ngữ cảnh được cung cấp, rễ, cành và thân của Hoa Bướm bạc được sử dụng để điều trị nhiều loại bệnh sau:
+
+1. Bệnh giảm đau
+2. Bệnh khí hư bất thường (mệt mỏi, chán ăn, dịch âm đạo màu trắng xuất hiện bất thường)
+3. Bệnh tê thấp
+4. Bệnh viêm họng đỏ hoặc viêm amidan cấp
+
+Phác đồ điều trị được đề xuất sử dụng lá và thân Bướm bạc mỗi ngày 150g, sắc uống trong 3 ngày để điều trị bệnh viêm họng đỏ hoặc viêm amidan cấp.","Theo ngữ cảnh được cung cấp, rễ, cành và thân của Hoa Bướm bạc được sử dụng để điều trị nhiều loại bệnh sau:
+
+1. Bệnh giảm đau
+2. Bệnh khí hư bất thường (mệt mỏi, chán ăn, dịch âm đạo màu trắng xuất hiện bất thường)
+3. Bệnh tê thấp
+4. Bệnh viêm họng đỏ hoặc viêm amidan cấp
+
+Phác đồ điều trị được đề xuất sử dụng lá và thân Bướm bạc mỗi ngày 150g, sắc uống trong 3 ngày để điều trị bệnh viêm họng đỏ hoặc viêm amidan cấp.","Theo ngữ cảnh được cung cấp, rễ, cành và thân của Hoa Bướm bạc được sử dụng để điều trị nhiều loại bệnh sau:
+
+1. Bệnh giảm đau
+2. Bệnh khí hư bất thường (mệt mỏi, chán ăn, dịch âm đạo màu trắng xuất hiện bất thường)
+3. Bệnh tê thấp
+4. Bệnh viêm họng đỏ hoặc viêm amidan cấp
+
+Phác đồ điều trị được đề xuất sử dụng lá và thân Bướm bạc mỗi ngày 150g, sắc uống trong 3 ngày để điều trị bệnh viêm họng đỏ hoặc viêm amidan cấp.","Theo ngữ cảnh được cung cấp, rễ, cành và thân của Hoa Bướm bạc được sử dụng để điều trị nhiều loại bệnh sau:
+
+1. Bệnh giảm đau
+2. Bệnh khí hư bất thường (mệt mỏi, chán ăn, dịch âm đạo màu trắng xuất hiện bất thường)
+3. Bệnh tê thấp
+4. Bệnh viêm họng đỏ hoặc viêm amidan cấp
+
+Phác đồ điều trị được đề xuất sử dụng lá và thân Bướm bạc mỗi ngày 150g, sắc uống trong 3 ngày để điều trị bệnh viêm họng đỏ hoặc viêm amidan cấp.","Theo ngữ cảnh được cung cấp, rễ, cành và thân của Hoa Bướm bạc được sử dụng để điều trị nhiều loại bệnh sau:
+
+1. Bệnh giảm đau
+2. Bệnh khí hư bất thường (mệt mỏi, chán ăn, dịch âm đạo màu trắng xuất hiện bất thường)
+3. Bệnh tê thấp
+4. Bệnh viêm họng đỏ hoặc viêm amidan cấp
+
+Phác đồ điều trị được đề xuất sử dụng lá và thân Bướm bạc mỗi ngày 150g, sắc uống trong 3 ngày để điều trị bệnh viêm họng đỏ hoặc viêm amidan cấp.","Theo ngữ cảnh được cung cấp, rễ, cành và thân của Hoa Bướm bạc được sử dụng để điều trị nhiều loại bệnh sau:
+
+1. Bệnh giảm đau
+2. Bệnh khí hư bất thường (mệt mỏi, chán ăn, dịch âm đạo màu trắng xuất hiện bất thường)
+3. Bệnh tê thấp
+4. Bệnh viêm họng đỏ hoặc viêm amidan cấp
+
+Phác đồ điều trị được đề xuất sử dụng lá và thân Bướm bạc mỗi ngày 150g, sắc uống trong 3 ngày để điều trị bệnh viêm họng đỏ hoặc viêm amidan cấp.","Theo ngữ cảnh được cung cấp, rễ, cành và thân của Hoa Bướm bạc được sử dụng để điều trị nhiều loại bệnh sau:
+
+1. Bệnh giảm đau
+2. Bệnh khí hư bất thường (mệt mỏi, chán ăn, dịch âm đạo màu trắng xuất hiện bất thường)
+3. Bệnh tê thấp
+4. Bệnh viêm họng đỏ hoặc viêm amidan cấp
+
+Phác đồ điều trị được đề xuất sử dụng lá và thân Bướm bạc mỗi ngày 150g, sắc uống trong 3 ngày để điều trị bệnh viêm họng đỏ hoặc viêm amidan cấp.","Theo ngữ cảnh được cung cấp, rễ, cành và thân của Hoa Bướm bạc được sử dụng để điều trị nhiều loại bệnh sau:
+
+1. Bệnh giảm đau
+2. Bệnh khí hư bất thường (mệt mỏi, chán ăn, dịch âm đạo màu trắng xuất hiện bất thường)
+3. Bệnh tê thấp
+4. Bệnh viêm họng đỏ hoặc viêm amidan cấp
+
+Phác đồ điều trị được đề xuất sử dụng lá và thân Bướm bạc mỗi ngày 150g, sắc uống trong 3 ngày để điều trị bệnh viêm họng đỏ hoặc viêm amidan cấp."
+4,vilm/vietcuna-3b-v2,Default,"Rễ, cành và thân Bướm bạc được dùng để trị loại bệnh nào?","Hoa Bướm bạc được dùng làm thuốc lợi tiểu, chữa ho hen, sốt cách nhật. Dùng ngoài giã nát đắp lên những nơi sưng tấy, gãy xương. Rễ, cành và thân Bướm bạc dùng làm thuốc giảm đau, chữa tê thấp, khí hư bạch đới (mệt mỏi, chán ăn, dịch âm đạo màu trắng xuất hiện bất thường…). Viện Y học Cổ truyền đã xây dựng một phác đồ điều trị ho, viêm họng đỏ hoặc viêm amidan cấp với lá và thân Bướm bạc 150g/ngày, sắc uống trong 3 ngày.","Rễ, cành và thân Bướm bạc được dùng để trị bệnh đau nhức, tê thấp, khí hư bạch đới.","Rễ, cành và thân Bướm bạc được dùng để chữa bệnh viêm họng đỏ hoặc viêm amidan cấp.","Rễ, cành và thân Bướm bạc được dùng để chữa bệnh viêm khớp, viêm xương khớp, viêm khớp dạng thấp, viêm khớp, viêm khớp dạng thấp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp,","Rễ, cành và thân Bướm bạc được dùng để chữa bệnh viêm khớp, viêm xương khớp, viêm khớp dạng thấp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp","Rễ, cành và thân Bướm bạc được dùng để chữa bệnh viêm khớp, viêm xương khớp, viêm khớp dạng thấp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp","Rễ, cành và thân Bướm bạc được dùng để trị các bệnh như viêm họng đỏ, viêm amidan cấp, ho, viêm họng đỏ hoặc viêm amidan cấp, ho, viêm họng đỏ hoặc viêm amidan cấp, và các bệnh liên quan đến đường hô hấp.","Rễ, cành và thân Bướm bạc được dùng để chữa bệnh viêm khớp, viêm xương khớp, viêm khớp dạng thấp, viêm khớp dạng thấp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm xương khớp, viêm","Rễ, cành và thân Bướm bạc được dùng để chữa bệnh viêm họng đỏ hoặc viêm amidan cấp.","Rễ, cành và thân Bướm bạc được dùng để chữa bệnh viêm họng đỏ hoặc viêm amidan cấp.","Rễ, cành và thân Bướm bạc được dùng để chữa bệnh viêm khớp, viêm xương khớp, viêm khớp dạng thấp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp","Rễ, cành và thân Bướm bạc được dùng để chữa bệnh viêm họng đỏ và viêm amidan cấp."
+4,vilm/vietcuna-3b-v2,ViMedAQA,"Rễ, cành và thân Bướm bạc được dùng để trị loại bệnh nào?","Hoa Bướm bạc được dùng làm thuốc lợi tiểu, chữa ho hen, sốt cách nhật. Dùng ngoài giã nát đắp lên những nơi sưng tấy, gãy xương. Rễ, cành và thân Bướm bạc dùng làm thuốc giảm đau, chữa tê thấp, khí hư bạch đới (mệt mỏi, chán ăn, dịch âm đạo màu trắng xuất hiện bất thường…). Viện Y học Cổ truyền đã xây dựng một phác đồ điều trị ho, viêm họng đỏ hoặc viêm amidan cấp với lá và thân Bướm bạc 150g/ngày, sắc uống trong 3 ngày.","Rễ, cành và thân Bướm bạc được dùng để trị bệnh đau nhức, tê thấp, khí hư bạch đới.","Rễ, cành và thân Bướm bạc được dùng để chữa bệnh viêm khớp, viêm khớp dạng thấp, viêm xương khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp","Rễ, cành và thân Bướm bạc được dùng để chữa bệnh viêm khớp, viêm khớp dạng thấp, viêm xương khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp","Rễ, cành và thân Bướm bạc được dùng để chữa bệnh viêm khớp, viêm khớp dạng thấp, viêm xương khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp","Rễ, cành và thân Bướm bạc được dùng để chữa bệnh viêm khớp, viêm khớp dạng thấp, viêm xương khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp","Rễ, cành và thân Bướm bạc được dùng để chữa bệnh viêm khớp, viêm khớp dạng thấp, viêm xương khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp","Rễ, cành và thân Bướm bạc được dùng để chữa bệnh viêm khớp, viêm khớp dạng thấp, viêm xương khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp","Rễ, cành và thân Bướm bạc được dùng để chữa bệnh viêm khớp, viêm khớp dạng thấp, viêm xương khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp","Rễ, cành và thân Bướm bạc được dùng để chữa bệnh viêm khớp, viêm khớp dạng thấp, viêm xương khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp","Rễ, cành và thân Bướm bạc được dùng để chữa bệnh viêm khớp, viêm khớp dạng thấp, viêm xương khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp","Rễ, cành và thân Bướm bạc được dùng để chữa bệnh viêm khớp, viêm khớp dạng thấp, viêm xương khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp, viêm khớp"
