@@ -1,0 +1,2 @@
+﻿Model,Prompt_Strategy,System_Prompt_Notes,ROUGE-L,BLEU,METEOR,BERTScore-F1,Avg-Score,Generation Time (s)
+arcee-ai/Arcee-VyLinh,ISP²_Pipeline,OpenAI_Hybrid,0.7072,0.5024,0.6687,0.8951,0.6933,0.0

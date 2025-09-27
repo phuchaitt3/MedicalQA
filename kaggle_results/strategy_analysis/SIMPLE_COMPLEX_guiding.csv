@@ -1,0 +1,196 @@
+﻿Sample_ID,Model,Question,Context,Ground_Truth_Answer,Answer_SIMPLE_Path,Answer_COMPLEX_Path,Reasoning_Log_COMPLEX
+0,arcee-ai/Arcee-VyLinh,Nguyên nhân chính gây viêm khớp nhiễm trùng là gì?,"Đây là một tình trạng bệnh lý nặng nề. Nguyên nhân có thể do vi trùng, virus hoặc nấm. Cơ chế gây bệnh chủ yếu do các gãy xương cũ gần khớp hoặc do sử dụng kim chích giảm đau nội khớp. Bệnh lý này nếu không điều trị có thể gây hoại tử khớp, thậm chí tử vong.","Viêm khớp nhiễm trùng có nguyên nhân chính là vi trùng, virus hoặc nấm.","Nguyên nhân chính gây viêm khớp nhiễm trùng có thể do vi trùng, virus hoặc nấm.","The main cause of infection in arthritis is due to bacteria, viruses, or fungi. The mechanism of the disease involves old bone fractures near joints or the use diathermy needle for intra-articular pain relief. If left untreated, it can lead to joint necrosis, which can potentially result in death.","Guiding Question: What are the potential causes of the infection?
+Guiding Answer: The potential causes of the infection include viroids, viruses, and fungi.
+
+Guiding Question: What are the mechanisms leading to the disease?
+Guiding Answer: The mechanisms leading to the disease include:
+
+1. Gaps in old bones near joints
+2. Use of needles for intracartilaginous injections
+
+If left untreated, this can lead to joint necrosis and potentially death.
+
+Guiding Question: What are the potential complications if left untreated?
+Guiding Answer: If left untreated, the potential complications include hoxytosis (necrosis) of the joint, which can lead to serious health issues up to and including death.
+
+Guiding Question: No guiding questions needed.
+Guiding Answer: Based on the context provided, this is a serious medical condition. It can be caused by bacteria, viruses, or fungi. The main mechanism of the disease involves old bone fractures near joints or the use of a needle for intra-articular pain relief. If left untreated, it can lead to joint necrosis, potentially resulting in death."
+1,arcee-ai/Arcee-VyLinh,Những đối tượng thường gặp chứng mất ngủ?,"Khởi phát triệu chứng mất ngủ có thể gặp ở bất kì giai đoạn nào trong cuộc đời, nhưng giai đoạn đầu tiên thường phổ biến ở những người trẻ. Ít khi, mất ngủ ngủ xảy ra ở trẻ em và trẻ vị thành niên. Ở phụ nữ, một khởi phát mất ngủ mới có thể xảy ra thời kì mãn kinh và có thể kéo dài dù những triệu chứng mãn kinh khác không còn nữa như cảm giác bốc hỏa. Mất ngủ có thể khởi phát ở giai đoạn trễ của cuộc đời liên quan đến khởi phát những tình trạng y khoa liên quan. Mất ngủ có thể là một trạng thái cấp, dai dẳng hay tái phát. Một mất ngủ cấp thường kéo dài vài ngày hay vài tuần thường liên quan đến những sự kiện trong đời sống hoặc thay đổi đồng hồ sinh học hoặc môi trường sống. Đối với một vài cá nhân, mất ngủ có thể được giải quyết khi những sự kiện đó mất đi. Đối với một vài trường hợp khác, mất ngủ có thể kéo dài dai dẳng dù sự kiện khởi phát đã không còn. Những yếu tố làm mất ngủ có thể khác với những yếu tố gây mất ngủ kéo dài. Ví dụ một người nằm liệt giường kèm đau do chấn thương và khó ngủ có thể phát triển những yếu tố bất lợi đối với giấc ngủ. Tình trạng thức tỉnh có thể dai dẳng và dẫn đến mất ngủ dai dẳng. Một diễn tiến tương tự có thể tiến triển trong bối cảnh của một stress tâm lý hoặc rối loạn tâm thần. Ví dụ, mất ngủ có thể xảy ra trong một giai đoạn đầu tiên của rối loạn trầm cảm chủ yếu có thể trở thành tâm điểm của tập trung với những tình trạng kết quả âm tính, và dai dẳng sau khi giai đoạn trầm cảm được giải quyết. Trong một trường hợp cũng có thể khởi phát âm thầm mà không có yếu tố thúc đẩy. Diễn tiến của mất ngủ có thể là những giai đoạn với những đợt tái phát liên quan đến những sự kiện stress. Tỉ lệ mãn tính từ 45 – 75% cho những case theo dõi từ 1 – 7 năm. Đặc điểm của mất ngủ có thể thay đổi theo thời gian. Nhiều cá nhân rối loạn giấc ngủ nhẹ trước khi có những vấn đề dai dẳng về giấc ngủ. Những than phiền về giấc ngủ thường gặp ở trung niên và người già. Những dạng của triệu chứng mất ngủ thay đổi theo tuổi, khó vào giấc ngủ thường gặp ở người trẻ trưởng thành, khó duy trì giấc ngủ thường gặp ở người trung niên và người già. Khó đi vào giấc ngủ hoặc duy trì giấc ngủ có thể xảy ra ở trẻ em và trẻ vị thành niên nhưng hạn chế các số liệu về tỉ lệ hiện mắc, yếu tố nguy cơ và bệnh đi kèm trong những pha phát triển của cuộc đời. Khó ngủ ở trẻ em có thể là kết quả từ những yếu tố (trẻ không được học cách đi vào giấc ngủ và duy trì giấc ngủ nếu không có sự hiện diện của bố mẹ) hoặc không có thời gian biểu ngủ cố định và thói quen đi ngủ. Mất ngủ ở trẻ vị thành niên có thể là do thời gian biểu ngủ không đều đặn. Cả trẻ em lẫn trẻ vị thành niên, những yếu tố tâm lý và khoa có thể dẫn đến mất ngủ. Tỉ lệ mắc của mất ngủ ở những người già gia tăng được giải thích một phần là do tăng những tỉ lệ mắc những vấn đề sức khoẻ sinh lý liên quan đến tuổi. Sự thay đổi trong mô hình ngủ liên quan đến tiến trình phát triển bình thường phân biệt với những thay đổi quá mức liên quan đến tuổi. Mặc dù đa giấc ngủ kí có những hạn chế trong đánh giá mất ngủ thường quy,nhưng có có thể hữu ích trong chẩn đoán phân biệt ở người lớn bởi nguyên nhân mất ngủ (ví dụ ngưng thở khi ngủ) thường được thấy ở người già. Có phải bạn đang tìm cách để có một giấc ngủ ngon? Xem ngay bài viết: Bác sĩ mách bạn 9 cách dễ ngủ cực hiệu quả nhé!",Chứng mất ngủ thường gặp ở những người trẻ và phụ nữ thời kỳ mãn kinh.,"Người già, người trung niên, trẻ vị thành niên, phụ nữ trong thời kỳ mãn kinh.","Người trưởng thành và người già thường gặp chứng mất ngủ, đặc biệt là phụ nữ trong thời kỳ tiền mãn kinh. Mất ngủ cũng có thể xảy ra ở trẻ vị thành niên và trẻ em, nhưng số liệu về tỷ lệ mắc ở nhóm này hạn chế. Mất ngủ có thể bắt đầu ở bất kỳ giai đoạn nào trong cuộc đời, nhưng phổ biến nhất ở người trẻ và người già.","Guiding Question: Ai thường gặp chứng mất ngủ?
+Guiding Answer: Mất ngủ thường gặp ở người trưởng thành và người già, đặc biệt là ở phụ nữ trong thời kỳ tiền mãn kinh. Mất ngủ cũng có thể xảy ra ở trẻ vị thành niên và trẻ em, nhưng số liệu về tỷ lệ mắc ở nhóm này hạn chế.
+
+Guiding Question: Độ tuổi nào thường gặp chứng mất ngủ?
+Guiding Answer: Các giai đoạn tuổi thường gặp chứng mất ngủ bao gồm:
+
+- Trẻ vị thành niên (do thời gian biểu ngủ không đều đặn)
+- Người già (do tăng tỉ lệ mắc những vấn đề sức khoẻ sinh lý liên quan đến tuổi)
+- Người lớn (do nhiều yếu tố tâm lý và khoa học có thể dẫn đến mất ngủ)
+
+Mất ngủ cũng có thể bắt đầu ở bất kỳ giai đoạn nào trong cuộc đời, nhưng phổ biến nhất ở người trẻ và người già.
+
+Guiding Question: Những yếu tố nguy cơ nào có thể dẫn đến mất ngủ?
+Guiding Answer: Những yếu tố nguy cơ có thể dẫn đến mất ngủ bao gồm:
+
+1. Thời gian biểu ngủ không đều đặn
+2. Không có thời gian biểu ngủ cố định
+3. Thiếu ngủ
+4. Chế độ ăn uống không phù hợp
+5. Thiếu hoạt động thể chất
+6. Stress và lo lắng
+7. Rối loạn tâm thần
+8. Bệnh lý sức khỏe (ví dụ: bệnh về hô hấp, bệnh về thần kinh)
+9. Thiếu ngủ trước đó
+10. Thiếu ngủ do tác động môi trường (ví dụ: ánh sáng xanh từ điện thoại, máy tính)
+11. Thiếu ngủ do tác động từ bên"
+2,arcee-ai/Arcee-VyLinh,Bác sĩ sẽ thực hiện mấy giai đoạn để điều trị hội chứng thiểu sản tim trái?," Bé có thể cần vài cuộc phẫu thuật để điều trị bệnh. Bác sĩ phẫu thuật sẽ thực hiện quá trình gồm có ba giai đoạn. Những cuộc phẫu thuật này được thực hiện để giúp dòng máu chảy bình thường, đi ra khỏi tim và đưa máu giàu oxy đi đến các cơ quan trong cơ thể.  Một lựa chọn phẫu thuật khác, đó chính là ghép tim, đặc biệt khi có các khuyết tật tim khác rất phức tạp. Bé mắc hội chứng thiểu sản tim trái có thể được cân nhắc ghép tim. Sau khi ghép tim, bé cần sử dụng một thời gian dài để tránh tình trạng đào thải tạng hiến. ",Bác sĩ phẫu thuật sẽ thực hiện quá trình gồm có ba giai đoạn.,Ba giai đoạn.,"Bé có thể cần ba giai đoạn phẫu thuật để điều trị hội chứng thiểu sản tim trái. Các giai đoạn này giúp phục hồi dòng máu từ tim và đến các cơ quan trong cơ thể. Tuy nhiên, có thể cần thêm phẫu thuật nếu có các vấn đề tim phức tạp, như trường hợp ghép tim. Sau khi phẫu thuật, bé cần theo dõi và điều trị dài hạn để tránh tình trạng đào thải tạng hiến.","Guiding Question: How many stages are involved in the treatment process?
+Guiding Answer: Three stages are involved in the treatment process.
+
+Guiding Question: What are the main goals of these stages?
+Guiding Answer: The main goals of these stages are to help blood flow normally from the heart and to the body's organs.
+
+Guiding Question: Are there any specific conditions that might require more than three stages?
+Guiding Answer: Yes, the text mentions that for a baby with a congenital heart defect, particularly if there are complex heart problems, a heart transplant might be considered, which would require more than three stages of surgery.
+
+Guiding Question: No guiding questions needed.
+Guiding Answer: The treatment for the described condition may require several surgeries, typically divided into three stages. These surgeries aim to restore normal blood flow from the heart and to and from the body. An alternative surgery option, such as a heart transplant, is considered when there are complex heart defects. Babies with this condition, such as those with hypoplastic left heart syndrome, may be considered for a heart transplant. After a transplant, the baby needs to be monitored for a long time to prevent the body rejecting the donated heart."
+3,arcee-ai/Arcee-VyLinh,"Ngoài triterpene glycoside và alkaloid, lá cây Gáo còn chứa thành phần nào khác?","Thành phần cây Gáo có chứa triterpene glycoside là naucleosid và noreugenin. Lá chứa các alkaloid là 10 hydroxy strictosamid và 6’ O acetyl strictosamid, vincosamid. Ngoài ra còn có β sitosterol, acid palmitic. Vỏ, lá và gỗ đều chứa các chất đắng.","Ngoài triterpene glycoside và alkaloid, lá cây Gáo còn chứa β sitosterol và acid palmitic.","Lá cây Gáo còn chứa 10 hydroxy strictosamid và 6’ O acetyl strictosamid, vincosamid.",Lá cây Gáo ngoài triterpene glycoside và alkaloid còn chứa các thành phần khác như β-sitosterol và acid palmitic.,"Guiding Question: Lá cây Gáo ngoài triterpene glycoside và alkaloid còn chứa thành phần gì khác?
+Guiding Answer: Lá cây Gáo ngoài triterpene glycoside và alkaloid còn chứa β-sitosterol dan acid palmitic.
+
+Guiding Question: Thành phần nào khác ngoài triterpene glycoside và alkaloid được đề cập trong lá cây Gáo?
+Guiding Answer: Thành phần khác ngoài triterpene glycoside và alkaloid được đề cập trong lá cây Gáo là β sitosterol và acid palmitic.
+
+Guiding Question: Có những chất nào khác được nêu trong lá cây Gáo không?
+Guiding Answer: Các chất khác được nêu trong lá cây Gáo bao gồm 10 hydroxy strictosamid, 6’ O acetyl strictosamid, vincosamid, β sitosterol và acid palmitic.
+
+Guiding Question: No guiding questions needed.
+Guiding Answer: The Gáo plant contains triterpene glycosides such as naucleosid and noreugenin. Its leaves contain alkaloids like 10-hydroxy strictosamid and 6’-O-acetyl strictosamid, vincosamid. It also contains β-sitosterol and palmitic acid. The bark, leaves, and wood all contain bitter substances."
+4,arcee-ai/Arcee-VyLinh,Tác dụng của thuốc cisapride trên trẻ em như thế nào?,Thuốc cisaprid bài tiết qua sữa mẹ. Nên thận trọng khi dùng thuốc cho phụ nữ trong thời kỳ cho con bú. Tác dụng trên trẻ em chưa được rõ.,Tác dụng trên trẻ em chưa được rõ.,Tác dụng trên trẻ em chưa được rõ.,"Thuốc cisapride có tác dụng gì đối với trẻ em?
+
+The information provided in the context states that cisapride is excreted in breast milk and that caution is advised when using this drug by breastfeeding mothers. However, the effects of the drug on children are not well understood.","Guiding Question: No guiding questions needed.
+Guiding Answer: Cisapride is excreted in breast milk. Caution is advised when using this drug by breastfeeding mothers. The effects on children are not well understood."
+5,arcee-ai/Arcee-VyLinh,Những yếu tố gây ra hội chứng đái tháo nhạt trung ương là gì?,"- Đái tháo nhạt trung ương. Tổn thương xuất hiện ở vùng hạ đồi hay tuyến yên. Các tác nhân gây thương tổn có thể là chấn thương đầu, phẫu thuật hay u. Khi đó, vùng hạ đồi và tuyến yên bị rối loạn chức năng, gây ảnh hưởng đến sự tiết hormone ADH. Một bệnh lý di truyền cũng có thể gây ra đái tháo nhạt trung ương thông qua cơ chế này.
+- Đái tháo nhạt do thận. Nguyên nhân của đái tháo nhạt do thận là các rối loạn tại ống thận. Thông thường, ống thận sẽ tham gia tái hấp thu và đào thải dưới sự điều hòa của ADH. Các rối loạn tại ống thận làm mất sự điều hòa nội tiết này, gây ra bệnh. Nguyên nhân có thể do bệnh lý di truyền hay bệnh thận mạn tính. Một số thuốc như foscarnet, lithium hay thuốc kháng virus có thể gây ra tình trạng tương tự.
+- Đái tháo nhạt thai kỳ. Đây là một tình trạng hiếm gặp. Bệnh lý xảy ra khi mang thai, nhau thai gây phá hủy ADH trong máu của người mẹ.
+- Chứng uống nhiều tiên phát (cuồng uống nguyên phát). Nguyên nhân là do bệnh nhân uống quá nhiều nước, gây tiểu nhiều và làm loãng nước tiểu. Tình trạng này có liên quan đến bệnh lý tâm thần, như tâm thần phân liệt. Đôi khi bệnh không tìm được nguyên nhân. Một số trường hợp hiếm gặp có ghi nhận bệnh tự miễn gây tổn thương tế bào sản xuất ADH, dẫn đến bệnh đái tháo nhạt.","Hội chứng đái tháo nhạt trung ương có thể xuất hiện do chấn thương đầu, phẫu thuật hay u làm tổn thương vùng hạ đồi hay tuyến yên, gây rối loạn chức năng sản sinh hormone ADH, ảnh hưởng đến khả năng tái hấp thu nước ở thận.","Những yếu tố gây ra hội chứng đái tháo nhạt trung ương có thể là:
+1. Chấn thương đầu, phẫu thuật hoặc u
+2. Bệnh lý di truyền
+3. Một số thuốc như foscarnet, lithium hay thuốc kháng virus","Central diabetes insipidus (DI) dapat do nhiều nguyên nhân khác nhau, theo thông tin từ Context sau đây:
+
+1. Do tổn thương vùng hạ đồi hoặc tuyến yên do chấn thương đầu, phẫu thuật hoặc u. Khi đó, vùng hạ đồi và tuyến yên bị rối loạn chức năng, gây ảnh hưởng đến sự tiết hormone ADH.
+
+2. Do bệnh lý di truyền. Bệnh lý di truyền cũng có thể gây ra central DI qua cơ chế này.
+
+3. Do rối loạn tại ống thận. Các rối loạn này làm mất sự điều hòa nội tiết ADH.
+
+4. Do một số thuốc như foscarnet, lithium hoặc thuốc kháng virus.
+
+5. Do nhau thai gây phá hủy ADH trong máu của người mẹ khi mang thai.
+
+6. Do bệnh lý tâm thần, đặc biệt là tâm thần phân liệt.
+
+7. Do bệnh tự miễn gây tổn thương tế bào sản xuất ADH.
+
+Tóm lại, nguyên nhân gây ra central DI có thể liên quan đến tổn thương thần kinh, bệnh lý di truyền, rối loạn tại ống thận, một số thuốc, bệnh lý tâm thần và bệnh tự miễn.","Guiding Question: **Các yếu tố gây ra đái tháo nhạt trung ương bao gồm gì?**
+Guiding Answer: Các yếu tố gây ra đái tháo nhạt trung ương bao gồm:
+
+1. Tổn thương vùng hạ đồi hoặc tuyến yên do chấn thương đầu, phẫu thuật, hoặc u.
+2. Bệnh lý di truyền.
+3. Một số thuốc như foscarnet, lithium hoặc thuốc kháng virus.
+4. Nhau thai gây phá hủy ADH trong máu của người mẹ trong thai kỳ.
+5. Bệnh lý tâm thần, đặc biệt là tâm thần phân liệt.
+6. Bệnh tự miễn gây tổn thương tế bào sản xuất ADH.
+
+Guiding Question: **Có những nguyên nhân nào gây ra đái tháo nhạt trung ương không?**
+Guiding Answer: Có những nguyên nhân gây ra đái tháo nhạt trung ương như:
+
+1. Tổn thương vùng hạ đồi hoặc tuyến yên do chấn thương đầu, phẫu thuật hoặc u.
+2. Bệnh lý di truyền gây rối loạn chức năng vùng hạ đồi và tuyến yên.
+3. Rối loạn tại ống thận, làm mất sự điều hòa nội tiết ADH.
+4. Bệnh thận mạn tính hoặc một số thuốc có thể gây ra tình trạng tương tự.
+5. Nhau thai gây phá hủy ADH trong máu của người mẹ khi mang thai.
+6. Bệnh tâm thần phân liệt hoặc các bệnh lý tâm thần khác.
+7. Bệnh tự miễn gây tổn thương tế bào sản xuất ADH
+
+Guiding Question: **Các nguyên nhân gây ra đái tháo nhạt trung ương có liên quan đến đâu không?**
+Guiding Answer: Các nguyên nhân gây ra đái tháo nhạt trung ương có thể liên quan đến:
+
+1. Tổn thương vùng hạ đồi hoặc tuyến yên do chấn thương đầu, phẫu thuật hoặc u.
+2. Bệnh lý di truyền ảnh hưởng đến chức năng tiết hormone ADH.
+3. Rối loạn tại ống thận, làm mất sự điều hòa nội tiết ADH.
+4. Một số thuốc có thể gây ra tình trạng tương tự.
+5. Bệnh lý tâm thần, đặc biệt là tâm thần phân liệt.
+6. Bệnh tự miễn gây tổn thương tế bào sản xuất ADH.
+
+Guiding Question: No guiding questions needed.
+Guiding Answer: Based on the context provided, here are the different types of central diabetes insipidus (DI):
+
+1. Central DI due to hypothalamic or pituitary damage: This can be caused by head trauma, surgery, or tumors. It occurs when the hypothalamus or pituitary gland is damaged, leading to dysfunction in ADH secretion.
+
+2. Central DI due to renal causes: This is caused by abnormalities in the nephrons (renal tubules). Normally, the nephrons reabsorb and excrete ADH under hormonal regulation. When there are abnormalities in the nephrons, this regulation is disrupted, leading to central DI.
+
+3. Central DI during pregnancy: This is a rare condition that occurs during pregnancy. It happens"
+6,arcee-ai/Arcee-VyLinh,Tại sao cây mật gấu có tác dụng chống viêm?,"Người ta đã chứng minh rằng cây Mật gấu có tác dụng ức chế sinh tổng hợp các prostaglandin E2 (PGE2) và prostaglandin D2 (PGD2). Ngoài ra, cây chứa tannin, là chất ức chế mạnh mẽ cyclooxygenase-1. Điều này có thể gợi ý rằng tác dụng chống viêm của Mật gấu do ức chế giải phóng prostaglandin và các chất trung gian khác. Ngoài ra, vì cây rất giàu flavonoid, steroid, tinh dầu và tanin, nên điều này cũng có thể là nguyên nhân một phần gây ra tác dụng giảm đau ở các mô hình động vật gây ung thư.",Cây mật gấu có tác dụng chống viêm do chất tannin có trong cây có thể ức chế cyclooxygenase-1 (một loại enzym quan trọng trong quá trình sản xuất chất prostaglandin) và các chất trung gian khác.,Tác dụng chống viêm của cây mật gấu có thể do ức chế giải phóng prostaglandin và các chất trung gian khác.,"Tại sao cây mật gấu có tác dụng chống viêm?
+
+Cây mật gấu có tác dụng chống viêm do nhiều nguyên nhân. Đầu tiên, cây mật gấu chứng minh đã ức chế sinh tổng hợp các prostaglandin E2 (PGE2) và prostaglandin D2 (PGD2). Điều này có thể giải thích rằng tác dụng chống viêm của cây mật gấu do ức chế giải phóng prostaglandin và các chất trung gian khác.
+
+Bên cạnh đó, cây mật gấu rất giàu flavonoid, steroid, tinh dầu và tanin. Điều này cũng có thể là nguyên nhân một phần gây ra tác dụng giảm đau ở các mô hình động vật gây ung thư.
+
+Do đó, tác dụng chống viêm của cây mật gấu có thể do cả hai yếu tố: ức chế sinh tổng hợp prostaglandin và tác dụng giảm đau nhờ vào các thành phần khác trong cây.","Guiding Question: Cây mật gấu ức chế sinh tổng hợp các prostaglandin E2 (PGE2) và prostaglandin D2 (PGD2)?
+Guiding Answer: Cây mật gấu chứng minh đã ức chế sinh tổng hợp các prostaglandin E2 (PGE2) và prostaglandin D2 (PGD2).
+
+Guiding Question: Cây mật gấu có chứa tannin, là chất ức chế cyclooxygenase-1?
+Guiding Answer: Cây mật gấu chứa tannin, và tannin là chất ức chế mạnh mẽ cyclooxygenase-1.
+
+Guiding Question: Cây mật gấu giàu flavonoid, steroid, tinh dầu và tanin, có liên quan đến tác dụng giảm đau không?
+Guiding Answer: Cây mật gấu giàu flavonoid, steroid, tinh dầu và tanin, có thể là nguyên nhân một phần gây ra tác dụng giảm đau ở các mô hình động vật gây ung thư."
+7,arcee-ai/Arcee-VyLinh,Hố yên trong trường hợp vô căn có đặc điểm gì?,"Ở một số bệnh nhân suy tuyến yên, không tìm thấy một nguyên nhân rõ ràng. Bệnh cảnh này thường có tính gia đình (liên quan nhiễm sắc thể giới tính X hoặc nhiễm sắc thể thường), hố yên có thể nhỏ, rộng hoặc bình thường.","Hố yên trong trường hợp vô căn có thể nhỏ, rộng hoặc bình thường.","Hố yên trong trường hợp vô căn thường có kích thước nhỏ, rộng hoặc bình thường và có tính gia đình liên quan đến nhiễm sắc thể giới tính X hoặc nhiễm sắc thể thường.","Ở một số trường hợp suy tuyến yên không rõ nguyên nhân, bệnh cảnh thường có những đặc điểm sau:
+
+1. Có tính gia đình.
+2. Có thể liên quan đến nhiễm sắc thể giới tính X hoặc nhiễm sắc thể thường.
+3. Hố yên có thể có kích thước nhỏ, rộng hoặc bình thường.
+
+Từ thông tin trong Context, chúng ta có thể thấy rằng bệnh cảnh của bệnh nhân suy tuyến yên không rõ nguyên nhân thường có những đặc điểm như trên.","Guiding Question: Bệnh cảnh của bệnh nhân suy tuyến yên không rõ nguyên nhân có đặc điểm gì?
+Guiding Answer: Bệnh cảnh của bệnh nhân suy tuyến yên không rõ nguyên nhân thường có đặc điểm sau:
+
+1. Có tính gia đình.
+2. Có thể liên quan đến nhiễm sắc thể giới tính X hoặc nhiễm sắc thể thường.
+3. Hố yên có thể có kích thước nhỏ, rộng hoặc bình thường.
+
+Guiding Question: Bệnh cảnh này có liên quan đến yếu tố di truyền không?
+Guiding Answer: Bệnh cảnh này có liên quan đến yếu tố di truyền, thường có tính gia đình và có thể liên quan đến nhiễm sắc thể giới tính X hoặc nhiễm sắc thể thường.
+
+Guiding Question: Hố yên trong trường hợp này có đặc điểm gì?
+Guiding Answer: Hố yên trong trường hợp này có thể nhỏ, rộng hoặc bình thường.
+
+Guiding Question: No guiding questions needed.
+Guiding Answer: In some cases of hypopituitarism, there is no clear identifiable cause. This condition often runs in families and can involve a small, large, or normal-sized pituitary fossa."
+8,arcee-ai/Arcee-VyLinh,Tại sao nên chăm sóc sức khỏe vùng chậu?,"Nếu bạn gặp bất kỳ điều gì bất thường ở vùng xương chậu, chẳng hạn như chảy máu giữa kì kinh hoặc đau bụng dưới không rõ nguyên nhân, hoặc các biểu hiện đã nêu ở phần trên, hãy hẹn gặp bác sĩ. Nếu không được điều trị, một số tình trạng vùng chậu có thể ảnh hưởng lâu dài đến sức khỏe và khả năng sinh sản của bạn. Vùng chậu chứa nhiều cơ quan quan trọng, đặc biệt là các cơ quan sinh sản. Chăm sóc giữ gìn, đặc biệt nhận biết các bất thường liên quan đến vùng chậu là cách để bảo vệ sức khỏe sinh sản bản thân.","Vùng chậu chứa nhiều cơ quan quan trọng, đặc biệt là các cơ quan sinh sản. Chăm sóc giữ gìn, đặc biệt nhận biết các bất thường liên quan đến vùng chậu là cách để bảo vệ sức khỏe sinh sản bản thân.","- Để bảo vệ sức khỏe sinh sản
+- Để nhận biết sớm các bất thường
+- Để tránh ảnh hưởng lâu dài đến sức khỏe","Pelvis sức khỏe nên được chăm sóc vì nếu không được điều trị, các tình trạng vùng chậu có thể gây ảnh hưởng lâu dài đến sức khỏe và khả năng sinh sản của bạn. Vùng chậu chứa nhiều cơ quan quan trọng, đặc biệt là các cơ quan sinh sản. Chăm sóc sức khỏe vùng chậu giúp bảo vệ sức khỏe sinh sản của bạn.","Guiding Question: Có những dấu hiệu bất thường gì ở vùng xương chậu được đề cập?
+Guiding Answer: Các dấu hiệu bất thường ở vùng xương chậu được đề cập trong Context bao gồm:
+
+1. Chảy máu giữa kỳ kinh
+2. Đau bụng dưới không rõ nguyên nhân
+3. Các biểu hiện đã nêu ở phần trên (mã số, không rõ chi tiết cụ thể)
+
+Guiding Question: Những tình trạng không được điều trị có thể gây ra những hậu quả gì?
+Guiding Answer: Những tình trạng không được điều trị có thể gây ra hậu quả như ảnh hưởng lâu dài đến sức khỏe và khả năng sinh sản của người bệnh.
+
+Guiding Question: Vùng xương chậu chứa những cơ quan gì quan trọng?
+Guiding Answer: Vùng xương chậu chứa nhiều cơ quan quan trọng, đặc biệt là các cơ quan sinh sản.
+
+Guiding Question: Chăm sóc sức khỏe vùng chậu có giúp bảo vệ sức khỏe sinh sản không?
+Guiding Answer: Chăm sóc sức khỏe vùng chậu giúp bảo vệ sức khỏe sinh sản. Nếu không được điều trị, các tình trạng vùng chậu có thể ảnh hưởng lâu dài đến sức khỏe và khả năng sinh sản.
+
+Guiding Question: No guiding questions needed.
+Guiding Answer: If you notice any unusual symptoms in your pelvic area, such as abnormal bleeding between periods, unexplained abdominal pain, or any of the symptoms mentioned above, consult a doctor. If left untreated, some pelvic conditions can have long-term effects on your health and fertility. The pelvic area contains important organs, especially reproductive organs. Regular care and recognizing any abnormalities in the pelvic area are key to protecting your reproductive health."
+9,arcee-ai/Arcee-VyLinh,"Để Mộc thông mềm, cần làm gì tiếp theo sau các bước loại bỏ tạp chất, rửa sạch?","Mộc thông đem về loại bỏ tạp chất, rửa sạch, ngâm trong nước, ủ mềm. Thái lát sau đó phơi hoặc sấy khô là được.","Để có được Mộc thông mềm, cần ngâm trong nước và ủ cho mềm trước khi thái lát.",Ngâm trong nước sau đó ủ mềm.,"Để Mộc thông mềm, sau khi loại bỏ tạp chất và rửa sạch, cần làm gì tiếp theo? Sau khi loại bỏ tạp chất và rửa sạch, cần ngâm Mộc thông trong nước rồi ủ cho mềm. Thái lát sau đó phơi hoặc sấy khô là được.","Guiding Question: Sau khi loại bỏ tạp chất và rửa sạch, cần ngâm Mộc thông trong nước và ủ như thế nào?
+Guiding Answer: Sau khi loại bỏ tạp chất và rửa sạch, cần ngâm Mộc thông trong nước rồi ủ cho mềm. Sau đó phơi hoặc sấy khô là được.
+
+Guiding Question: Mộc thông sau khi ngâm và ủ cần phơi hay sấy khô?
+Guiding Answer: Mộc thông sau khi ngâm và ủ cần phơi hoặc sấy khô.
+
+Guiding Question: Thời gian ngâm và điều kiện ủ có ảnh hưởng đến chất lượng Mộc thông mềm không?
+Guiding Answer: The time for soaking and the conditions for softening affect the quality of the Mộc thông soft product. A proper soaking time and suitable softening conditions are necessary to achieve the desired quality.
+
+Guiding Question: No guiding questions needed.
+Guiding Answer: Mộc thông sau khi thu thập được cần được loại bỏ tạp chất, rửa sạch, ngâm trong nước, ủ mềm. Thái lát sau đó phơi hoặc sấy khô để làm thành dược liệu."

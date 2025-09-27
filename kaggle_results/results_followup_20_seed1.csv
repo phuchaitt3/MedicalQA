@@ -1,0 +1,254 @@
+﻿Sample_ID,Model,System_Prompt,Question,Context,Reasoning_Log,Ground_Truth_Answer,Internal_Reasoning
+0,arcee-ai/Arcee-VyLinh,Reasoner_EN,Xuyên khung được dùng để điều trị những bệnh nào?,"Tính vị: Vị đắng, cay, mùi thơm, tính ấm, quy kinh Can, Đởm, Tâm bào. Công dụng: Hành khí, hoạt huyết, bổ huyết, điều kinh, giảm đau, trừ phong… Chủ trị: Nhức đầu, hoa mắt, phong thấp, đau mỏi cơ thể, kinh nguyệt không đều, cảm mạo,…2 Xem thêm: Hương nhu trắng: Cây thuốc rất hứa hẹn xung quanh ta","Follow-up Question: Tên gọi chính xác của dược liệu được đề cập là gì?
+Follow-up Answer: Tên gọi chính xác của dược liệu được đề cập là Hương nhu.
+
+Follow-up Question: Dược liệu này có trị những bệnh gì?
+Follow-up Answer: Dược liệu này trị những bệnh như: nhức đầu, hoa mắt, phong thấp, đau mỏi cơ thể, kinh nguyệt không đều, cảm mạo.
+
+Follow-up Question: Những triệu chứng nào là dấu hiệu để sử dụng dược liệu này?
+Follow-up Answer: Những triệu chứng sau có thể được điều trị bằng dược liệu này:
+
+1. Nhức đầu
+2. Hoa mắt
+3. Phong thấp
+4. Đau mỏi cơ thể
+5. Kinh nguyệt không đều
+6. Cảm mạo","Xuyên khung được dùng để điều trị nhức đầu, hoa mắt, phong thấp, đau mỏi cơ thể, kinh nguyệt không đều, cảm mạo,…","Xuyên khung được dùng để điều trị những bệnh như: nhức đầu, hoa mắt, phong thấp, đau mỏi cơ thể, kinh nguyệt không đều, cảm mạo."
+1,arcee-ai/Arcee-VyLinh,Reasoner_EN,"Thuốc Acetylcystein 200 mg được dùng để làm gì trong viêm khí quản, viêm phổi?","Thuốc Acetylcystein 200 mg được chỉ định dùng trong các bệnh lý đường hô hấp:1 - Làm loãng đờm trong các bệnh phế quản – phổi cấp và mãn tính kèm theo sự tăng tiết chất nhầy.
+- Làm thông đường hô hấp trong viêm khí quản, viêm phổi.
+- Dùng làm thuốc giải độc trong quá liều Paracetamol.","Follow-up Question: Trong trường hợp viêm khí quản, thuốc Acetylcystein 200 mg được sử dụng để làm gì?
+Follow-up Answer: Thuốc Acetylcystein 200 mg được sử dụng để làm thông đường hô hấp trong viêm khí quản.
+
+Follow-up Question: Thuốc Acetylcystein 200 mg có tác dụng làm thông đường hô hấp trong viêm khí quản không?
+Follow-up Answer: Yes, Acetylcysteine 200 mg has the effect of making the airways more open in cases of viral bronchitis.
+
+Follow-up Question: Đối với viêm phổi, thuốc Acetylcystein 200 mg được sử dụng để làm gì?
+Follow-up Answer: Thuốc Acetylcystein 200 mg được sử dụng để làm loãng chất nhầy trong viêm phổi, giúp thông thoáng đường hô hấp.","Thuốc Acetylcystein 200 mg dùng để làm thông đường hô hấp trong viêm khí quản, viêm phổi.","Dùng làm thông đường hô hấp trong viêm khí quản, viêm phổi."
+2,arcee-ai/Arcee-VyLinh,Reasoner_EN,Rau ngổ có chứa những thành phần hóa học nào?,"Rau ngổ chứa 0.13% tinh dầu, flavonoid và tanin. Trong tinh dầu chủ yếu là d-limonen và d-penlaldehyd.","Follow-up Question: What are the main chemical components found in Rau ngổ?
+Follow-up Answer: The main chemical components found in Rau ngổ are tinh dầu (0.13%), flavonoid, and tanin. The tinh dầu contains d-limonen and d-penlaldehyd as its main components.
+
+Follow-up Question: What is the concentration of tinh dầu (essential oil) in Rau ngổ?
+Follow-up Answer: The concentration of tinh dầu (essential oil) in Rau ngổ is 0.13%.
+
+Follow-up Question: What are the main flavonoid and tannin contents in Rau ngổ?
+Follow-up Answer: The main flavonoid and tannin contents in Rau ngổ are not specified in the given context. The context only mentions that Rau ngổ contains 0.13% flavonoid and tannin, but it does not provide information on the main types or specific contents.","Rau ngổ chứa 0,13% tinh dầu, flavonoid và tanin.","Tinh dầu, flavonoid, và tanin. Trong tinh dầu chủ yếu là d-limonen và d-penlaldehyd."
+,arcee-ai/Arcee-VyLinh,Reasoner_EN,Rau ngổ có chứa những thành phần hóa học nào?,"Rau ngổ chứa 0.13% tinh dầu, flavonoid và tanin. Trong tinh dầu chủ yếu là d-limonen và d-penlaldehyd.","Follow-up Question: What are the main chemical components found in Rau ngổ?
+Follow-up Answer: The main chemical components found in Rau ngổ are tinh dầu (0.13%), flavonoid, and tanin. The tinh dầu contains d-limonen and d-penlaldehyd as its main components.
+
+Follow-up Question: What is the concentration of tinh dầu (essential oil) in Rau ngổ?
+Follow-up Answer: The concentration of tinh dầu (essential oil) in Rau ngổ is 0.13%.
+
+Follow-up Question: What are the main flavonoid and tannin contents in Rau ngổ?
+Follow-up Answer: The main flavonoid and tannin contents in Rau ngổ are not specified in the given context. The context only mentions that Rau ngổ contains 0.13% flavonoid and tannin, but it does not provide information on the main types or specific contents.","Rau ngổ chứa 0,13% tinh dầu, flavonoid và tanin.","Rau ngổ chứa tinh dầu (0.13%), flavonoid và tanin."
+3,arcee-ai/Arcee-VyLinh,Reasoner_EN,Cetirizine có thể tương tác với các loại thuốc nào?,".- Lưu ý, cần phải điều chỉnh liều ở người suy thận vừa hoặc nặng và người đang thẩm phân thận nhân tạo.
+- Không những vậy, cần điều chỉnh liều ở người suy gan.
+- Lưu ý, ở một số người bệnh sử dụng cetirizine có hiện tượng ngủ gà, do vậy nên thận trọng khi lái xe, hoặc vận hành máy. Vì dễ gây nguy hiểm.
+- Ngoài ra, tránh dùng đồng thời cetirizine với rượu và các thuốc ức chế thần kinh trung ương, Vì làm tăng thêm tác dụng của các thuốc này","Follow-up Question: What types of drugs should cetirizine be used with caution in conjunction with?
+Follow-up Answer: Cetirizine should be used with caution in conjunction with:
+
+1. Alcohol (Risks of drowsiness)
+2. Other sedative drugs (e.g., drugs that ức chế thần kinh trung ương)
+
+Follow-up Question: What are the potential side effects of cetirizine that might affect driving or operating machinery?
+Follow-up Answer: The potential side effect of cetirizine that might affect driving or operating machinery is drowsiness, as it can cause ""sleepy"" effects in some people.
+
+Follow-up Question: What precautions are necessary for people with liver or kidney issues when using cetirizine?
+Follow-up Answer: For people with liver or kidney issues, additional caution is necessary when using cetirizine. Specifically, the medication should be adjusted in dosage for those with kidney issues, and they should be cautious when driving or operating machinery due to potential drowsiness. Additionally, they should avoid using it with alcohol or other central nervous system depressants to prevent increased sedative effects.","Cetirizine có thể tương tác với rượu và các thuốc ức chế thần kinh trung ương, làm tăng thêm tác dụng của các thuốc này. Do đó, tránh dùng đồng thời Cetirizine với rượu và các thuốc ức chế thần kinh trung ương.",Cetirizine should be used with caution in conjunction with alcohol and other sedative drugs.
+4,arcee-ai/Arcee-VyLinh,Reasoner_EN,Thể bại liệt là gì?,#NAME?,"Follow-up Question: What is the complete definition or description of ""thể bại liệt""?
+Follow-up Answer: ""Thể bại liệt"" (Bệnh nhân liệt tiến triển) describes a patient with progressive paralysis that spreads throughout the body. Symptoms include urinary and fecal incontinence, paralysis of respiratory muscles, and eventual death, though this progression is typically slower than the ""thể hung dữ"" (severe) form.
+
+Follow-up Question: What are the key symptoms of ""thể bại liệt""?
+Follow-up Answer: The key symptoms of ""thể bại liệt"" (progressive paralysis) include:
+
+1. Complete paralysis of the entire body.
+2. Urinary and fecal incontinence.
+3. Paralysis of respiratory muscles, leading to eventual death, though this may occur more slowly compared to the ""thể hung dữ"" (violent paralysis) form.
+
+Follow-up Question: How does ""thể bại liệt"" typically progress in patients?
+Follow-up Answer: ""Thể bại liệt"" typically progresses as follows in patients:
+1. Initially, paralysis spreads from the limbs to the trunk.
+2. It then affects the bladder and bowel functions.
+3. Progressively, it affects respiratory muscles, leading to respiratory failure.
+4. This process is generally slower than the ""thể hung dữ"" (severe form), but still leads to death.",Thể bại liệt là một kiểu biểu hiện của bệnh dại.,"Bệnh nhân liệt tiến triển, dần ra toàn thân. Bí tiểu tiện, đại tiện,… Liệt các cơ hô hấp, cuối cùng cũng dẫn đến tử vong, tuy có chậm hơn thể hung dữ."
+5,arcee-ai/Arcee-VyLinh,Reasoner_EN,Những yếu tố gây ra hội chứng đái tháo nhạt trung ương là gì?,"- Đái tháo nhạt trung ương. Tổn thương xuất hiện ở vùng hạ đồi hay tuyến yên. Các tác nhân gây thương tổn có thể là chấn thương đầu, phẫu thuật hay u. Khi đó, vùng hạ đồi và tuyến yên bị rối loạn chức năng, gây ảnh hưởng đến sự tiết hormone ADH. Một bệnh lý di truyền cũng có thể gây ra đái tháo nhạt trung ương thông qua cơ chế này.
+- Đái tháo nhạt do thận. Nguyên nhân của đái tháo nhạt do thận là các rối loạn tại ống thận. Thông thường, ống thận sẽ tham gia tái hấp thu và đào thải dưới sự điều hòa của ADH. Các rối loạn tại ống thận làm mất sự điều hòa nội tiết này, gây ra bệnh. Nguyên nhân có thể do bệnh lý di truyền hay bệnh thận mạn tính. Một số thuốc như foscarnet, lithium hay thuốc kháng virus có thể gây ra tình trạng tương tự.
+- Đái tháo nhạt thai kỳ. Đây là một tình trạng hiếm gặp. Bệnh lý xảy ra khi mang thai, nhau thai gây phá hủy ADH trong máu của người mẹ.
+- Chứng uống nhiều tiên phát (cuồng uống nguyên phát). Nguyên nhân là do bệnh nhân uống quá nhiều nước, gây tiểu nhiều và làm loãng nước tiểu. Tình trạng này có liên quan đến bệnh lý tâm thần, như tâm thần phân liệt. Đôi khi bệnh không tìm được nguyên nhân. Một số trường hợp hiếm gặp có ghi nhận bệnh tự miễn gây tổn thương tế bào sản xuất ADH, dẫn đến bệnh đái tháo nhạt.","Follow-up Question: Những yếu tố nào có thể gây ra tổn thương vùng hạ đồi hay tuyến yên?
+Follow-up Answer: Những yếu tố có thể gây ra tổn thương vùng hạ đồi hay tuyến yên bao gồm:
+
+1. Chấn thương đầu
+2. Phẫu thuật
+3. U
+4. Bệnh lý di truyền di truyền
+
+Các yếu tố này có thể gây ra rối loạn chức năng vùng hạ đồi và tuyến yên, dẫn đến rối loạn tiết hormone ADH và gây ra đái tháo nhạt trung ương.
+
+Follow-up Question: Các rối loạn tại ống thận có thể gây ra đái tháo nhạt do thận không?
+Follow-up Answer: Các rối loạn tại ống thận có thể gây ra đái tháo nhạt do thận.
+
+Follow-up Question: Bệnh lý di truyền có thể gây ra đái tháo nhạt trung ương qua cơ chế nào?
+Follow-up Answer: Bệnh lý di truyền có thể gây ra đái tháo nhạt trung ương qua cơ chế rối loạn chức năng của vùng hạ đồi và tuyến yên, dẫn đến rối loạn tiết hormone ADH.","Hội chứng đái tháo nhạt trung ương có thể xuất hiện do chấn thương đầu, phẫu thuật hay u làm tổn thương vùng hạ đồi hay tuyến yên, gây rối loạn chức năng sản sinh hormone ADH, ảnh hưởng đến khả năng tái hấp thu nước ở thận.","Những yếu tố có thể gây ra tổn thương vùng hạ đồi hay tuyến yên bao gồm: chấn thương đầu, phẫu thuật, u và bệnh lý di truyền di truyền. Các yếu tố này có thể gây ra rối loạn chức năng vùng hạ đồi và tuyến yên, dẫn đến rối loạn tiết hormone ADH và gây ra đái tháo nhạt trung ương."
+6,arcee-ai/Arcee-VyLinh,Reasoner_EN,Hai trong số bệnh lý rối loạn đông máu thường gặp gây ra kinh nguyệt kéo dài là gì?,Các bệnh lý rối loạn đông máu toàn thân có thể gây ra kinh nguyệt kéo dài. Hai trong số bệnh lý thường gặp này là bệnh Hemophillia và bệnh Von Willebrand. Kinh nguyệt kéo dài có thể là dấu hiệu duy nhất của một trong những bệnh lý này hoặc có thể có các triệu chứng khác.,"Follow-up Question: Nêu tên hai bệnh lý rối loạn đông máu thường gặp gây kinh nguyệt kéo dài?
+Follow-up Answer: Hemophilia và bệnh Von Willebrand là hai bệnh lý rối loạn đông máu thường gặp gây kinh nguyệt kéo dài.
+
+Follow-up Question: Bệnh Hemophilia và bệnh Von Willebrand có liên quan đến rối loạn đông máu toàn thân không?
+Follow-up Answer: Có, bệnh Hemophilia và bệnh Von Willebrand đều liên quan đến rối loạn đông máu toàn thân.
+
+Follow-up Question: Bệnh Hemophilia và bệnh Von Willebrand có thể gây ra kinh nguyệt kéo dài không?
+Follow-up Answer: Có, bệnh Hemophilia và bệnh Von Willebrand có thể gây ra kinh nguyệt kéo dài.",Bệnh Hemophillia và bệnh Von Willebrand là hai trong số bệnh lý rối loạn đông máu thường gặp gây ra kinh nguyệt kéo dài.,Hemophilia và bệnh Von Willebrand
+7,arcee-ai/Arcee-VyLinh,Reasoner_EN,Có thể nào một người khỏe mạnh bị nhiễm liên cầu nhóm B không?,"Như đã nói ở trên, liên cầu nhóm B có thể xuất hiện ở người khoẻ mạnh. Bạn có thể nhiễm vi trùng này rồi tự khỏi. Chúng cứ xuất hiện rồi lại biến mất, hoặc cư trú thường xuyên trong cơ thể bạn. Đặc biệt, vi khuẩn này không lây truyền qua đường tình dục, cũng không lây lan qua thức ăn, nước uống. Phương thức lây truyền của vi khuẩn này từ người sang người vẫn chưa được biết rõ. Đối với trẻ sơ sinh, trẻ nhiễm liên cầu từ mẹ. Trong quá trình sinh, khi đi qua âm đạo, trẻ tiếp xúc và nhiễm vi khuẩn này.","Follow-up Question: Có thể liên cầu nhóm B xuất hiện ở người khỏe mạnh không?
+Follow-up Answer: Có thể liên cầu nhóm B xuất hiện ở người khỏe mạnh.
+
+Follow-up Question: Vi khuẩn liên cầu nhóm B có lây truyền qua đường tình dục không?
+Follow-up Answer: Vi khuẩn liên cầu nhóm B không lây truyền qua đường tình dục.
+
+Follow-up Question: Vi khuẩn liên cầu nhóm B có lây truyền qua thức ăn, nước uống không?
+Follow-up Answer: Vi khuẩn liên cầu nhóm B không lây truyền qua đường thức ăn, nước uống.","Có, người khỏe mạnh cũng có thể bị nhiễm liên cầu nhóm B.",Có thể liên cầu nhóm B xuất hiện ở người khỏe mạnh.
+8,arcee-ai/Arcee-VyLinh,Reasoner_EN,Chúng ta hãm nước nhục quế như thế nào?,"Lấy miếng quế mài ra, hòa cùng nước để uống. Pha như pha trà: gọt quết thành từng miếng nhỏ, bỏ vào ấm cho nước nóng vào rồi rót đổ bỏ ngay. Thêm nước sôi lần hai, chờ ngấm rồi để nguội uống. Có thể hãm 2 – 3 lần nước để uống, loại tốt có thể hãm 5 – 6 lần nước. Rượu quế: nhục quế 6g rượu vừa đủ. Nhục quế giã nát, ngâm rượu trong 3 ngày, uống ấm. Thích hợp dùng khi bị đau nhức mình mẩy do cảm lạnh.","Follow-up Question: How is the quinine powder mixed with water?
+Follow-up Answer: The quinine powder is mixed with water by grating it into small pieces, placing it in a teapot, adding hot water, and then immediately pouring it out. It can also be re-hydrated with boiling water a second time, allowing it to steep and cool before drinking.
+
+Follow-up Question: How is the water added to the quinine powder?
+Follow-up Answer: The water is added to the quinine powder by pouring hot water into an ấm (pot or bowl) containing the powdered quinine, and then the mixture is poured out immediately. Subsequently, hot water is added again, allowing it to steep, and then the mixture is allowed to cool before drinking.
+
+Follow-up Question: How many times can the quinine be steeped in water?
+Follow-up Answer: The quinine can be steeped 2-3 times in water, and in high-quality quinine, it can be steeped up to 5-6 times.","Bạn cắt nhục quế thành những miếng nhỏ sau đó cho vào ấm rồi chế thêm nước nóng vào, sau đó rót bỏ ngay. Tiếp theo lại chế nước sôi lần 2 sau đó chờ một lúc thì uống, có thể hãm nước nhục quế 2-3 lần, loại tốt có thể hãm 5-6 lần.","Pha như pha trà: gọt quết thành từng miếng nhỏ, bỏ vào ấm cho nước nóng vào rồi rót bỏ ngay. Thêm nước sôi lần hai, chờ ngấm rồi để nguội uống."
+9,arcee-ai/Arcee-VyLinh,Reasoner_EN,Làm thế nào để sử dụng Azibiotic?,"- Azithromycin được dùng 1 lần/ngày.
+- Người lớn: Điều trị bệnh lây qua đường tình dục với một liều duy nhất là 1 gam.
+- Các chỉ định khác: điều trị viêm phế quản, viêm phổi, viêm họng, nhiễm khuẩn da và mô mềm. Liều ngày đầu tiên: Azithromycin 500 mg; 4 ngày tiếp theo: liều đơn 250 mg/ngày.
+- Người cao tuổi: bằng liều của người lớn. Liều dùng trên đây chỉ mang tính chất tham khảo. Liều dùng cụ thể tùy thuộc vào tình trạng bệnh và cơ địa của từng người. Vì vậy, bạn nên đến gặp bác sĩ để được kê đơn thuốc với liều dùng phù hợp với bạn.","Follow-up Question: How is Azithromycin administered?
+Follow-up Answer: Azithromycin is administered with a single dose per day. For adults, the recommended dose is 1 gram for treating sexually transmitted infections. For other indications, the initial dose is 500 mg on the first day, followed by 250 mg daily for 4 days. The dosage is specific to the individual's condition and age, and should be prescribed by a doctor.
+
+Follow-up Question: What is the dosage for different conditions?
+Follow-up Answer: For different conditions, the dosage of Azithromycin is as follows:
+
+1. **Bệnh lây qua đường tình dục**: 1 gam (1000 mg) một lần duy nhất.
+2. **Viêm phế quản, viêm phổi, viêm họng**: 
+   - Ngày đầu tiên: 500 mg.
+   - 4 ngày tiếp theo: 250 mg/ngày.
+3. **Nhiễm khuẩn da và mô mềm**: Liều dùng theo chỉ định của bác sĩ.
+4. **Người cao tuổi**: Liều dùng bằng liều của người lớn.
+5. **Liều dùng cụ thể**: Tùy thuộc vào tình trạng bệnh và
+
+Follow-up Question: What is the dosing schedule for the first day?
+Follow-up Answer: The dosing schedule for the first day is 500 mg of Azithromycin.",Azibiotic được dùng 1 lần/ngày.,Ngày đầu tiên: 500 mg.
+10,arcee-ai/Arcee-VyLinh,Reasoner_EN,Nêu tên các triệu chứng vận đông điển hình của bệnh Parkinson?,"Là những triệu chứng ảnh hưởng đến chức năng vận động của cơ thể. Đây là những triệu chứng rõ ràng nhất của bệnh Parkinson. Các triệu chứng vận động chính của bệnh là run, chậm vận động, cứng khớp và cân bằng kém (mất ổn định tư thế). Ở giai đoạn đầu, những triệu chứng này thường nhẹ. Các triệu chứng thường bắt đầu ở một bên của cơ thể và có thể tiến triển thành hai bên sau một vài năm. Khi diễn tiến nặng dần, một vài người có thể gặp khó khăn trong việc đi lại, nói chuyện và các công việc thường ngày khác. Các triệu chứng này thường tiến triển chậm. Tuy nhiên tốc độ diễn tiến sẽ khác nhau ở mỗi người. Các triệu chứng của bệnh Parkinson có thể được kiểm soát tốt trong một thời gian dài. - Run Run điển hình trong bệnh Parkinson là run khi nghỉ. Trong giai đoạn sớm, thường là run không liên tục và khó phát hiện. Một số bệnh nhân cho thấy rằng cảm giác “run bên trong” ở tay, chân hoặc cơ thể mà không thể thấy được. Sau này khi cường độ run nhiều hơn, người ta sẽ dễ chú ý hơn. Run thường xảy ra ở một tay và được mô tả như là đang “lăn viên thuốc”. Sau một vài năm có thể diễn tiến thành run hai bên. Các bộ phận khác cũng có thể bị run như chân, môi, hàm hoặc lưỡi. Tuy vậy, run trong bệnh Parkinson thường không ảnh hưởng đến đầu. Bên bị run đầu tiên cũng có xu hướng bị nặng hơn trong suốt diễn tiến của bệnh. - Chậm vận động Đa số mọi bệnh nhân bệnh Parkinson đều có chậm vận động và có thể làm cho người bệnh cảm thấy yếu sức, mệt mỏi. Ở cánh tay, chậm vận động có thể gây khó khăn trong những hoạt động như cài nút áo, buộc dây giày, đánh máy tính… Chậm vận động có thể khiến cho người bệnh khó nhấc chân lên khi đi, bước đi chậm ngắn hơn và cảm giác không vững. Người bệnh cũng có thể gặp những khó khăn khi thay đổi tư thế từ đang ngồi sang đứng dậy. - Cứng cơ Có thể gặp trong vận động của tay, chân hoặc thân mình. Thường khởi đầu ở một bên của cơ thể cùng những triệu chứng khác như run, chậm vận động. Khi bệnh tiến triển, có thể ảnh hưởng cả hai bên. - Mất thăng bằng (mất ổn định tư thế) Thông thường những phản xạ tự động trong não giúp chúng ta giữ được thăng bằng khi đi hoặc đứng. Ở những người bệnh Parkinson những phản xạ tự động này thường giảm hoặc mất, khiến cho người bệnh bị mất thăng bằng. Mất thăng bằng thường hiếm gặp ở giai đoạn đầu của bệnh, mà thường gặp ở giai đoạn trễ. Khi các phản xạ tự động bị mất, người bệnh có thể gặp khó khăn nhiều hơn trong việc đi lại, thậm chí có thể cần có người hỗ trợ hoặc ngồi xe lăn. Nếu như mất thăng bằng tiến triển sớm ở giai đoạn đầu của bệnh, thì sẽ ít khi nghĩ đến bệnh Parkinson hơn, mà có thể nghĩ đến hội chứng Parkinson khác như teo cơ hệ thống hoặc liệt trên nhân tiến triển.","Follow-up Question: Nêu các triệu chứng vận động điển hình của bệnh Parkinson?
+Follow-up Answer: Các triệu chứng vận động điển hình của bệnh Parkinson bao gồm:
+
+1. Run (run khi nghỉ)
+2. Chậm vận động
+3. Cứng khớp
+4. Mất thăng bằng (mất ổn định tư thế)
+
+Follow-up Question: Trong bệnh Parkinson, triệu chứng vận động điển hình bao gồm những gì?
+Follow-up Answer: Trong bệnh Parkinson, triệu chứng vận động điển hình bao gồm run, chậm vận động, cứng khớp dan và mất thăng bằng.
+
+Follow-up Question: Các triệu chứng vận động điển hình của bệnh Parkinson là gì?
+Follow-up Answer: Các triệu chứng vận động điển hình của bệnh Parkinson bao gồm:
+
+1. Run khi nghỉ
+2. Chậm vận động
+3. Cứng khớp
+4. Mất thăng bằng (mất ổn định tư thế)
+
+Các triệu chứng này thường bắt đầu nhẹ ở một bên cơ thể, sau đó có thể lan rộng sang bên kia.","Các triệu chứng vận đông điển hình của bệnh Parkinson là run, chậm vận đông, cứng khớp và mất thăng bang (mất ổn định tư thể).","Run, chậm vận động, cứng khớp, mất thăng bằng (mất ổn định tư thế)"
+11,arcee-ai/Arcee-VyLinh,Reasoner_EN,Trong trường hợp nào thì Bisoloc được sử dụng để điều trị suy tim?,"Bisoloc được chỉ định trong một số trường hợp: - Tăng huyết áp.
+- Đau thắt ngực.
+- Suy tim mạn ổn định, từ vừa đến nặng, kèm giảm chức năng tâm thu thất trái đã được điều trị cùng với các thuốc ức chế enzym chuyển, lợi tiểu, và với glycosid trợ tim. Chỉ định này do thầy thuốc chuyên khoa quyết định Bạn nên nhớ đây là thuốc bán theo đơn và chỉ được sử dụng khi có chỉ dẫn của bác sĩ.","Follow-up Question: Trong trường hợp nào thì Bisoloc được sử dụng để điều trị suy tim?
+Follow-up Answer: Bisoloc được sử dụng để điều trị suy tim mạn ổn định, từ vừa đến nặng, kèm giảm chức năng tâm thu thất trái đã được điều trị cùng với các thuốc ức chế enzym chuyển, lợi tiểu, và với glycosid trợ tim.
+
+Follow-up Question: Điều kiện nào cần thiết để sử dụng Bisoloc cho suy tim?
+Follow-up Answer: Điều kiện cần thiết để sử dụng Bisoloc cho suy tim là:
+
+- Suy tim mạn ổn định
+- Giảm chức năng tâm thu thất trái trái
+- Đã được điều trị cùng với các thuốc ức chế enzym chuyển, lợi tiểu, và glycosid trợ tim
+
+Follow-up Question: Bisoloc được chỉ định cho suy tim mạn ổn định như thế nào?
+Follow-up Answer: Bisoloc được chỉ định cho suy tim mạn ổn định khi có giảm chức năng tâm thu thất trái đã được điều trị cùng với các thuốc ức chế enzym chuyển, lợi tiểu, và glycosid trợ tim.","Bisoloc được sử dụng để điều trị suy tim mạn ổn định, từ vừa đến nặng, kèm giảm chức năng tâm thu thất trái đã được điều trị cùng với các thuốc ức chế enzym chuyển, lợi tiểu, và với glycosid trợ tim.","Suy tim mạn ổn định, từ vừa đến nặng, kèm giảm chức năng tâm thu thất trái đã được điều trị cùng với các thuốc ức chế enzym chuyển, lợi tiểu, và với glycosid trợ tim."
+12,arcee-ai/Arcee-VyLinh,Reasoner_EN,Tỷ lệ lưu hành của phì đại thất trái trong dân số nói chung là bao nhiêu?,"Phì đại thất trái hiện diện ở 15% đến 20% dân số nói chung. Nó thường phổ biến hơn ở người da đen, người già, người béo phì và bệnh nhân cao huyết áp. Một đánh giá về dữ liệu siêu âm tim của 37.700 người cho thấy tỷ lệ lưu hành LVH là 19% – 48% ở người cao huyết áp không được điều trị. Và 58% -77% ở bệnh nhân tăng huyết áp có nguy cơ cao. Sự hiện diện của béo phì cũng làm tăng gấp 2 lần nguy cơ phát triển LVH. Tỷ lệ lưu hành LVH dao động từ 36% đến 41% trong dân số, tùy thuộc vào tiêu chí được sử dụng để xác định nó. Tỷ lệ lưu hành LVH không được báo cáo là khác biệt giữa nam và nữ (khoảng 36,0% so với 37,9% . Tỷ lệ phì đại tâm thấn trái lệch tâm tương đối nhiều hơn so với phì đại đồng tâm.","Follow-up Question: Tỷ lệ phì đại thất trái hiện diện trong dân số nói chung là bao nhiêu?
+Follow-up Answer: Tỷ lệ phì đại thất trái hiện diện trong dân số nói chung là 15% đến 20%.
+
+Follow-up Question: Phì đại thất trái phổ biến hơn ở nhóm dân số nào?
+Follow-up Answer: Phì đại thất trái phổ biến hơn ở người cao huyết áp và người béo phì.
+
+Follow-up Question: Có khác biệt về tỷ lệ phì đại thất trái giữa nam và nữ không?
+Follow-up Answer: Có, tỷ lệ phì đại thất trái giữa nam và nữ khác nhau, với tỷ lệ nam là 36,0% và nữ là 37,9%.",Tỷ lệ lưu hành của phì đại thất trái trong dân số nói chung dao động từ 15% đến 20%.,15% đến 20%
+13,arcee-ai/Arcee-VyLinh,Reasoner_EN,"Trong trường hợp máu mất rỉ ra và không được phát hiện, người bệnh sẽ có những dấu hiệu gì?",#NAME?,"Follow-up Question: Trong trường hợp máu mất rỉ ra và không được phát hiện, người bệnh sẽ có những dấu hiệu gì?
+Follow-up Answer: Trong trường hợp máu mất rỉ ra và không được phát hiện, người bệnh sẽ có những dấu hiệu của thiếu máu mạn, bao gồm xanh xao, mệt mỏi, giảm trí nhớ và giảm vận động.
+
+Follow-up Question: Những dấu hiệu của thiếu máu mạn do máu mất rỉ ra không được phát hiện là gì?
+Follow-up Answer: Những dấu hiệu của thiếu máu mạn do máu mất rỉ ra không được phát hiện bao gồm:
+
+- Xanh xao
+- Mệt mỏi
+- Giảm trí nhớ
+- Giảm vận động
+
+Follow-up Question: Dấu hiệu của thiếu máu mạn do máu mất rỉ ra không được phát hiện có thể bao gồm những gì?
+Follow-up Answer: Dấu hiệu của thiếu máu mạn do máu mất rỉ ra không được phát hiện có thể bao gồm:
+
+1. Xanh xao
+2. Mệt mỏi
+3. Giảm trí nhớ
+4. Giảm vận động","Nếu máu mất rỉ ra mà không được phát hiện, người bệnh sẽ có những dấu hiệu của thiếu máu mạn như xanh xao, mệt mỏi, giảm trí nhớ, giảm vận động,…","Xanh xao, mệt mỏi, giảm trí nhớ, giảm vận động."
+14,arcee-ai/Arcee-VyLinh,Reasoner_EN,Tác dụng của thuốc cisapride trên trẻ em như thế nào?,Thuốc cisaprid bài tiết qua sữa mẹ. Nên thận trọng khi dùng thuốc cho phụ nữ trong thời kỳ cho con bú. Tác dụng trên trẻ em chưa được rõ.,"Follow-up Question: Cảm thấy thuốc cisapride có tác dụng gì trên trẻ em?
+Follow-up Answer: Tác dụng của thuốc cisapride trên trẻ em chưa được rõ.
+
+Follow-up Question: Có được nghiên cứu về tác dụng của thuốc cisapride trên trẻ em không?
+Follow-up Answer: Có được nghiên cứu về tác dụng của thuốc cisapride trên trẻ em không? Đáp án: Không. Tác dụng trên trẻ em chưa được rõ trong thông tin cung cấp.
+
+Follow-up Question: Nếu có nghiên cứu, kết quả là gì?
+Follow-up Answer: Based on the provided context, there are no specific results or findings from a study mentioned. The context only states that the drug is secreted in breast milk and that caution should be used when given to breastfeeding mothers, with no information provided about any studies or results.",Tác dụng trên trẻ em chưa được rõ.,Tác dụng trên trẻ em chưa được rõ.
+15,arcee-ai/Arcee-VyLinh,Reasoner_EN,Giải áp vi mạch là phương pháp như thế nào?,"Một số thủ thuật thường có thể giúp kiểm soát cơn đau do đau dây thần kinh sinh ba nếu điều trị thuốc thất bại, bao gồm: Cắt rễ bằng tần số phóng xạ nhiệt Đây là phương pháp ứng dụng nhiều nhất bằng cách tạo ra tổn thương nhiệt ở hạch hoặc dây thần kinh sinh ba. Ưu điểm: Giảm đau trong giai đoạn ngắn > 80% bệnh nhân điều trị. Nhược điểm: - Những nghiên cứu lâu dài cho thấy đau tái phát trong một số phần trăm bệnh nhân.
+- Các biến chứng bao gồm tê một phần mặt, thỉnh thoảng có loạn cảm khó chịu, yếu cơ cắn, và nguy cơ mất phân bố thần kinh giác mạc gây viêm giác mạc thứ phát khi điều trị ở cho nhánh V1 trong đau thần kinh sinh ba. Phẫu thuật phóng xạ bằng tia Gamma Phương pháp này mang lại hiệu quả giảm đau hoàn toàn cho hơn 2/3 bệnh nhân. Ưu điểm: Sự đáp ứng giảm đau thường kéo dài theo thời gian. Các nguy cơ biến chứng nguy hiểm thấp hơn so với phương pháp cắt rễ bằng tần số phóng xạ nhiệt Nhược điểm: Ít hiệu quả hơn một chút so với cắt rễ bằng tần số phóng xạ nhiệt Giải áp vi mạch Phương pháp này đòi hỏi một thủ thuật mở hộp sọ dưới chẩm. Phù hợp với những người có sức khỏe tốt, có thể chịu được phẫu thuật và gây mê toàn thân và có thể chịu được lối sống phù hợp với thời gian hồi phục từ bốn đến sáu tuần. ` Bác sĩ phẫu thuật rạch một đường sau tai và cắt bỏ một mảnh hộp sọ nhỏ để tiếp cận với dây thần kinh và mạch máu. Sau đó, bác sĩ phẫu thuật đặt một lớp đệm cách nhiệt xung quanh mạch máu để nó không còn chèn ép hoặc cọ xát vào dây thần kinh Ưu điểm: - Trong các phương pháp điều trị phẫu thuật khác nhau, nó có tỉ lệ thành công lâu dài cao nhất (~50% bệnh nhân giảm đau hoàn toàn sau 3 năm thực hiện phương pháp này).
+- Ngoài ra, có thể thực hiện thực hiện ở bệnh nhân trước đây đã cắt rễ bằng tần số phóng xạ nhiệt hay phẫu thuật phóng xạ bằng tia Gamma có đau trở lại.
+- Giải toả áp lực lên dây thần kinh sinh ba.
+- Trên 70% có hiệu quả với tỉ lệ thấp tái phát đau. Nhược điểm: Số ít phần trăm các trường hợp tổn thương dây thần kinh sọ VII và VIII quanh thời điểm phẫu thuật. Mặc dù đau dây thần kinh sinh ba không gây tử vong, nhưng những cơn đau và sự lo lắng mà nó gây ra có thể làm giảm chất lượng cuộc sống của một người. Vì thế bệnh nhân cần hợp tác chặt chẽ với bác sỹ để tìm ra phương pháp điều trị tốt nhất cho mỗi cá nhân. Phẫu thuật điều trị bệnh rất tinh vi và chính xác vì vùng liên quan rất nhỏ. Do đó, cần tìm đến các bác sĩ phẫu thuật thần kinh có kinh nghiệm để khám và điều trị hiệu quả nhất.","Follow-up Question: Giải áp vi mạch là phương pháp điều trị nào?
+Follow-up Answer: Giải áp vi mạch là phương pháp phẫu thuật mở hộp sọ để giảm đau do dây thần kinh sinh ba.
+
+Follow-up Question: Giải áp vi mạch được thực hiện bằng cách gì?
+Follow-up Answer: Giải áp vi mạch được thực hiện bằng cách phẫu thuật mở hộp sọ dưới chẩm, bác sĩ rạch một đường sau tai và cắt bỏ một mảnh hộp sọ nhỏ để tiếp cận với dây thần kinh và mạch máu.
+
+Follow-up Question: Giải áp vi mạch có hiệu quả như thế nào?
+Follow-up Answer: Giải áp vi mạch có hiệu quả cao, với hơn 70% bệnh nhân có hiệu quả điều trị. Tuy nhiên, có một số nguy cơ nhỏ như tổn thương dây thần kinh sọ VII và VIII trong thời điểm phẫu thuật.","Giải áp vi mạch là phương pháp phẫu thuật mở hộp sọ dưới chẩm, bác sĩ sẽ rạch một đường sau tai và cắt bỏ một mảnh hộp sọ nhỏ để tiếp cận với dây thần kinh và mạch máu. Sau đó, bác sĩ sẽ đặt một lớp đệm cách nhiệt xung quanh mạch máu để nó không còn chèn ép hoặc cọ xát vào dây thần kinh.",Bác sĩ phẫu thuật rạch một đường sau tai và cắt bỏ một mảnh hộp sọ nhỏ để tiếp cận với dây thần kinh và mạch máu.
+16,arcee-ai/Arcee-VyLinh,Reasoner_EN,Phương pháp nào được sử dụng để chiết xuất tinh dầu hoa cam?,"Tinh dầu hoa cam là tinh dầu chiết xuất từ hoa của cây cam đắng. Tên khoa học: Citrus aurantium L.1 Người ta dùng phương pháp chưng cất tinh dầu bằng hơi nước (steam distillation) hoặc chưng cất hydro (hydrodistillation). Để chiết tách triệt để tinh dầu, người ta còn dùng thêm một số loại dung môi hóa học như hexan. Sau đó tách lọc dung môi, cô đặc mới thu được toàn bộ lượng tinh dầu. Tinh dầu này có mùi hoa ngọt, màu vàng nhạt, và hơi đắng nhẹ.","Follow-up Question: Chiết xuất tinh dầu hoa cam bằng phương pháp nào?
+Follow-up Answer: Chiết xuất tinh dầu hoa cam bằng phương pháp chưng cất tinh dầu bằng hơi nước (steam distillation) hoặc chưng cất hydro (hydrodistillation).
+
+Follow-up Question: Có sử dụng thêm dung môi hóa học nào không?
+Follow-up Answer: Có sử dụng thêm dung môi hóa học là hexan.
+
+Follow-up Question: Nếu có, dung môi hóa học nào được sử dụng?
+Follow-up Answer: Hexan được sử dụng làm dung môi hóa học trong quá trình chiết tách tinh dầu.",Phương pháp chưng cất tinh dầu bằng hơi nước (steam distillation) hoặc chưng cất hydro (hydrodistillation) được sử dụng để chiết xuất tinh dầu hoa cam.,Phương pháp chưng cất tinh dầu bằng hơi nước (steam distillation) hoặc chưng cất hydro (hydrodistillation).
+17,arcee-ai/Arcee-VyLinh,Reasoner_EN,Thành phần của bài thuốc trị đau bao tử do lạnh dùng Xuyên tiêu gồm những gì?,"Xuyên tiêu 4g, Phụ tử 10g (sắc trước), Khương bán hạ 10g. Tán bột mịn làm hoàn, mỗi lần uống 6g, ngày 2 lần.","Follow-up Question: Bao gồm những thành phần chính nào trong bài thuốc trị đau bao tử do lạnh?
+Follow-up Answer: Bài thuốc trị đau bao tử do lạnh gồm những thành phần chính như sau:
+
+1. Xuyên tiêu 4g
+2. Phụ tử 10g
+3. Khương bán hạ 10g
+
+Các thành phần này được sắc trước, tán thành bột mịn và làm thành hoàn, mỗi lần uống 6g, ngày 2 lần.
+
+Follow-up Question: Xuyên tiêu được sử dụng với liều lượng và cách sử dụng như thế nào trong bài thuốc này?
+Follow-up Answer: Xuyên tiêu được sử dụng với liều lượng 4g và sắc trước. Nó được tán thành bột mịn, làm thành hoàn, mỗi lần uống 6g, hai lần mỗi ngày.
+
+Follow-up Question: Thành phần Xuyên tiêu được phối hợp với những vị thuốc khác như thế nào trong bài thuốc?
+Follow-up Answer: Xuyên tiêu được phối hợp với Phụ tử (sắc trước) và Khương bán hạ trong bài thuốc.","Bài thuốc này bao gồm Xuyên tiêu 4g, Phụ tử 10g, Khương bán hạ 10g.","Xuyên tiêu 4g, Phụ tử 10g, Khương bán hạ 10g."
+18,arcee-ai/Arcee-VyLinh,Reasoner_EN,Thành phần chính có trong thuốc Alpha-Kiisin là gì?,"Thuốc Alpha-Kiisin được sản xuất bởi Công ty Cổ phần Pymepharco. Thuốc có thành phần chính là Chymotrypsine (hay Alpha-chymotrypsine). Thuốc được chỉ định dùng trong chống viêm, chống phù nề dạng men. Thuốc có dạng viên nén, 1 hộp gồm 10 vỉ x 10 viên.","Follow-up Question: Ai sản xuất thuốc Alpha-Kiisin?
+Follow-up Answer: Công ty Cổ phần Pymepharco sản xuất thuốc Alpha-Kiisin.
+
+Follow-up Question: Thành phần chính của thuốc Alpha-Kiisin là gì?
+Follow-up Answer: Thành phần chính của thuốc Alpha-Kiisin là Chymotrypsine (hay Alpha-chymotrypsine).
+
+Follow-up Question: Thuốc Alpha-Kiisin có dạng và số lượng viên như thế nào?
+Follow-up Answer: Thuốc Alpha-Kiisin có dạng viên nén và mỗi hộp gồm 10 vỉ, mỗi vỉ có 10 viên.",Thành phần chính có trong thuốc Alpha-Kiisin là Chymotrypsine (hay Alpha-chymotrypsine).,Thành phần chính có trong thuốc Alpha-Kiisin là Chymotrypsine (hay Alpha-chymotrypsine).
+19,arcee-ai/Arcee-VyLinh,Reasoner_EN,Nêu tên một số loại thuốc có thể gây suy yếu sự bài tiết của bilirubin liên hợp?,"Bilirubin liên hợp được bài tiết qua màng ống mật của tế bào gan, vận chuyển tích cực ngược chiều gradient nồng độ. Sự tái hấp thu của bilirubin liên hợp bởi các tế bào gan được trung gian bởi các chất vận chuyển anion hữu cơ bề mặt. Tăng cường lưu lượng mật (ví dụ bằng cách truyền muối mật) hoặc điều trị bằng phenobarbital làm tăng khả năng bài tiết bilirubin tối đa. Mặt khác, sự bài tiết của bilirubin liên hợp bị suy yếu trong một số tình trạng mắc phải (ví dụ, viêm gan do rượu hoặc virus, ứ mật của thai kỳ) và các rối loạn di truyền. Nó cũng có thể được gây ra bởi nhiều loại thuốc (ví dụ, steroid được alkyl hóa, chlorpromazine).","Follow-up Question: Nêu một số loại thuốc có thể gây suy yếu sự bài tiết của bilirubin liên hợp?
+Follow-up Answer: Một số loại thuốc có thể gây suy yếu sự bài tiết của bilirubin liên hợp bao gồm steroid được alkyl hóa và chlorpromazine.
+
+Follow-up Question: Cụ thể là những loại thuốc nào có thể gây suy yếu sự bài tiết của bilirubin liên hợp?
+Follow-up Answer: Các loại thuốc có thể gây suy yếu sự bài tiết của bilirubin liên hợp bao gồm steroid được alkyl hóa và chlorpromazine.
+
+Follow-up Question: Có những loại thuốc nào gây suy yếu sự bài tiết của bilirubin liên hợp theo văn bản?
+Follow-up Answer: Theo văn bản, thuốc gây suy yếu sự bài tiết của bilirubin liên hợp bao gồm:
+
+1. Steroid được alkyl hóa
+2. Chlorpromazine","Một số loại thuốc có thể gây suy yếu sự bài tiết của bilirubin liên hợp bao gồm steroid được alkyl hóa, chlorpromazine.","Steroid được alkyl hóa, chlorpromazine"
