@@ -1,0 +1,3 @@
+D:\Desktop\ipynb_exe.exe  --no-md
+D:\Desktop\ipynb_exe.exe unsloth --no-md
+D:\Desktop\ipynb_exe.exe slm-icl-medical-qa --no-md
